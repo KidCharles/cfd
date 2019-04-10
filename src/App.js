@@ -24,19 +24,15 @@ class App extends Component {
     let toolbar;
     let backdrop;
     if (this.state.toolbarOpen) {
-      toolbar = <Toolbar />;
-      backdrop = <Backdrop backdropClickHandler={this.backdropClickHandler}/>;
+      backdrop = <Backdrop backdropClickHandler={this.backdropClickHandler} />;
     }
     return (
       <div className="App">
         <Nav toolbarToggleClickHandler={this.toolbarToggleClickHandler} />
-        {toolbar}
+        <Toolbar show={this.state.toolbarOpen} />
         {backdrop}
         <Content />
         <Button />
-        <Content />
-        <Content />
-        <Content />
         <Content />
         <Footer />
       </div>

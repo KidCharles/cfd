@@ -1,4 +1,26 @@
 .content_wrapper {
   background-color: rgb(255, 255, 255);
-  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentPic{
+  width: 100vw;
+  align-self: center;
+  padding-bottom: 24px;
+}
+
+@media (min-width : 769px){
+  .content_wrapper{
+    display:flex;
+    flex-direction: row;
+  }
+  .contentPic{
+    width:400px;
+    height:400px;
+    object-fit: cover;
+  }
+  .text{
+    width:400px;
+  }
 }

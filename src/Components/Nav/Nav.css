@@ -1,5 +1,5 @@
 .nav_wrapper {
-  background-color: #3399cc;
+  background-color: #004869;
   width: 100vw;
   height: 8vh;
   display: flex;
@@ -7,13 +7,18 @@
   align-items: center;
 }
 
-.hamburger{
-  margin-left: 1em;
+.hamburger {
+  margin-right: 1rem;
 }
-.cfd_logo_mobile {
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
+
+.cfd_logo{
+  height: 40px;
+  padding-left: 12vw;
+}
+
+.cfd_icon_mobile{
+  height: 40px;
+  margin-left: 1rem;
 }
 
 .items_nav {
@@ -21,6 +26,7 @@
   color: white;
   font-size: 12px;
   font-weight: 400;
+  padding-right: 24px;
 }
 
 .items_nav ul {
@@ -40,5 +46,25 @@
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .items_nav {
+    display: none;
+  }
+  .cfd_logo{
+    display: none;
+  }
+}
 
-
+@media (min-width : 769px){
+  .nav_wrapper{
+    height: 12vh;
+  }
+  .cfd_icon_mobile{
+    display: none;
+  }
+  .items_nav{
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 12vw;
+  }
+}
