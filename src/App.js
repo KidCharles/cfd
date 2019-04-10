@@ -33,11 +33,7 @@ class App extends Component {
         <Toolbar show={this.state.toolbarOpen} />
         {backdrop}
         {router}
-
-        {/* <Content />
-        <Button />
-        <Content />
-        <Footer /> */}
+        <Footer />
       </div>
     );
   }

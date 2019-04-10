@@ -9,14 +9,14 @@ export default function Nav(props) {
   return (
     <div className="nav_wrapper">
       <Link to="/">
-        <img src={LogoWhite} alt="CareFree Direct Logo" className="cfd_logo" />
-      </Link>
-      <Link to="/">
         <img
           src={icon}
           alt="CareFree Direct Icon"
           className="cfd_icon_mobile"
         />
+      </Link>
+      <Link to="/">
+        <img src={LogoWhite} alt="CareFree Direct Logo" className="cfd_logo" />
       </Link>
       <div className="hamburger">
         <Hamburger click={props.toolbarToggleClickHandler} />
