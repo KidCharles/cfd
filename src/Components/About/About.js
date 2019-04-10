@@ -6,4 +6,4 @@ export default function About(props){
             <h1>About</h1>
         </div> 
     )
-}
+};

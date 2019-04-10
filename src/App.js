@@ -7,6 +7,7 @@ import Button from "./Components/Button/Button";
 import Footer from "./Components/Footer/Footer";
 import Toolbar from "./Components/Toolbar/Toolbar";
 import Backdrop from "./Components/Backdrop/Backdrop";
+import router from './routes';
 
 class App extends Component {
   state = {
@@ -31,10 +32,12 @@ class App extends Component {
         <Nav toolbarToggleClickHandler={this.toolbarToggleClickHandler} />
         <Toolbar show={this.state.toolbarOpen} />
         {backdrop}
-        <Content />
+        {router}
+
+        {/* <Content />
         <Button />
         <Content />
-        <Footer />
+        <Footer /> */}
       </div>
     );
   }
