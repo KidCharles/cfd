@@ -1,0 +1,44 @@
+.nav_wrapper {
+  background-color: #3399cc;
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger{
+  margin-left: 1em;
+}
+.cfd_logo_mobile {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.items_nav {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.items_nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.items_nav li {
+  padding: 0 0.5rem;
+}
+
+.items_nav li:hover,
+.items_nav li:active {
+  color: #e6e7e8;
+  font-weight: bold;
+}
+
+
+

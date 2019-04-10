@@ -1,0 +1,8 @@
+.footer_wrapper {
+  /* position: relative; */
+  bottom: 0px;
+  width: 100vw;
+  height: 20vh;
+  background-color: #004869;
+  color: white;
+}

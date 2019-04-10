@@ -1,5 +1,26 @@
 .button_wrapper {
-  width: 50vw;
-  height: 5vh;
-  background: #3399CC; 
+  width: 100vw;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 75vw;
+  height: 8vh;
+  background: #df3063;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+.button:active{
+  background: #be234f;
+}
+
+.button:hover {
+  cursor: pointer;
 }
