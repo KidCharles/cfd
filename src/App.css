@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #414042;
 }
 
@@ -29,7 +29,21 @@
   padding: 0px 24px;
 }
 
-
+.whiteSpace16 {
+  margin-bottom: 16px;
+}
+.whiteSpace32 {
+  margin-bottom: 32px;
+}
+.whiteSpace48 {
+  margin-bottom: 48px;
+}
+.whiteSpace64 {
+  margin-bottom: 64px;
+}
+.whiteSpace72 {
+  margin-bottom: 72px;
+}
 
 @media (min-width: 769px) {
   .title {
