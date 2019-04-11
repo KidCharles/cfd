@@ -29,8 +29,8 @@ export default function Nav(props) {
       </div>
       <div className="items_nav">
         <ul>
-          <Link to="/About">
-            <li className="">About</li>
+          <Link to="/About" style={{ textDecoration: 'none' }} >
+            <li style={{ color: '#ffffff' }}>About</li>
           </Link>
           <li className="">Dental</li>
           <li className="">Medicare</li>

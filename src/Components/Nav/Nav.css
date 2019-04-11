@@ -22,7 +22,6 @@
 }
 
 .items_nav {
-  text-decoration: none;
   color: white;
   font-size: 12px;
   font-weight: 400;
@@ -38,6 +37,7 @@
 
 .items_nav li {
   padding: 0 0.5rem;
+  text-decoration: none;
 }
 
 .items_nav li:hover,
