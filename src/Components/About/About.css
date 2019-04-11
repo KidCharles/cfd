@@ -2,7 +2,15 @@
   width: 80vw;
 }
 
-.text_block{
-    text-align: left;
-    width:45vw;
+.text_block {
+  width: 80vw;
+}
+
+.body {
+}
+
+@media (max-width: 768px) {
+.cfd_banner{
+  display: none;
+}
 }
