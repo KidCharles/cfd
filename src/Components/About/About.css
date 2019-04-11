@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 768px) {
-.cfd_banner{
-  display: none;
-}
+  .cfd_banner {
+    display: none;
+  }
 }

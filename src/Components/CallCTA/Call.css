@@ -1,6 +1,6 @@
 .call_wrapper{
-    width: 100vw;
-    background-color: #F7F9FA;
+    width: 64vw;
+    background-color: rgb(239, 240, 241);
     padding: 24px 0px;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 }
 
 .logo{
-    width: 60vw;
+    width: 64vw;
 }
 
 .call{
@@ -32,3 +32,19 @@
     line-height: 48px;
     color: #004869;
 }
+
+
+
+@media (min-width : 769px){
+    .logo{
+        width: 16vw;
+        padding: 36px 0px;
+    }
+    .call{
+        padding-bottom: 64px;
+    }
+    .call_box{
+        margin-bottom: 64px;
+    }
+  
+   }

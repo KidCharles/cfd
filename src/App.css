@@ -19,14 +19,18 @@
 .large_body {
   font-size: 20px;
   line-height: 40px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .body {
-  font-size: 14px;
-  line-height: 48px;
-  line-height: 2em;
-  padding: 0px 24px;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.banner{
+  width: 64vw;
+  height: 36vh;
+  overflow: hidden;
 }
 
 .whiteSpace16 {
@@ -48,6 +52,7 @@
 @media (min-width: 769px) {
   .title {
     font-size: 64px;
+
   }
 
   .large_body {
