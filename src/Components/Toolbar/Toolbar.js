@@ -10,13 +10,19 @@ const toolbar = props => {
   return (
     <nav className={toolbarClasses}>
       <ul>
-        <Link to="/About" style={{ textDecoration: 'none' }}>
-          <li style={{ color: '#004869' }}>About</li>
+        <Link to="/About" style={{ textDecoration: "none" }}>
+          <li className="toolbar_item">About</li>
         </Link>
-        <li className="" style={{ color: '#004869' }}>Dental</li>
-        <li className="" style={{ color: '#004869' }}>Medicare</li>
-        <Link to="/" style={{ textDecoration: 'none' }}>
-          <li className="" style={{ color: '#004869' }}>Home</li>
+        <Link to="/dental" style={{ textDecoration: "none" }}>
+          <li className="toolbar_item">Dental</li>
+        </Link>
+        <Link to="/medicare" style={{ textDecoration: "none" }}>
+          <li className="toolbar_item">Medicare</li>
+        </Link>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <li className="toolbar_item" >
+            Home
+          </li>
         </Link>
       </ul>
     </nav>
