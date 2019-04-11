@@ -20,9 +20,7 @@ const toolbar = props => {
           <li className="toolbar_item">Medicare</li>
         </Link>
         <Link to="/" style={{ textDecoration: "none" }}>
-          <li className="toolbar_item" >
-            Home
-          </li>
+          <li className="toolbar_item">Home</li>
         </Link>
       </ul>
     </nav>

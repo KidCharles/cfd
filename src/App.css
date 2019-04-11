@@ -17,9 +17,9 @@
 }
 
 .large_body {
-  font-size: 20px;
+  width: 100%;
+  font-size: 16px;
   line-height: 40px;
-  /* text-align: center; */
 }
 
 .body {
@@ -53,10 +53,6 @@
   .title {
     font-size: 64px;
 
-  }
-  .large_body {
-    font-size: 20px;
-    text-align: left;
   }
   .banner{
     width: 64vw;

@@ -7,7 +7,7 @@ import Button from "./Components/Button/Button";
 import Footer from "./Components/Footer/Footer";
 import Toolbar from "./Components/Toolbar/Toolbar";
 import Backdrop from "./Components/Backdrop/Backdrop";
-import router from './routes';
+import router from "./routes";
 
 class App extends Component {
   state = {
