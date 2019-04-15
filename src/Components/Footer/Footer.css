@@ -1,6 +1,6 @@
 .footer_wrapper {
   bottom: 0px;
-  width: 100%;
+  /* width: 100%; */
   background-color: #004869;
   color: white;
   padding: 40px;
@@ -48,6 +48,9 @@
 }
 
 @media (min-width: 769px) {
+  .footer_wrapper{
+    width:100%;
+  }
 .footer_logo {
   width: 200px;
   padding:36px 0px;
