@@ -1,3 +1,35 @@
-.bannerWrapper{
-    
+.bannerWrapper {
+  background-image: url("../../assets/pp1.jpg");
+  background-color: #3399cc;
+  height: 500px;
+  width: 100vw;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerTitle {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 48px;
+  padding: 24px 0px;
+  color: #ffff;
+}
+
+.bannerText {
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffff;
+}
+
+@media (min-width: 769px) {
+  .bannerTitle {
+    font-size: 64px;
+  }
+  .bannerText {
+    font-size: 24px;
+  }
 }
