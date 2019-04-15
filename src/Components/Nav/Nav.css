@@ -5,6 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .hamburger {
@@ -58,7 +60,7 @@
 
 @media (min-width: 769px) {
   .nav_wrapper {
-    height: 12vh;
+    height: 8vh;
   }
   .cfd_icon_mobile {
     display: none;
