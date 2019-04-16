@@ -27,7 +27,7 @@
   line-height: 40px;
 }
 
-.banner{
+.banner {
   width: 100vw;
   height: 36vh;
   overflow: hidden;
@@ -51,10 +51,9 @@
 
 @media (min-width: 769px) {
   .title {
-    font-size: 64px;
-
+    font-size: 20px;
   }
-  .banner{
+  .banner {
     width: 64vw;
   }
 }
