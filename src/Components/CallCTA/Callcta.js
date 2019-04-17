@@ -17,7 +17,9 @@ export default function Callcta(props) {
             className="toolbar_item"
             href="tel:"
           >
-            <h2 className="number">1-456-789-234</h2>
+            <span className="number">
+              <span className="">1-456-789-234</span>
+            </span>
           </a>
         </div>
       </div>

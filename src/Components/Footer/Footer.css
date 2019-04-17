@@ -21,6 +21,19 @@
   color: #ffffff;
 }
 
+.footer_number {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer_phone{
+  height: 16px;
+  padding: 0px 4px;
+}
+
+.footer_copyright{
+  text-align: center;
+}
+
 .foot_container li:hover,
 .foot_container li:active {
   color: #df3063;
@@ -29,7 +42,8 @@
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .column {
   display: flex;
@@ -39,7 +53,8 @@
 
 .footer_logo {
   width: 150px;
-  padding:24px 0px;
+  padding: 24px 0px;
+  align-self: center;
 }
 
 .social_media_wrapper {
@@ -48,11 +63,11 @@
 }
 
 @media (min-width: 769px) {
-  .footer_wrapper{
-    width:100%;
+  .footer_wrapper {
+    width: 100%;
   }
-.footer_logo {
-  width: 200px;
-  padding:36px 0px;
-}
+  .footer_logo {
+    width: 200px;
+    padding: 36px 0px;
+  }
 }

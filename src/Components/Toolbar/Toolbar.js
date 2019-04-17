@@ -36,7 +36,7 @@ const toolbar = props => {
             href="tel:"
           >
             <span>
-              Call Us at (Aaron) <span className="">1-559-750-8954</span>
+              Call Us at <span className="">1-456-789-234</span>
             </span>
           </a>
         </div>
