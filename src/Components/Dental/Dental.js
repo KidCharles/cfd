@@ -26,7 +26,7 @@ export default function About(props) {
           pivoting real-time to drive superior outcomes
         </p>
         <div className="whiteSpace64" />
-        <Call/>
+        <Call />
       </div>
     </div>
   );

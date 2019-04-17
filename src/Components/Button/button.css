@@ -21,16 +21,17 @@
   border-radius: 2px;
 }
 
-.button:active{
+.button:active {
   background: #be234f;
+  box-shadow: 0 0 5px 0 #ccc;
 }
 
 .button:hover {
   cursor: pointer;
 }
 
-@media (min-width : 769px){
- .button{
-   width: 32%;
- } 
+@media (min-width: 769px) {
+  .button {
+    width: 32%;
+  }
 }
