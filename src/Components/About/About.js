@@ -12,9 +12,17 @@ export default function About(props) {
       <img src={banner} alt="CareFree Direct Banner" className="cfd_banner" />
       <div className="text_container">
         <h1 className="title">Why CareFree Direct?</h1>
+        <p className="quote">"Health care, not just health insurance."</p>
         <p className="large_body">
-          We partner with Provider Organizations and Insurance Carriers to
-          provide world class service to their members and prospects.
+          Carefree Direct is a leading healthcare insurance agency. Our Brokers
+          empower consumers to confidently make sound decisions with ease
+          regarding their health insurance options while eliminating unnecessary
+          difficulties. With nearly 4,000 new members a month trusting Carefree
+          to guide them in their healthcare decisions, we have quickly become
+          one of the fastest growing agencies in America. Understanding each
+          member’s unique situation, providing a unique solution for protection
+          and bringing value to their life is a core value for Carefree and each
+          of its brokers.
         </p>
         <br />
         <p className="large_body">

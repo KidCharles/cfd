@@ -7,7 +7,7 @@
   font-family: "Roboto", sans-serif;
   color: #414042;
 }
-.text_container{
+.text_container {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@
   font-size: 36px;
   font-weight: 900;
   line-height: 48px;
-  padding: 24px 0px;
+  padding: 80px 0px 36px 0px;
   color: #004869;
 }
 
@@ -30,6 +30,16 @@
 .body {
   font-size: 18px;
   line-height: 40px;
+}
+
+.quote {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #727272;
+  text-align: center;
+  padding-bottom: 32px;
 }
 
 .banner {
@@ -60,7 +70,7 @@
     font-size: 36px;
     text-align: left;
   }
-  .large_body{
+  .large_body {
     font-size: 20px;
   }
   .banner {
