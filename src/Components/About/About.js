@@ -1,14 +1,16 @@
 import React from "react";
-import "./About.css";
+import "../Home/Home.css";
 import "../../App.css";
 
+import Call from "../CallCTA/Callcta";
 import banner from "../../assets/logos/cfd_banner_left.png";
+import Button from "../Button/Button";
 
 export default function About(props) {
   return (
-    <div>
+    <div className="home_wrapper">
       <img src={banner} alt="CareFree Direct Banner" className="cfd_banner" />
-      <div className="text_block">
+      <div className="text_container">
         <h1 className="title">Why CareFree Direct?</h1>
         <p className="large_body">
           We partner with Provider Organizations and Insurance Carriers to
@@ -24,8 +26,9 @@ export default function About(props) {
           We excel in exceeding clients goals by understanding objectives, and
           pivoting real-time to drive superior outcomes
         </p>
-        <div className="whiteSpace64" />
       </div>
+      <div className="whiteSpace64" />
+      <Call />
     </div>
   );
 }

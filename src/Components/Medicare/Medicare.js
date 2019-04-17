@@ -1,16 +1,17 @@
 import React from "react";
-import "../../Components/About/About.css";
+import "../Home/Home.css";
 import "../../App.css";
 
-import banner from "../../assets/logos/cfd_banner_left.png";
 import Call from "../CallCTA/Callcta";
+import banner from "../../assets/logos/cfd_banner_left.png";
+import Button from "../Button/Button";
 
-export default function Medicare(props) {
+export default function About(props) {
   return (
-    <div>
+    <div className="home_wrapper">
       <img src={banner} alt="CareFree Direct Banner" className="cfd_banner" />
-      <div className="text_block">
-        <h1 className="title">Medicare, We have the Answers</h1>
+      <div className="text_container">
+        <h1 className="title">Need Health Insurance?</h1>
         <p className="large_body">
           We partner with Provider Organizations and Insurance Carriers to
           provide world class service to their members and prospects.
@@ -25,9 +26,9 @@ export default function Medicare(props) {
           We excel in exceeding clients goals by understanding objectives, and
           pivoting real-time to drive superior outcomes
         </p>
-        <div className="whiteSpace64" />
-        <Call/>
       </div>
+      <div className="whiteSpace64" />
+      <Call />
     </div>
   );
 }
