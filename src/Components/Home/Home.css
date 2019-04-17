@@ -9,12 +9,6 @@
   text-align: center;
 }
 
-.bannerDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .logowhite {
   width: 80vw;
   position: absolute;
