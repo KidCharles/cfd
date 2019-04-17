@@ -52,14 +52,20 @@
 }
 
 .footer_logo {
-  width: 150px;
+  width: 100px;
   padding: 24px 0px;
   align-self: center;
 }
 
 .social_media_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 .social_media_icon {
+  width: 20px;
+  padding: 0px 8px;
 }
 
 @media (min-width: 769px) {

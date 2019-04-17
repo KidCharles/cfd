@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 import logo from "../../assets/logos/logo_white.svg";
 import phone from "../../assets/phone.png";
+import fb from "../../assets/fb_icon.png";
+import ig from "../../assets/ig_icon.png";
+import linked from "../../assets/in_icon.png";
 
 export default function Footer(props) {
   return (
@@ -37,12 +40,12 @@ export default function Footer(props) {
             </a>
           </div>
         </div>
-        <div className="row">
+        <div className="social_media_wrapper">
           <img className="footer_logo" src={logo} alt="" />
-          <div className="social_media_wrapper">
-            <img className="social_media_icon" src="" alt="" />
-            <img className="" src="" alt="" />
-            <img className="" src="" alt="" />
+          <div className="">
+            <img className="social_media_icon" src={fb} alt="" />
+            <img className="social_media_icon" src={ig} alt="" />
+            <img className="social_media_icon" src={linked} alt="" />
           </div>
         </div>
         <p className="footer_copyright">© CareFree Direct. All Rights Reserved.</p>

@@ -21,7 +21,7 @@ export default function Home(props) {
         <div className="whiteSpace72" />
         <Button
           link={
-            "https://www.ameritas.com/wps/portal/corp/Home/home/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizQMNzTwsTQx8DRzD3AwcXSwtQ5wsDA0N_A31wwkpiAJKG-AAjgZA_VFgJXAT3F3MHYEmhAYahXlZGhhYmEEV4DGjIDfCINNRUREAaWDiFg!!/dz/d5/L2dBISEvZ0FBIS9nQSEh/"
+            "https://www.securitylife.com/personal-plans?agnt=010S0582"
           }
         />
       </div>
