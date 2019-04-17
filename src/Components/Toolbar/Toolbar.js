@@ -30,7 +30,15 @@ const toolbar = props => {
         </div>
         <div className="call_toolbar">
           <img src={phone} alt="phone icon" className="phone_icon" />
-          <p className="toolbar_item">Call 1-456-789-234</p>
+          <a
+            data-replaceable-phone-dialable=""
+            className="toolbar_item"
+            href="tel:"
+          >
+            <span>
+              Call Us at (Aaron) <span className="">1-559-750-8954</span>
+            </span>
+          </a>
         </div>
       </div>
     </nav>
