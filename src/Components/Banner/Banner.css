@@ -27,6 +27,7 @@
   line-height: 40px;
   color: #ffff;
 }
+
 .dontshow{
   display:none
 }
@@ -37,5 +38,11 @@
   }
   .bannerText {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bannerWrapper{
+    display:none;
   }
 }

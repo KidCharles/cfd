@@ -9,11 +9,6 @@
   text-align: center;
 }
 
-.logowhite {
-  width: 80vw;
-  position: absolute;
-}
-
 @media (min-width: 769px) {
   .home_wrapper {
     width: 64vw;
@@ -23,21 +18,5 @@
   }
   .large-body {
     text-align: center;
-  }
-
-  .bannerDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .logowhite {
-    width: 36vw;
-    position: absolute;
-  }
-}
-@media (max-width: 768px) {
-  .cfd_banner {
-    display: none;
   }
 }
