@@ -21,6 +21,10 @@ export default function Footer(props) {
             <li>Dental</li>
           </Link>
           <span>|</span>
+          <Link to="/vision" style={{ textDecoration: "none" }}>
+            <li>Vision</li>
+          </Link>
+          <span>|</span>
           {/* <Link to="/About" style={{ textDecoration: "none" }}> */}
           <li>Contact US</li>
           {/* </Link> */}

@@ -29,14 +29,14 @@ export default function Nav(props) {
       </div>
       <div className="items_nav">
         <ul>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <li>Home</li>
-          </Link>
           <Link to="/About" style={{ textDecoration: "none" }}>
             <li>About</li>
           </Link>
           <Link to="/dental" style={{ textDecoration: "none" }}>
             <li className="">Dental</li>
+          </Link>
+          <Link to="/vision" style={{ textDecoration: "none" }}>
+            <li className="">Vision</li>
           </Link>
           <Link to="/medicare" style={{ textDecoration: "none" }}>
             <li className="">Medicare</li>

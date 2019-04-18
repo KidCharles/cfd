@@ -10,7 +10,7 @@ export default function About(props) {
     <div className="home_wrapper">
       <Banner />
       <div className="text_container">
-        <h1 className="title">Need Dental?</h1>
+        <h1 className="title">Need Vision?</h1>
         <p className="large_body">
           We partner with Provider Organizations and Insurance Carriers to
           provide world class service to their members and prospects.
