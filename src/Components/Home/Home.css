@@ -9,6 +9,21 @@
   text-align: center;
 }
 
+.pic{
+  width: 100vw;
+  height: 20vh;
+  background-image: url("../../assets/photo2.jpg");
+  background-color: #3399cc;
+  height: 500px;
+  width: 100vw;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 769px) {
   .home_wrapper {
     width: 64vw;
