@@ -21,10 +21,23 @@ export default function Home(props) {
         <h1 className="title">Main Selling Point</h1>
         <p className="large_body">
           This is the information on why you want to click the link below. After
-          reading this you wont be able to refuse.
+          reading this you wont be able to refuse. This is the information on
+          why you want to click the link below. After reading this you wont be
+          able to refuse.This is the information on why you want to click the
+          link below. After reading this you wont be able to refuse.
         </p>
         <br />
-        <p className="large_body">Click the button below to go sign up!</p>
+        <p className="large_body ">
+          This is the information on why you want to click the link below. After
+          reading this you wont be able to refuse.This is the information on why
+          you want to click the link below. After reading this you wont be able
+          to refuse.This is the information on why you want to click the link
+          below. After reading this you wont be able to refuse.This is the
+          information on why you want to click the link below. After reading
+          this you wont be able to refuse.
+        </p>
+        <br />
+        <p className="large_body center">Click the button below to go sign up!</p>
         <div className="whiteSpace72" />
         <Button
           link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}

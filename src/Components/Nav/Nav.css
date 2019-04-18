@@ -15,7 +15,7 @@
 
 .cfd_logo {
   height: 32px;
-  padding-left: 18vw;
+  padding-left: 24px;
 }
 
 .cfd_icon_mobile {
@@ -68,6 +68,6 @@
   .items_nav {
     font-size: 16px;
     font-weight: 400;
-    padding-right: 16vw;
+    /* padding-right: 16vw; */
   }
 }

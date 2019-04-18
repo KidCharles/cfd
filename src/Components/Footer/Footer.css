@@ -1,8 +1,7 @@
 .footer_wrapper {
   bottom: 0px;
-  /* width: 100%; */
+  width: 100vw;
   background-color: #004869;
-  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +9,7 @@
 }
 
 .footer_container {
-  width: 80vw;
+  width: 80%;
   font-size: 12px;
   font-weight: 400;
   color: #ffffff;
@@ -38,6 +37,7 @@
 
 .footer_copyright {
   text-align: center;
+  margin-bottom: 36px;
 }
 
 .footer_container li:hover,
@@ -90,12 +90,13 @@
 
 @media (min-width: 769px) {
   .footer_wrapper {
-    width: 100%;
+    overflow: hidden;
   }
   .footer_container {
     width: 60%;
     font-size: 16px;
     justify-content: space-between;
+    padding: 64px;
   }
 
   .footer_phone {
