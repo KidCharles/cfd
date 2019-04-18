@@ -41,14 +41,36 @@ export default function Footer(props) {
           </div>
         </div>
         <div className="social_media_wrapper">
-          <img className="footer_logo" src={logo} alt="" />
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <img className="footer_logo" src={logo} alt="" />
+          </Link>
           <div className="">
-            <img className="social_media_icon" src={fb} alt="" />
-            <img className="social_media_icon" src={ig} alt="" />
-            <img className="social_media_icon" src={linked} alt="" />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/CareFreeDirect"
+            >
+              <img className="social_media_icon" src={fb} alt="" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/carefree_direct"
+            >
+              <img className="social_media_icon" src={ig} alt="" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              // href="https://www.linkedin.com/company/carefree-direct"
+            >
+              <img className="social_media_icon" src={linked} alt="" />
+            </a>
           </div>
         </div>
-        <p className="footer_copyright">© CareFree Direct. All Rights Reserved.</p>
+        <p className="footer_copyright">
+          © CareFree Direct. All Rights Reserved.
+        </p>
       </div>
     </div>
   );
