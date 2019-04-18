@@ -9,7 +9,11 @@ import Banner from "..//Banner/Banner";
 export default function About(props) {
   return (
     <div className="home_wrapper">
-    <Banner/>
+      <Banner
+        title={"Medicare Page"}
+        text={"Medicare Prompt"}
+        btnText={"Medicare Button"}
+      />
       <div className="text_container">
         <h1 className="title">Need Health Insurance?</h1>
         <p className="large_body">

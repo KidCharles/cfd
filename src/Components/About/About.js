@@ -10,7 +10,11 @@ import Banner from "..//Banner/Banner";
 export default function About(props) {
   return (
     <div className="home_wrapper">
-    <Banner/>
+      <Banner
+        title={"Why CareFree Direct?"}
+        text={"So many reasons"}
+        // btnText={"Medicare Button"}
+      />
       <div className="text_container">
         <h1 className="title">Why CareFree Direct?</h1>
         <p className="quote">"Health care, not just health insurance."</p>

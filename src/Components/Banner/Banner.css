@@ -1,5 +1,4 @@
 .bannerWrapper {
-  background-image: url("../../assets/pp1.jpg");
   background-color: #3399cc;
   height: 500px;
   width: 100vw;
@@ -9,6 +8,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.pic1{
+  background-image: url("../../assets/pp1.jpg");
 }
 
 .bannerTitle {
@@ -23,6 +26,9 @@
   font-size: 18px;
   line-height: 40px;
   color: #ffff;
+}
+.dontshow{
+  display:none
 }
 
 @media (min-width: 769px) {

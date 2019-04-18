@@ -3,14 +3,15 @@ import "./button.css";
 
 export default function Button(props) {
   let link = props.link;
-  // let text = props.text;
-  let text = "enroll now";
+  let text = props.text; 
   let btnClass = "button";
+  // let show = props.show
+  let buttonWrapper= "nobutton_wrapper"
   if (props.btn1) {
     btnClass = "button1 btn1";
   }
   return (
-    <div className="button_wrapper">
+    <div className={buttonWrapper}>
       <a
         target="_blank"
         rel="noopener noreferrer"

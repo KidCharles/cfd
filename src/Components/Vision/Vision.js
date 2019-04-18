@@ -8,7 +8,11 @@ import Banner from "..//Banner/Banner";
 export default function About(props) {
   return (
     <div className="home_wrapper">
-      <Banner />
+      <Banner
+        title={"Vision Page"}
+        text={"Vision Prompt"}
+        btnText={"Vision Button"}
+      />
       <div className="text_container">
         <h1 className="title">Need Vision?</h1>
         <p className="large_body">

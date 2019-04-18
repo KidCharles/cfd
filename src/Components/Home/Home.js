@@ -9,7 +9,14 @@ import Button from "../Button/Button";
 export default function Home(props) {
   return (
     <div className="home_wrapper">
-      <Banner />
+      <Banner
+        title={"Are your loved ones covered?"}
+        text={
+          "Join the 5 million+ satisfied customers who found dental insurance coverage"
+        }
+        btnText={"Home Button"}
+        pic1={"pic1"}
+      />
       <div className="text_container">
         <h1 className="title">Main Selling Point</h1>
         <p className="large_body">
@@ -20,9 +27,8 @@ export default function Home(props) {
         <p className="large_body">Click the button below to go sign up!</p>
         <div className="whiteSpace72" />
         <Button
-          link={
-            "https://www.securitylife.com/personal-plans?agnt=010S0582"
-          }
+          link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
+          text={"Make money"}
         />
       </div>
       <div className="whiteSpace72" />
