@@ -9,8 +9,7 @@ import Button from "../Button/Button";
 export default function About(props) {
   return (
     <div className="home_wrapper">
-      <img src={banner} alt="CareFree Direct Banner" className="cfd_banner" />
-
+      <img src={banner} alt="CareFree Direct Banner" className="cfd_banner"/>
       <div className="text_container">
         <h1 className="title">Need Dental?</h1>
         <p className="large_body">

@@ -34,6 +34,15 @@
   border: 2px solid #004869;
   border-radius: 2px;
 }
+.call_box:active {
+  background-color: #004869;
+  box-shadow: 0 0 5px 0 #ccc;
+}
+
+.call_box:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
 .number {
   font-size: 20px;
   line-height: 48px;
@@ -42,6 +51,9 @@
   font-weight: bold;
   letter-spacing: 4px;
   padding: 0px 32px;
+}
+.number:active {
+  color: #ffff;
 }
 
 @media (min-width: 769px) {

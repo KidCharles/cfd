@@ -12,21 +12,21 @@ export default function Footer(props) {
   return (
     <div className="footer_wrapper">
       <div className="footer_container">
-        <ul className="row">
+        <ul className="row footer_links">
           <Link to="/About" style={{ textDecoration: "none" }}>
-            <li className="">About Us</li>
+            <li>About Us</li>
           </Link>
-          <li className="">|</li>
+          <span>|</span>
           <Link to="/dental" style={{ textDecoration: "none" }}>
-            <li className="">Dental</li>
+            <li>Dental</li>
           </Link>
-          <li className="">|</li>
+          <span>|</span>
           {/* <Link to="/About" style={{ textDecoration: "none" }}> */}
-          <li className="">Contact US</li>
+          <li>Contact US</li>
           {/* </Link> */}
         </ul>
         <div className="row">
-          <p className="">Speak to a Benefit Advisor!</p>
+          <p>Speak to a Benefit Advisor!</p>
           <div className="row">
             <img className="footer_phone" src={phone} alt="phone icon" />
             <a
@@ -34,9 +34,7 @@ export default function Footer(props) {
               className="footer_number"
               href="tel:"
             >
-              <span className="">
-                <span className="">1-456-789-234</span>
-              </span>
+              <span>1-456-789-234</span>
             </a>
           </div>
         </div>
@@ -44,7 +42,7 @@ export default function Footer(props) {
           <Link to="/" style={{ textDecoration: "none" }}>
             <img className="footer_logo" src={logo} alt="" />
           </Link>
-          <div className="">
+          <div>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -69,7 +67,7 @@ export default function Footer(props) {
           </div>
         </div>
         <p className="footer_copyright">
-          © CareFree Direct. All Rights Reserved.
+          © CareFree Direct All Rights Reserved.
         </p>
       </div>
     </div>

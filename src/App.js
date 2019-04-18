@@ -29,7 +29,7 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <Nav toolbarToggleClickHandler={this.toolbarToggleClickHandler} />
+        <Nav toolbarToggleClickHandler={this.toolbarToggleClickHandler}/>
         <Toolbar show={this.state.toolbarOpen} />
         {backdrop}
         {router}

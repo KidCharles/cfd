@@ -3,10 +3,20 @@ import "./button.css";
 
 export default function Button(props) {
   let link = props.link;
+  let text = props.text;
+  let btnClass = "button";
+  if (props.btn1) {
+    btnClass = "button1 btn1";
+  }
   return (
     <div className="button_wrapper">
-      <a href={link} className='button'>
-          MAKE MONEY
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={link}
+        className={btnClass}
+      >
+        Enroll Now
       </a>
     </div>
   );
