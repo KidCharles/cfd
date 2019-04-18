@@ -3,7 +3,8 @@ import "./button.css";
 
 export default function Button(props) {
   let link = props.link;
-  let text = props.text;
+  // let text = props.text;
+  let text = "enroll now";
   let btnClass = "button";
   if (props.btn1) {
     btnClass = "button1 btn1";
@@ -16,7 +17,7 @@ export default function Button(props) {
         href={link}
         className={btnClass}
       >
-        Enroll Now
+        {text}
       </a>
     </div>
   );

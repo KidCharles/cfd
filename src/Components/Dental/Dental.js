@@ -3,13 +3,14 @@ import "../Home/Home.css";
 import "../../App.css";
 
 import Call from "../CallCTA/Callcta";
-import banner from "../../assets/logos/cfd_banner_left.png";
-import Button from "../Button/Button";
+// import banner from "../../assets/logos/cfd_banner_left.png";
+import Banner from "..//Banner/Banner";
 
 export default function About(props) {
   return (
     <div className="home_wrapper">
-      <img src={banner} alt="CareFree Direct Banner" className="cfd_banner"/>
+      <Banner />
+      {/* <img src={banner} alt="CareFree Direct Banner" className="cfd_banner"/> */}
       <div className="text_container">
         <h1 className="title">Need Dental?</h1>
         <p className="large_body">

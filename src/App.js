@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import "./reset.css";
 import "./App.css";
 import Nav from "./Components/Nav/Nav";
-import Content from "./Components/Content/Content";
-import Button from "./Components/Button/Button";
 import Footer from "./Components/Footer/Footer";
 import Toolbar from "./Components/Toolbar/Toolbar";
 import Backdrop from "./Components/Backdrop/Backdrop";
@@ -22,7 +20,6 @@ class App extends Component {
     this.setState({ toolbarOpen: false });
   };
   render() {
-    let toolbar;
     let backdrop;
     if (this.state.toolbarOpen) {
       backdrop = <Backdrop backdropClickHandler={this.backdropClickHandler} />;

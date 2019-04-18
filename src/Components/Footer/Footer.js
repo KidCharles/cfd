@@ -60,7 +60,7 @@ export default function Footer(props) {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              // href="https://www.linkedin.com/company/carefree-direct"
+              href="https://www.linkedin.com/company/carefree-direct"
             >
               <img className="social_media_icon" src={linked} alt="" />
             </a>
