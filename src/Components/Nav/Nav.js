@@ -49,7 +49,6 @@ export default function Nav(props) {
             >
               1-855-870-0077
             </a>
-
             <ul>
               <li>
                 Licensed Benefit Advisor are available: Mon - Fri, 7 AM - 7 PM

@@ -36,12 +36,9 @@ class App extends Component {
         <Toolbar show={this.state.toolbarOpen} />
         {backdrop}
         {router}
-
         <Footer
-          button={
-            <span onClick={() => this.handleScrollToElement("nav")}>
-              top
-            </span>
+          top_button={
+            <span className="top_button" onClick={() => this.handleScrollToElement("nav")}>top</span>
           }
         />
       </div>

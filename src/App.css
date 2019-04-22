@@ -71,6 +71,21 @@
 .title {
   animation: title 1s ease-out 0s 1;
 }
+
+.top_button{
+  color: #ffff;
+  text-transform: uppercase;
+  padding: 8px 52px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  margin: 36px 0px;
+}
+.top_button:hover{
+  cursor: pointer;
+  color: #df3063;
+  border: 1px solid #df3063;
+} 
+
 @keyframes title {
   0% {
     transform: translateX(-4%);

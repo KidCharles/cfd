@@ -9,11 +9,11 @@ import ig from "../../assets/ig_icon.png";
 import linked from "../../assets/in_icon.png";
 
 export default function Footer(props) {
-  let button = props.button;
+  let top_button = props.top_button;
   return (
     <div className="footer_wrapper">
-      {button}
       <div className="footer_container">
+        <div className="top_container">{top_button}</div>
         <ul className="row footer_links">
           <Link to="/About" style={{ textDecoration: "none" }}>
             <li> About Us</li>
