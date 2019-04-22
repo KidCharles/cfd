@@ -14,7 +14,7 @@ export default function Footer(props) {
       <div className="footer_container">
         <ul className="row footer_links">
           <Link to="/About" style={{ textDecoration: "none" }}>
-            <li>About Us</li>
+            <li> About Us</li>
           </Link>
           <span>|</span>
           <Link to="/dental" style={{ textDecoration: "none" }}>

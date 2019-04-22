@@ -29,9 +29,6 @@ export default function Nav(props) {
       </div>
       <div className="items_nav">
         <ul>
-          <Link to="/About" style={{ textDecoration: "none" }}>
-            <li>About</li>
-          </Link>
           <Link to="/dental" style={{ textDecoration: "none" }}>
             <li>Dental</li>
           </Link>
@@ -40,6 +37,9 @@ export default function Nav(props) {
           </Link>
           <Link to="/medicare" style={{ textDecoration: "none" }}>
             <li>Medicare</li>
+          </Link>
+          <Link to="/About" style={{ textDecoration: "none" }}>
+            <li>About</li>
           </Link>
           <li>
             <a

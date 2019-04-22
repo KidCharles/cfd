@@ -51,6 +51,7 @@
   font-weight: bold;
 }
 
+
 @media (max-width: 768px) {
   .items_nav {
     display: none;
@@ -62,7 +63,7 @@
 
 @media (min-width: 769px) {
   .nav_wrapper {
-    height: 8vh;
+    height: 10vh;
   }
   .cfd_icon_mobile {
     display: none;
@@ -81,7 +82,7 @@
     background-color: #df3063;
     width: 500px;
     right: 0px;
-    top: 36px;
+    top: 40px;
     border-radius: 0px 0px 4px 40px;
   }
   .items_nav ul li:hover ul {
