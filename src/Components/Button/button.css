@@ -81,6 +81,19 @@
   cursor: pointer;
 } */
 
+.anim_button {
+  animation: anim_button 1s ease-out 0s 1;
+}
+@keyframes anim_button {
+  0% {
+    transform: translateX(-2%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 @media (min-width: 769px) {
   .button {
   }

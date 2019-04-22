@@ -42,7 +42,7 @@
   padding-bottom: 32px;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
@@ -66,6 +66,19 @@
 }
 .whiteSpace72 {
   margin-bottom: 72px;
+}
+
+.title {
+  animation: title 1s ease-out 0s 1;
+}
+@keyframes title {
+  0% {
+    transform: translateX(-4%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 @media (min-width: 769px) {

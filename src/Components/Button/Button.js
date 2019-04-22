@@ -3,12 +3,12 @@ import "./button.css";
 
 export default function Button(props) {
   let link = props.link;
-  let text = props.text; 
-  let btnClass = "button";
+  let text = props.text;
+  let btnClass = "button ";
   // let show = props.show
-  let buttonWrapper= "nobutton_wrapper"
+  let buttonWrapper = "nobutton_wrapper";
   if (props.btn1) {
-    btnClass = "button1 btn1";
+    btnClass = "button1 btn1 ";
   }
   return (
     <div className={buttonWrapper}>
@@ -18,7 +18,7 @@ export default function Button(props) {
         href={link}
         className={btnClass}
       >
-        {text}
+        <span className="anim_button">{text}</span>
       </a>
     </div>
   );
