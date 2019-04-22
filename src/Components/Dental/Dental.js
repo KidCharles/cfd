@@ -10,7 +10,7 @@ export default function About(props) {
     <div className="home_wrapper">
       <Banner
         title={"Dental Page"}
-        text={"Dental Prompt"}
+        text={"Dental plans to fit your needs"}
         btnText={"Get Dental Coverage"}
         link={"http://www.star.ameritas.com/personal-plans?agnt=010S0582"}
       />
