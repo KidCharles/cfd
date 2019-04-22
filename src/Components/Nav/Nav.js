@@ -33,15 +33,29 @@ export default function Nav(props) {
             <li>About</li>
           </Link>
           <Link to="/dental" style={{ textDecoration: "none" }}>
-            <li className="">Dental</li>
+            <li>Dental</li>
           </Link>
           <Link to="/vision" style={{ textDecoration: "none" }}>
-            <li className="">Vision</li>
+            <li>Vision</li>
           </Link>
           <Link to="/medicare" style={{ textDecoration: "none" }}>
-            <li className="">Medicare</li>
+            <li>Medicare</li>
           </Link>
-          <li className="">1-555-555-5555</li>
+          <li>
+            <a
+              data-replaceable-phone-dialable=""
+              className="nav_number"
+              href="tel:18558700077"
+            >
+              1-855-870-0077
+            </a>
+
+            <ul>
+              <li>
+                Licensed Benefit Advisor are available: Mon - Fri, 7 AM - 7 PM
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>

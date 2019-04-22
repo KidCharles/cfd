@@ -3,7 +3,7 @@ import "./Home.css";
 import "../../App.css";
 import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
-import pic2 from '../../assets/photo2.jpg';
+// import pic2 from '../../assets/photo2.jpg';
 
 import Button from "../Button/Button";
 
@@ -50,8 +50,8 @@ export default function Home(props) {
         <div className="whiteSpace72" />
       </div>
       <div className="whiteSpace72" />
-      <div className="pic"></div> 
       <Call />
+      <div className="pic" />
     </div>
   );
 }

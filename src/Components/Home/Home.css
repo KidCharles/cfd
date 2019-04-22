@@ -9,14 +9,13 @@
   text-align: center;
 }
 
-.pic{
+.pic {
   width: 100vw;
-  height: 20vh;
+  height: 400px;
   background-image: url("../../assets/photo2.jpg");
   background-color: #3399cc;
-  height: 500px;
-  width: 100vw;
   background-position: center; /* Center the image */
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -33,5 +32,8 @@
   }
   .large-body {
     text-align: center;
+  }
+  .pic {
+    height: 500px;
   }
 }

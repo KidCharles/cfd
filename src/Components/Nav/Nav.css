@@ -35,12 +35,14 @@
   margin: 0;
   padding: 0;
   display: flex;
+  position: relative;
 }
 
 .items_nav li {
   padding: 0 1rem;
   text-decoration: none;
   color: #ffffff;
+  position: relative;
 }
 
 .items_nav li:hover,
@@ -68,6 +70,25 @@
   .items_nav {
     font-size: 16px;
     font-weight: 400;
-    /* padding-right: 16vw; */
+  }
+  .nav_number {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .items_nav ul li ul {
+    position: absolute;
+    display: none;
+    background-color: #df3063;
+    width: 500px;
+    right: 0px;
+    top: 36px;
+    border-radius: 0px 0px 4px 40px;
+  }
+  .items_nav ul li:hover ul {
+    display: block;
+  }
+  .items_nav ul li ul li {
+    padding: 12px 0px;
+    text-align: center;
   }
 }
