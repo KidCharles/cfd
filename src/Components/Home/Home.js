@@ -15,7 +15,7 @@ export default function Home(props) {
         text={
           "Join the 5 million+ satisfied customers who found dental insurance coverage"
         }
-        btnText={"Home Button"}
+        btnText={"Route Test"}
         pic1={"pic1"}
       />
       <div className="text_container">
