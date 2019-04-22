@@ -13,6 +13,7 @@ export default function About(props) {
         title={"Medicare Page"}
         text={"Medicare Prompt"}
         btnText={"Medicare Button"}
+        medical={"medical"}
       />
       <div className="text_container">
         <h1 className="title">Need Health Insurance?</h1>

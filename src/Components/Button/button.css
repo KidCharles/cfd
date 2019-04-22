@@ -28,7 +28,8 @@
 
 .button:hover {
   cursor: pointer;
-  transform: scale(1.01);
+  transform: scale(1.004);
+  background: #a71f45;
 }
 
 /* _________________________________ */

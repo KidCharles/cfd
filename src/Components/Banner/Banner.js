@@ -10,6 +10,7 @@ export default function Banner(props) {
   let link = props.link;
   let btnText = props.btnText;
   let pic1 = props.pic1;
+  let medical = props.medical
   let bannerClass = "bannerWrapper";
   let buttonClass = "dontshow";
   if (props.btnText) {
@@ -17,6 +18,9 @@ export default function Banner(props) {
   }
   if(pic1){
     bannerClass = "bannerWrapper pic1";
+  }
+  if(medical){
+    bannerClass="bannerWrapper medical"
   }
   return (
     <div className={bannerClass}>
