@@ -32,6 +32,7 @@ export default function About(props) {
       </div>
       <div className="whiteSpace64" />
       <Call />
+      <div className="pic smile" />
     </div>
   );
 }

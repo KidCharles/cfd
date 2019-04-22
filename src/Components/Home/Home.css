@@ -12,7 +12,6 @@
 .pic {
   width: 100vw;
   height: 400px;
-  background-image: url("../../assets/photo2.jpg");
   background-color: #3399cc;
   background-position: center; /* Center the image */
   background-size: cover;
@@ -21,6 +20,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.home_pic{
+  background-image: url("../../assets/photo2.jpg");
+}
+.pic2 {
+  background-image: url("../../assets/vision.jpg");
+}
+.smile{
+  background-image: url("../../assets/smile.jpg");
 }
 
 @media (min-width: 769px) {

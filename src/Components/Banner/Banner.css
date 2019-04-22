@@ -13,6 +13,9 @@
 .pic1{
   background-image: url("../../assets/pp1.jpg");
 }
+.medical{
+  background-image: url("../../assets/medical.png");
+}
 
 .bannerTitle {
   font-size: 36px;

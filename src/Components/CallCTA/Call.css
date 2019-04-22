@@ -40,7 +40,9 @@
 
 .call_box:hover {
   cursor: pointer;
-  transform: scale(1.01);
+  transform: scale(1.002);
+  background-color: #e7e7e7;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .2); /* creates a soft blur effect around the element's edges */
 }
 .number {
   font-size: 20px;

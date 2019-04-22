@@ -11,13 +11,14 @@ export default function About(props) {
   return (
     <div className="home_wrapper">
       <Banner
-        title={"Why CareFree Direct?"}
-        text={"So many reasons"}
+        title={"CAREFREE DIRECT"}
+        text={"We find the right health care solution so you don’t have to"}
         // btnText={"Medicare Button"}
+        pic1={"pic1"}
       />
       <div className="text_container">
         <h1 className="title">Why CareFree Direct?</h1>
-        <p className="quote">"Health care, not just health insurance."</p>
+        <p className="quote">"Health CARE, not just health insurance."</p>
         <p className="large_body">
           Carefree Direct is a leading healthcare insurance agency. Our Brokers
           empower consumers to confidently make sound decisions with ease
@@ -31,13 +32,23 @@ export default function About(props) {
         </p>
         <br />
         <p className="large_body">
-          We specialize in not only SELLING, but RETAINING members through
-          direct and ongoing communication
+          Established in 2017, CareFree Direct is comprised of employees who are
+          encouraged professional Brokers with a firm commitment to ethical
+          business conduct. We offer quality health care from numerous companies
+          within the Fortune 500 and a footprint that expands across the United
+          States. We are devoted to our ever-growing list of Medicare recipients
+          to ensure they receive proper care by providing a health plan to suit
+          their budget while fulfilling their health care needs. Our managed
+          care programs will provide necessary benefits to maintain your health,
+          with some plans offering notable extras such as gym memberships or
+          even resources for assistance on those endless utility bills.
         </p>
         <br />
         <p className="large_body">
-          We excel in exceeding clients goals by understanding objectives, and
-          pivoting real-time to drive superior outcomes
+          In today’s world, you can’t just trust your health to anyone. Our
+          licensed benefit advisor will not only guide you to your ideal
+          plan, but will be your ongoing support for all your health plan
+          needs.
         </p>
       </div>
       <div className="whiteSpace64" />

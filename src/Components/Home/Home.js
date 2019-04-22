@@ -15,7 +15,7 @@ export default function Home(props) {
         text={
           "Join the 5 million+ satisfied customers who found dental insurance coverage"
         }
-        btnText={"Route Test"}
+        btnText={"Get Dental"}
         pic1={"pic1"}
       />
       <div className="text_container">
@@ -51,7 +51,7 @@ export default function Home(props) {
       </div>
       <div className="whiteSpace72" />
       <Call />
-      <div className="pic" />
+      <div className="pic home_pic" />
     </div>
   );
 }
