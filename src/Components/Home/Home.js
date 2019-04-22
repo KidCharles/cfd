@@ -17,6 +17,7 @@ export default function Home(props) {
         }
         btnText={"Get Dental"}
         pic1={"pic1"}
+        link={"http://www.star.ameritas.com/personal-plans?agnt=010S0582"}
       />
       <div className="text_container">
         <h1 className="title">Main Selling Point</h1>

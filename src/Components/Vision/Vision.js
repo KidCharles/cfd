@@ -11,7 +11,8 @@ export default function About(props) {
       <Banner
         title={"Vision Page"}
         text={"Vision Prompt"}
-        btnText={"Vision Button"}
+        btnText={"Get Dental Coverage"}
+        link={"http://www.star.ameritas.com/personal-plans?agnt=010S0582"}
       />
       <div className="text_container">
         <h1 className="title">Need Vision?</h1>
