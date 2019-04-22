@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactDOM from "react-dom";
 import "./reset.css";
 import "./App.css";
 import Nav from "./Components/Nav/Nav";
@@ -19,18 +20,30 @@ class App extends Component {
   backdropClickHandler = () => {
     this.setState({ toolbarOpen: false });
   };
+  handleScrollToElement(e) {
+    const tesNode = ReactDOM.findDOMNode(this.refs[e]);
+    window.scrollTo({ top: tesNode.offsetTop, behavior: "smooth" });
+  }
   render() {
     let backdrop;
     if (this.state.toolbarOpen) {
       backdrop = <Backdrop backdropClickHandler={this.backdropClickHandler} />;
     }
     return (
-      <div className="App">
-        <Nav toolbarToggleClickHandler={this.toolbarToggleClickHandler}/>
+      <div className="App" ref="nav">
+        <Nav toolbarToggleClickHandler={this.toolbarToggleClickHandler} />
+        <div id="nav" />
         <Toolbar show={this.state.toolbarOpen} />
         {backdrop}
         {router}
-        <Footer />
+
+        <Footer
+          button={
+            <span onClick={() => this.handleScrollToElement("nav")}>
+              top
+            </span>
+          }
+        />
       </div>
     );
   }
