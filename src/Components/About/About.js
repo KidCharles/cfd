@@ -52,7 +52,6 @@ export default function About(props) {
         </p>
       </div>
       <div className="whiteSpace64" />
-      <Call />
     </div>
   );
 }
