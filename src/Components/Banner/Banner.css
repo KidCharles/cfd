@@ -16,6 +16,14 @@
 .medical{
   background-image: url("../../assets/medical.png");
 }
+.dentalPic{
+  background-image: url("../../assets/dental_woman_laugh.jpg");
+  background-position: left;
+}
+.visionKid{
+  background-image: url("../../assets/kid_Vision.jpg");
+  background-position: right;
+}
 
 .bannerTitle {
   font-size: 36px;

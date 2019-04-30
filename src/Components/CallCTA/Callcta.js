@@ -6,10 +6,11 @@ import "./Call.css";
 import "../../App.css";
 
 export default function Callcta(props) {
+  let prompt = props.prompt;
   return (
     <div className="call_wrapper">
       <div className="call_contianer">
-        <img src={logo} alt="cfd Logo" className="logo" />
+        <p className="prompt">{prompt}</p>
         <h2 className="call">Call to speak to a Licensed Benefit Advisor</h2>
         <div className="call_box">
           <a
@@ -22,6 +23,7 @@ export default function Callcta(props) {
             </span>
           </a>
         </div>
+        <img src={logo} alt="cfd Logo" className="logo" />
       </div>
     </div>
   );

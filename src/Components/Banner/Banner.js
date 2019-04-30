@@ -10,17 +10,25 @@ export default function Banner(props) {
   let link = props.link;
   let btnText = props.btnText;
   let pic1 = props.pic1;
-  let medical = props.medical
+  let medical = props.medical;
+  let dentalPic = props.dentalPic;
   let bannerClass = "bannerWrapper";
   let buttonClass = "dontshow";
+  let visionKid = props.visionKid;
   if (props.btnText) {
     buttonClass = "";
   }
-  if(pic1){
+  if (pic1) {
     bannerClass = "bannerWrapper pic1";
   }
-  if(medical){
-    bannerClass="bannerWrapper medical"
+  if (medical) {
+    bannerClass = "bannerWrapper medical";
+  }
+  if(dentalPic) {
+    bannerClass="bannerWrapper dentalPic"
+  }
+  if(visionKid) {
+    bannerClass="bannerWrapper visionKid"
   }
   return (
     <div className={bannerClass}>

@@ -13,6 +13,7 @@ export default function About(props) {
         text={"Vision plans to fit your needs"}
         btnText={"Get Dental Coverage"}
         link={"http://www.star.ameritas.com/personal-plans?agnt=010S0582"}
+        visionKid={"visionKid"}
       />
       <div className="text_container">
         <h1 className="title">Need Vision?</h1>
