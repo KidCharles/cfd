@@ -10,8 +10,27 @@ import router from "./routes";
 
 class App extends Component {
   state = {
-    toolbarOpen: false
+    toolbarOpen: false,
+    scrolled: false
   };
+
+  componentDidMount = () => {
+    window.addEventListener("scroll", () => {
+      const isTop = window.scrollY < 100;
+      if (isTop !== true) {
+        this.setState({ scrolled: true });
+      } else {
+        this.setState({
+          scrolled: false
+        });
+      }
+    });
+  };
+
+  componentWillUnmount = () => {
+    window.removeEventListener("scroll");
+  };
+
   toolbarToggleClickHandler = () => {
     this.setState(prevState => {
       return { toolbarOpen: !prevState.toolbarOpen };
@@ -31,14 +50,22 @@ class App extends Component {
     }
     return (
       <div className="App" ref="nav">
-        <Nav toolbarToggleClickHandler={this.toolbarToggleClickHandler} />
+        <Nav
+          toolbarToggleClickHandler={this.toolbarToggleClickHandler}
+          scrolled={this.state.scrolled}
+        />
         <div id="nav" />
         <Toolbar show={this.state.toolbarOpen} />
         {backdrop}
         {router}
         <Footer
           top_button={
-            <span className="top_button" onClick={() => this.handleScrollToElement("nav")}>top</span>
+            <span
+              className="top_button"
+              onClick={() => this.handleScrollToElement("nav")}
+            >
+              top
+            </span>
           }
         />
       </div>
