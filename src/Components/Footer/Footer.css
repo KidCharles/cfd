@@ -31,6 +31,7 @@
 .footer_number {
   text-decoration: none;
   color: #ffffff;
+  box-sizing: border-box;
 }
 .footer_phone {
   height: 16px;
@@ -90,7 +91,7 @@
   transform: scale(1.01);
 }
 
-.top_container{
+.top_container {
   display: flex;
   justify-content: center;
 }

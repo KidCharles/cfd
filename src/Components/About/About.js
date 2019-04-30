@@ -2,7 +2,7 @@ import React from "react";
 import "../Home/Home.css";
 import "../../App.css";
 
-import Call from "../CallCTA/Callcta";
+// import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
 
 // import Button from "../Button/Button";
