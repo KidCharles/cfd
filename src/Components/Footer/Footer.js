@@ -40,13 +40,13 @@ export default function Footer(props) {
               className="footer_number"
               href="tel:18558700077"
             >
-              <span>1-855-870-0077</span>
+              <span className="" >1-855-870-0077</span>
             </a>
           </div>
         </div>
         <div className="social_media_wrapper">
           <Link to="/" style={{ textDecoration: "none" }}>
-            <img className="footer_logo" src={logo} alt="" />
+            <img className="footer_logo" src={logo} alt="Carefree Direct Logo" />
           </Link>
           <div>
             <a

@@ -89,6 +89,7 @@
 .footer_logo:hover {
   cursor: pointer;
   transform: scale(1.01);
+  color: #df3063;
 }
 
 .top_container {
