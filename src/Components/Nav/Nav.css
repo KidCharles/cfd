@@ -7,18 +7,14 @@
   align-items: center;
   position: sticky;
   top: 0;
-  transition-duration: 20ms;
+  transition-duration: 200ms;
   transition-property: background-color;
+  box-shadow: 0 0 8px 0 rgba(37, 37, 37, 0.589);
 }
 
 .hamburger {
   margin-right: 1rem;
 }
-
-.nav_text{
-}
-
-
 
 .cfd_logo {
   height: 32px;
@@ -50,7 +46,7 @@
   position: relative;
 }
 
-.nav_text_scrolled li{
+.nav_text_scrolled li {
   color: #ffffff;
 }
 
@@ -62,10 +58,12 @@
 
 .scrolled {
   background-color: #00486b;
-  box-shadow: 0 0 8px 0 rgba(37, 37, 37, 0.589);
 }
 
 @media (max-width: 768px) {
+  .nav_wrapper {
+    background-color: #00486b;
+  }
   .items_nav {
     display: none;
   }
@@ -89,7 +87,7 @@
     text-decoration: none;
     color: #00486b;
   }
-  .nav_number_scrolled{
+  .nav_number_scrolled {
     text-decoration: none;
     color: #ffffff;
   }

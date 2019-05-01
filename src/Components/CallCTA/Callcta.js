@@ -7,10 +7,14 @@ import "../../App.css";
 
 export default function Callcta(props) {
   let prompt = props.prompt;
+  let prompt_style = "prompt"
+  if (!props.prompt) {
+    prompt_style = "no_prompt";
+  }
   return (
     <div className="call_wrapper">
       <div className="call_contianer">
-        <p className="prompt">{prompt}</p>
+        <p className={prompt_style}>{prompt}</p>
         <h2 className="call">Call to speak to a Licensed Benefit Advisor</h2>
         <div className="call_box">
           <a

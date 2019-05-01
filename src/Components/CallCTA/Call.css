@@ -15,14 +15,18 @@
 
 .logo {
   width: 48vw;
+  padding: 24px 0px;
 }
 
-.prompt{
+.prompt {
   text-align: center;
   font-size: 24px;
   line-height: 1.75;
   padding: 24px;
   color: #414042;
+}
+.no_prompt {
+  display: none;
 }
 .call {
   text-align: center;
@@ -49,7 +53,7 @@
   cursor: pointer;
   transform: scale(1.002);
   background-color: #e7e7e7;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, .2); /* creates a soft blur effect around the element's edges */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* creates a soft blur effect around the element's edges */
 }
 .number {
   font-size: 20px;
