@@ -15,6 +15,8 @@ export default function Banner(props) {
   let bannerClass = "bannerWrapper";
   let buttonClass = "dontshow";
   let visionKid = props.visionKid;
+  let dental_kid = props.dental_kid;
+  let dental_button = props.dental_button;
   if (props.btnText) {
     buttonClass = "";
   }
@@ -30,6 +32,10 @@ export default function Banner(props) {
   if(visionKid) {
     bannerClass="bannerWrapper visionKid"
   }
+  if(dental_kid) {
+    bannerClass="bannerWrapper dental_kid"
+  }
+
   return (
     <div className={bannerClass}>
       <div className="text_container">
@@ -38,7 +44,7 @@ export default function Banner(props) {
       </div>
       <div className="whiteSpace32" />
       <div className={buttonClass}>
-        <Button link={link} text={btnText} />
+        <Button link={link} text={btnText} dental_button={dental_button}/>
       </div>
     </div>
   );

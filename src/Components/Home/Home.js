@@ -11,23 +11,25 @@ export default function Home(props) {
   return (
     <div className="home_wrapper">
       <Banner
-        title={"Are your loved ones covered?"}
-        text={
-          "Join the 5 million+ satisfied customers who found dental insurance coverage"
-        }
-        btnText={"Get Dental"}
-        pic1={"pic1"}
-        link={"http://www.star.ameritas.com/personal-plans?agnt=010S0582"}
+        dental_kid={" "}
+        btnText={"Get a Quote"}
+        dental_button={" "}
+        link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
       />
       <div className="text_container">
-        <h1 className="title">Main Selling Point</h1>
-        <p className="large_body center">
-          Click the button below to go sign up!
+        <h1 className="title">CareFree Direct can help!</h1>
+        <p className="large_body">
+          Get the absolute most from your Healthcare Plan. You may be missing
+          out on a ton of benefits like fillings, dentures, bridges, and crowns
+          at a discounted or at no cost rate. Most dental plans only cover
+          cleaning, TWICE A YEAR! You deserve better than that. To ensure that
+          you're being taken care of, get a personaized quote for a dental plan
+          today or speak to one of CareFree Direct's Licensed Benefit Advisors.
         </p>
         <div className="whiteSpace48" />
         <Button
           link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
-          text={"Make money"}
+          text={"Get A Quote"}
         />
         <div className="whiteSpace48" />
         <p className="large_body">

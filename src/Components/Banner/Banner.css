@@ -24,6 +24,9 @@
   background-image: url("../../assets/kid_Vision.jpg");
   background-position: right;
 }
+.dental_kid{
+  background-image: url("../../assets/dental_kid.png");
+}
 
 .bannerTitle {
   font-size: 36px;

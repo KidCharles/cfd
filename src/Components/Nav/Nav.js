@@ -51,13 +51,13 @@ export default function Nav(props) {
             <li>About</li>
           </Link>
           <li>
-            <a
+            {/* <a
               data-replaceable-phone-dialable=""
               className={nav_number_scrolled}
               href="tel:18558700077"
-            >
+            > */}
               1-855-870-0077
-            </a>
+            {/* </a> */}
             <ul>
               <li>
                 Licensed Benefit Advisor are available: Mon - Fri, 7 AM - 7 PM
