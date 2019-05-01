@@ -1,12 +1,13 @@
 import React from "react";
 import "./Nav.css";
 import Hamburger from "../Toolbar/ToolbarToggleButton.js";
-import LogoWhite from "../../assets/logos/logo_white.svg";
 import icon from "../../assets/logos/Icon.svg";
 import iconDark from "../../assets/logos/CareFreeDirect_Logo_full_small.png";
 import { Link } from "react-router-dom";
 
 export default function Nav(props) {
+  let LogoWhite =
+    "https://drive.google.com/uc?export=view&id=1MxzEsrjoHWjkiLOyarVs7IvdcGwn4HSe";
   let nav_wrapper_class = "nav_wrapper";
   let items_nav = "items_nav";
   let nav_number_scrolled = "nav_number";
@@ -56,7 +57,7 @@ export default function Nav(props) {
               className={nav_number_scrolled}
               href="tel:18558700077"
             > */}
-              1-855-870-0077
+            1-855-870-0077
             {/* </a> */}
             <ul>
               <li>

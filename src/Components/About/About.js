@@ -4,7 +4,6 @@ import "../../App.css";
 
 // import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
-
 // import Button from "../Button/Button";
 
 export default function About(props) {
@@ -12,8 +11,9 @@ export default function About(props) {
     <div className="home_wrapper">
       <Banner
         title={"CAREFREE DIRECT"}
-        text={"We work hard to find the best health care solutions, so you don’t have to"}
-        // btnText={"Medicare Button"}
+        text={
+          "We work hard to find the best health care solutions, so you don’t have to"
+        }
         pic1={"pic1"}
       />
       <div className="text_container">
@@ -46,9 +46,8 @@ export default function About(props) {
         <br />
         <p className="large_body">
           In today’s world, you can’t just trust your health to anyone. Our
-          licensed benefit advisor will not only guide you to your ideal
-          plan, but will be your ongoing support for all your health plan
-          needs.
+          licensed benefit advisor will not only guide you to your ideal plan,
+          but will be your ongoing support for all your health plan needs.
         </p>
       </div>
       <div className="whiteSpace64" />
