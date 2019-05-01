@@ -17,7 +17,7 @@
   color: white;
   border-radius: 2px;
   text-transform: uppercase;
-  padding: 20px 56px;
+  padding: 20px;
   transition: 0.2s all ease;
 }
 
@@ -96,6 +96,8 @@
 }
 
 @media (min-width: 769px) {
-  .button {
+  .button{
+    font-size: 20px;
+    padding: 20px 56px;
   }
 }

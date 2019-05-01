@@ -48,9 +48,8 @@ export default function Home(props) {
           this you wont be able to refuse.
         </p>
         <br />
-        <div className="whiteSpace72" />
+        <div className="whiteSpace64" />
       </div>
-      <div className="whiteSpace72" />
       <Call />
       <div className="pic home_pic" />
     </div>

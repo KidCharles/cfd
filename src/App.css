@@ -17,7 +17,7 @@
   font-size: 36px;
   font-weight: 900;
   line-height: 48px;
-  padding: 80px 0px 36px 0px;
+  padding: 36px 0px 24px 0px;
   color: #004869;
 }
 
@@ -46,6 +46,7 @@
 
 .center {
   text-align: center;
+  text-indent: 0px;
 }
 
 .banner {

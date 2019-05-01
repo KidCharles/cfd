@@ -3,16 +3,21 @@ import "./Nav.css";
 import Hamburger from "../Toolbar/ToolbarToggleButton.js";
 import LogoWhite from "../../assets/logos/logo_white.svg";
 import icon from "../../assets/logos/Icon.svg";
+import iconDark from "../../assets/logos/CareFreeDirect_Logo_full_small.png";
 import { Link } from "react-router-dom";
 
 export default function Nav(props) {
   let nav_wrapper_class = "nav_wrapper";
   let items_nav = "items_nav";
   let nav_number_scrolled = "nav_number";
+  let logo = LogoWhite;
   if (props.scrolled) {
     nav_wrapper_class = "nav_wrapper scrolled";
     items_nav = "items_nav nav_text_scrolled ";
     nav_number_scrolled = "nav_number_scrolled";
+  }
+  if (!props.scrolled) {
+    logo = iconDark;
   }
   return (
     <div className={nav_wrapper_class}>
@@ -25,11 +30,7 @@ export default function Nav(props) {
           />
         </Link>
         <Link to="/">
-          <img
-            src={LogoWhite}
-            alt="CareFree Direct Logo"
-            className="cfd_logo"
-          />
+          <img src={logo} alt="CareFree Direct Logo" className="cfd_logo" />
         </Link>
       </div>
       <div className="hamburger">
