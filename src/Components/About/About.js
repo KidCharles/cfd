@@ -12,7 +12,7 @@ export default function About(props) {
     <div className="home_wrapper">
       <Banner
         title={"CAREFREE DIRECT"}
-        text={"We find the right health care solution so you don’t have to"}
+        text={"We work hard to find the best health care solutions, so you don’t have to"}
         // btnText={"Medicare Button"}
         pic1={"pic1"}
       />
