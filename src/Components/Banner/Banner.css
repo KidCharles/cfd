@@ -10,21 +10,21 @@
   align-items: center;
 }
 
-.pic1{
+.pic1 {
   background-image: url("../../assets/pp1.jpg");
 }
-.medical{
+.medical {
   background-image: url("../../assets/medical.png");
 }
-.dentalPic{
+.dentalPic {
   background-image: url("../../assets/dental_woman_laugh.jpg");
   background-position: left;
 }
-.visionKid{
+.visionKid {
   background-image: url("../../assets/kid_Vision.jpg");
   background-position: right;
 }
-.dental_kid{
+.dental_kid {
   background-image: url("../../assets/dental_kid.png");
 }
 
@@ -34,16 +34,18 @@
   line-height: 48px;
   padding: 24px 0px;
   color: #ffff;
+  animation: large_body 1000ms ease-out 0s 1;
 }
 
 .bannerText {
   font-size: 18px;
   line-height: 40px;
   color: #ffff;
+  animation: large_body 1000ms ease-out 0s 1;
 }
 
-.dontshow{
-  display:none
+.dontshow {
+  display: none;
 }
 
 @media (min-width: 769px) {
@@ -56,7 +58,7 @@
 }
 
 @media (max-width: 768px) {
-  .bannerWrapper{
-    display:none;
+  .bannerWrapper {
+    display: none;
   }
 }

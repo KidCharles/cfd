@@ -27,9 +27,7 @@ export default function Footer(props) {
             <li>Vision</li>
           </Link>
           <span>|</span>
-          {/* <Link to="/About" style={{ textDecoration: "none" }}> */}
-          <li>Contact US</li>
-          {/* </Link> */}
+          <a href="mailto:cfdirect@mycarefree.com"style={{ textDecoration: "none", color:"#fff" }} >cfdirect@mycarefree.com</a>
         </ul>
         <div className="row">
           <p>Speak to a Benefit Advisor!</p>
@@ -40,13 +38,17 @@ export default function Footer(props) {
               className="footer_number"
               href="tel:18558700077"
             >
-              <span className="" >1-855-870-0077</span>
+              <span className="">1-855-870-0077</span>
             </a>
           </div>
         </div>
         <div className="social_media_wrapper">
           <Link to="/" style={{ textDecoration: "none" }}>
-            <img className="footer_logo" src={logo} alt="Carefree Direct Logo" />
+            <img
+              className="footer_logo"
+              src={logo}
+              alt="Carefree Direct Logo"
+            />
           </Link>
           <div>
             <a
