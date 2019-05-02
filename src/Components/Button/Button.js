@@ -10,7 +10,7 @@ export default function Button(props) {
   if (props.btn1) {
     btnClass = "button1 btn1 ";
   }
-  if(props.dental_button){
+  if (props.dental_button) {
     btnClass = "button dental_button";
   }
   return (

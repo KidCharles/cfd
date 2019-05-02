@@ -27,7 +27,12 @@ export default function Footer(props) {
             <li>Vision</li>
           </Link>
           <span>|</span>
-          <a href="mailto:cfdirect@mycarefree.com"style={{ textDecoration: "none", color:"#fff" }} >cfdirect@mycarefree.com</a>
+          <a
+            href="mailto:cfdirect@mycarefree.com"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+            cfdirect@mycarefree.com
+          </a>
         </ul>
         <div className="row">
           <p>Speak to a Benefit Advisor!</p>

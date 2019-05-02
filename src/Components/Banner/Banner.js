@@ -26,14 +26,14 @@ export default function Banner(props) {
   if (medical) {
     bannerClass = "bannerWrapper medical";
   }
-  if(dentalPic) {
-    bannerClass="bannerWrapper dentalPic"
+  if (dentalPic) {
+    bannerClass = "bannerWrapper dentalPic";
   }
-  if(visionKid) {
-    bannerClass="bannerWrapper visionKid"
+  if (visionKid) {
+    bannerClass = "bannerWrapper visionKid";
   }
-  if(dental_kid) {
-    bannerClass="bannerWrapper dental_kid"
+  if (dental_kid) {
+    bannerClass = "bannerWrapper dental_kid";
   }
 
   return (
@@ -44,7 +44,7 @@ export default function Banner(props) {
       </div>
       <div className="whiteSpace32" />
       <div className={buttonClass}>
-        <Button link={link} text={btnText} dental_button={dental_button}/>
+        <Button link={link} text={btnText} dental_button={dental_button} />
       </div>
     </div>
   );

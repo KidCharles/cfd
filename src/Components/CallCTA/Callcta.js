@@ -7,7 +7,7 @@ import "../../App.css";
 
 export default function Callcta(props) {
   let prompt = props.prompt;
-  let prompt_style = "prompt"
+  let prompt_style = "prompt";
   if (!props.prompt) {
     prompt_style = "no_prompt";
   }

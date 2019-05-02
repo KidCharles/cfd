@@ -1,6 +1,8 @@
 import React from "react";
 import "../Home/Home.css";
 import "../../App.css";
+import "./About.css";
+import logo_white from "../../assets/logos/logo_white.svg";
 
 // import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
@@ -16,6 +18,13 @@ export default function About(props) {
         }
         pic1={"pic1"}
       />
+      <div className="mobile_banner">
+        <img
+          src={logo_white}
+          alt="CareFree Direct Logo"
+          className="logo_white"
+        />
+      </div>
       <div className="text_container">
         <h1 className="title">Why CareFree Direct?</h1>
         <p className="quote">"Health CARE, not just health insurance."</p>

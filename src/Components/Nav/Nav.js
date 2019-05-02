@@ -3,15 +3,17 @@ import "./Nav.css";
 import Hamburger from "../Toolbar/ToolbarToggleButton.js";
 import icon from "../../assets/logos/Icon.svg";
 import iconDark from "../../assets/logos/CareFreeDirect_Logo_full_small.png";
+import logo_white from "../../assets/logos/logo_white.svg";
 import { Link } from "react-router-dom";
 
 export default function Nav(props) {
-  let LogoWhite =
-    "https://drive.google.com/uc?export=view&id=1MxzEsrjoHWjkiLOyarVs7IvdcGwn4HSe";
+  // let LogoWhite =
+  //   "https://drive.google.com/uc?export=view&id=1MxzEsrjoHWjkiLOyarVs7IvdcGwn4HSe";
   let nav_wrapper_class = "nav_wrapper";
   let items_nav = "items_nav";
   let nav_number_scrolled = "nav_number";
-  let logo = LogoWhite;
+  // let logo = LogoWhite;
+  let logo = logo_white;
   if (props.scrolled) {
     nav_wrapper_class = "nav_wrapper scrolled";
     items_nav = "items_nav nav_text_scrolled ";

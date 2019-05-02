@@ -22,13 +22,13 @@
   align-items: center;
 }
 
-.home_pic{
+.home_pic {
   background-image: url("../../assets/photo2.jpg");
 }
 .pic2 {
   background-image: url("../../assets/vision.jpg");
 }
-.smile{
+.smile {
   background-image: url("../../assets/smile.jpg");
 }
 

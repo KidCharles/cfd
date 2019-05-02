@@ -3,8 +3,6 @@ import "./Home.css";
 import "../../App.css";
 import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
-// import pic2 from '../../assets/photo2.jpg';
-
 import Button from "../Button/Button";
 
 export default function Home(props) {
