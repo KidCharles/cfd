@@ -4,6 +4,7 @@ import "../../App.css";
 import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
 import Button from "../Button/Button";
+import Test from "../Test/Test.js";
 
 export default function Home(props) {
   return (

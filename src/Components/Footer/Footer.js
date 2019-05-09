@@ -14,7 +14,7 @@ export default function Footer(props) {
     <div className="footer_wrapper">
       <div className="footer_container">
         <div className="top_container">{top_button}</div>
-        <ul className="row footer_links">
+        <ul>
           <Link to="/About" style={{ textDecoration: "none" }}>
             <li> About Us</li>
           </Link>
@@ -31,21 +31,21 @@ export default function Footer(props) {
             href="mailto:cfdirect@mycarefree.com"
             style={{ textDecoration: "none", color: "#fff" }}
           >
-            cfdirect@mycarefree.com
+            <li>Contact</li>
           </a>
         </ul>
-        <div className="row">
+        <div className="footer_cta">
           <p>Speak to a Benefit Advisor!</p>
-          <div className="row">
+          <div>
             <img className="footer_phone" src={phone} alt="phone icon" />
-            <a
-              data-replaceable-phone-dialable=""
-              className="footer_number"
-              href="tel:18558700077"
-            >
-              <span className="">1-855-870-0077</span>
-            </a>
           </div>
+          <a
+            data-replaceable-phone-dialable=""
+            className="footer_number"
+            href="tel:18558700077"
+          >
+            <span className="">1-855-870-0077</span>
+          </a>
         </div>
         <div className="social_media_wrapper">
           <Link to="/" style={{ textDecoration: "none" }}>
