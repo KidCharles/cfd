@@ -11,13 +11,13 @@ export default function Nav(props) {
   //   "https://drive.google.com/uc?export=view&id=1MxzEsrjoHWjkiLOyarVs7IvdcGwn4HSe";
   let nav_wrapper_class = "nav_wrapper";
   let items_nav = "items_nav";
-  let nav_number_scrolled = "nav_number";
+  // let nav_number_scrolled = "nav_number";
   // let logo = LogoWhite;
   let logo = logo_white;
   if (props.scrolled) {
     nav_wrapper_class = "nav_wrapper scrolled";
     items_nav = "items_nav nav_text_scrolled ";
-    nav_number_scrolled = "nav_number_scrolled";
+    // nav_number_scrolled = "nav_number_scrolled";
   }
   if (!props.scrolled) {
     logo = iconDark;
