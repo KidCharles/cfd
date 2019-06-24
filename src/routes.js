@@ -6,11 +6,10 @@ import About from "./Components/About/About";
 import Dental from './Components/Dental/Dental';
 import Vision from './Components/Vision/Vision';
 import Medicare from './Components/Medicare/Medicare';
-import Products from './Components/Products/Products';
 
 export default (
   <Switch>
-    <Route exact path="/" component={Products} />
+    <Route exact path="/" component={Home} />
     <Route path="/About" component={About} />
     <Route path="/dental" component={Dental} />
     <Route path="/vision" component={Vision} />

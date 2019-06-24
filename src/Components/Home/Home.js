@@ -4,10 +4,12 @@ import "../../App.css";
 import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
 import Button from "../Button/Button";
+import Product from "../Product/Product.js";
 
 export default function Home(props) {
   return (
     <div className="home_wrapper">
+      {/* <Product /> */}
       <Banner
         dental_kid={" "}
         btnText={"Get a Quote"}
