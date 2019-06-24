@@ -1,18 +1,14 @@
 import React from "react";
 import "./Nav.css";
 import Hamburger from "../Toolbar/ToolbarToggleButton.js";
-import icon from "../../assets/logos/Icon.svg";
-import iconDark from "../../assets/logos/CareFreeDirect_Logo_full_small.png";
-import logo_white from "../../assets/logos/logo_white.svg";
 import { Link } from "react-router-dom";
 
 export default function Nav(props) {
-  // let LogoWhite =
-  //   "https://drive.google.com/uc?export=view&id=1MxzEsrjoHWjkiLOyarVs7IvdcGwn4HSe";
   let nav_wrapper_class = "nav_wrapper";
   let items_nav = "items_nav";
-  // let nav_number_scrolled = "nav_number";
-  // let logo = LogoWhite;
+  let logo_white = "https://i.imgur.com/hpOyKyC.png";
+  let logo_dark = "https://i.imgur.com/zElzlxW.png";
+  let icon = "https://i.imgur.com/gCNeJi8.png";
   let logo = logo_white;
   if (props.scrolled) {
     nav_wrapper_class = "nav_wrapper scrolled";
@@ -20,7 +16,7 @@ export default function Nav(props) {
     // nav_number_scrolled = "nav_number_scrolled";
   }
   if (!props.scrolled) {
-    logo = iconDark;
+    logo = logo_dark;
   }
   return (
     <div className={nav_wrapper_class}>
@@ -62,9 +58,7 @@ export default function Nav(props) {
             1-855-870-0077
             {/* </a> */}
             <ul>
-              <li>
-                Licensed Benefit Advisor are available: Mon - Fri, 7 AM - 7 PM
-              </li>
+              <li>Available: Mon - Fri, 8 AM - 8 PM</li>
             </ul>
           </li>
         </ul>

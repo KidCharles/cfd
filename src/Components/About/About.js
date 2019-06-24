@@ -3,6 +3,7 @@ import "../Home/Home.css";
 import "../../App.css";
 import "./About.css";
 import logo_white from "../../assets/logos/logo_white.svg";
+import video from "../../assets/logo.mp4";
 
 // import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
@@ -14,17 +15,14 @@ export default function About(props) {
       <Banner
         title={"CAREFREE DIRECT"}
         text={
-          "We work hard to find the best health care solutions, so you don’t have to"
+          "We work hard to find the right health care solutions, so you don’t have to."
         }
         pic1={"pic1"}
       />
-      <div className="mobile_banner">
-        <img
-          src={logo_white}
-          alt="CareFree Direct Logo"
-          className="logo_white"
-        />
+      <div className="videoWrapper mobile_banner">
+        <video autoPlay="true" src={video} type="video/mp4" />
       </div>
+
       <div className="text_container">
         <h1 className="title">Why CareFree Direct?</h1>
         <p className="quote">"Health CARE, not just health insurance."</p>
@@ -41,7 +39,8 @@ export default function About(props) {
         </p>
         <br />
         <p className="large_body">
-          Established in 2017, CareFree Direct is comprised of employees who are
+          We find the right health care solution so you don’t have to.
+          Established in 2013, CareFree Direct is comprised of employees who are
           encouraged professional Brokers with a firm commitment to ethical
           business conduct. We offer quality health care from numerous companies
           within the Fortune 500 and a footprint that expands across the United
@@ -55,8 +54,9 @@ export default function About(props) {
         <br />
         <p className="large_body">
           In today’s world, you can’t just trust your health to anyone. Our
-          licensed benefit advisor will not only guide you to your ideal plan,
-          but will be your ongoing support for all your health plan needs.
+          licensed broker professionals will not only guide you to your ideal
+          plan, but they will be your ongoing support for all your health plan
+          needs.
         </p>
       </div>
       <div className="whiteSpace64" />
