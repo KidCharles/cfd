@@ -2,14 +2,15 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
-import logo from "../../assets/logos/logo_white.svg";
-import phone from "../../assets/phone.png";
-import fb from "../../assets/fb_icon.png";
-import ig from "../../assets/ig_icon.png";
-import linked from "../../assets/in_icon.png";
-
 export default function Footer(props) {
   let top_button = props.top_button;
+  let logo = "https://i.imgur.com/hpOyKyC.png";
+  let phone = "https://i.imgur.com/PhmyHS2.png";
+  let fb = "https://i.imgur.com/jOBXFmz.png";
+  let ig = "https://i.imgur.com/AfNv3Wi.png";
+  let linked = "https://i.imgur.com/1JOMbnX.png";
+  // let mail = "https://i.imgur.com/1JOMbnX.png";
+
   return (
     <div className="footer_wrapper">
       <div className="footer_container">

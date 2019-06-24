@@ -2,7 +2,6 @@ import React from "react";
 import "../Home/Home.css";
 import "../../App.css";
 import "./About.css";
-import logo_white from "../../assets/logos/logo_white.svg";
 import video from "../../assets/logo.mp4";
 
 // import Call from "../CallCTA/Callcta";

@@ -2,9 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./toolbar.css";
 
-import phone from "../../assets/phone.png";
-
 const toolbar = props => {
+  let phone = "https://i.imgur.com/PhmyHS2.png";
   let toolbarClasses = "toolbar";
   if (props.show) {
     toolbarClasses = "toolbar open";

@@ -1,11 +1,12 @@
 import React from "react";
 
-import logo from "../../assets/logos/cfd_logo_color.svg";
+// import logo from "../../assets/logos/cfd_logo_color.svg";
 
 import "./Call.css";
 import "../../App.css";
 
 export default function Callcta(props) {
+  let logo = "https://i.imgur.com/zElzlxW.png";
   let prompt = props.prompt;
   let prompt_style = "prompt";
   if (!props.prompt) {
