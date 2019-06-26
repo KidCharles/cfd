@@ -5,6 +5,14 @@
   align-items: center;
 }
 
+.full {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .large-body {
   text-align: center;
 }

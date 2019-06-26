@@ -50,7 +50,9 @@
   color: #ffffff;
 }
 
-.items_nav li:hover,
+.items_nav li:hover{
+  color: #0a9ad7;
+}
 .items_nav li:active {
   color: #df3063;
   font-weight: bold;

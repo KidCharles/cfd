@@ -9,7 +9,18 @@ import Product from "../Product/Product.js";
 export default function Home(props) {
   return (
     <div className="home_wrapper">
-      {/* <Product /> */}
+      <div className="full">
+        <h1 className="title">
+          We find the right health care solution
+          <br /> so you don’t have to.
+        </h1>
+        <p className="large_body">description</p>
+        <Product title={"Medicare Advantage"} />
+        <Product title={"Medicare Supplements"} />
+        <Product title={"Medicare Part D"} />
+        <Product title={"Individual Health"} />
+        <Product title={"Dental / Vision / Hearing"} />
+      </div>
       <Banner
         dental_kid={" "}
         btnText={"Get a Quote"}
@@ -52,7 +63,10 @@ export default function Home(props) {
         <br />
         <div className="whiteSpace64" />
       </div>
-      <Call />
+      <div className="full" >
+        <Call />
+        <Call />
+      </div>
       <div className="pic home_pic" />
     </div>
   );
