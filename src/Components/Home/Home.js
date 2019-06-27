@@ -11,10 +11,17 @@ export default function Home(props) {
     <div className="">
       <div className="layout">
         <div className="layout_text">
-          <h1>title</h1>
-          <p>text</p>
+          <h1>Find the right health care solution</h1>
+          <p>
+            Our licensed broker professionals will not only guide you to your
+            ideal plan, but they will be your ongoing support for all your
+            health plan needs.
+          </p>
         </div>
-        <div className="layout_img">image</div>
+        <div className="layout_img">
+        <div></div> 
+          <img src="https://i.imgur.com/CJfws56.png" alt="" />
+        </div>
       </div>
 
       <div className="full_container">
