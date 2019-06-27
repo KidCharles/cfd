@@ -52,6 +52,7 @@
 
 .items_nav li:hover{
   color: #0a9ad7;
+  cursor: pointer;
 }
 .items_nav li:active {
   color: #df3063;
