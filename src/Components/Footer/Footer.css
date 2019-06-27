@@ -97,7 +97,10 @@
   .footer_container li {
     width: 8em;
   }
-  .footer_container li:hover,
+  .footer_container li:hover{
+    color: #0a9ad7;
+  }
+
   .footer_container li:active {
     color: #df3063;
     font-weight: bold;
