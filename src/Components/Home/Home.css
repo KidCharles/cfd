@@ -4,15 +4,34 @@
   flex-direction: column;
   align-items: center;
 }
+.full_container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.full_title {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: left;
+  line-height: 48px;
+  margin: 36px 36px 0px 36px;
+  color: #004869;
+  text-align: left;
+}
+.full_body {
+  font-size: 20px;
+  text-indent: 52px;
+  line-height: 40px;
+  margin: 0px 36px;
+}
 
-.full {
+.products_container {
   width: 100vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .large-body {
   text-align: center;
 }
@@ -30,19 +49,9 @@
   align-items: center;
 }
 
-.home_pic {
-  background-image: url("../../assets/photo2.jpg");
-}
-.pic2 {
-  background-image: url("../../assets/vision.jpg");
-}
-.smile {
-  background-image: url("../../assets/smile.jpg");
-}
-
 @media (min-width: 769px) {
   .home_wrapper {
-    width: 72vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
