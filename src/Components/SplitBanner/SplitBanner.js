@@ -15,12 +15,12 @@ export default function SplitBanner(props) {
         </div>
         <div className="layout_img">
           <div />
-          <a
+          {/* <a
             data-replaceable-phone-dialable=""
             href="tel:18558700077"
-          >
+          > */}
             <img src="https://i.imgur.com/CJfws56.png" alt="Phone graphic" />
-          </a>
+          {/* </a> */}
         </div>
       </div>
     </div>
