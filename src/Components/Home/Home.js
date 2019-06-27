@@ -9,15 +9,19 @@ import Product from "../Product/Product.js";
 export default function Home(props) {
   return (
     <div className="">
+      <div className="layout">
+        <div className="layout_text">
+          <h1>title</h1>
+          <p>text</p>
+        </div>
+        <div className="layout_img">image</div>
+      </div>
+
       <div className="full_container">
-        <h1 className="full_title">
-          We find the right health care solution
-          <br /> so you don’t have to.
-        </h1>
+        <h1 className="full_title">We find the right health care solution</h1>
         <p className="full_body">
-          We are devoted to ensure that you receive proper care by providing a
-          health plan to suit your budget while fulfilling your health care
-          needs.
+          Find a health plan to suit your budget while fulfilling your health
+          care needs.
         </p>
         <div className="products_container">
           <Product title={"Medicare Advantage"} />
