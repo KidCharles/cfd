@@ -1,5 +1,5 @@
 .card {
-  width: 200px;
+  width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   display: flex;
@@ -45,5 +45,9 @@
   color: #e03063;
 }
 @media (min-width: 769px) {
+
+  .card {
+    width: 200px;
+  }
 
 }

@@ -11,7 +11,7 @@ export default function Home(props) {
     <div className="">
       <div className="layout">
         <div className="layout_text">
-          <h1>Find the right health care solution</h1>
+          <h1>Find the right health care solutions</h1>
           <p>
             Our licensed broker professionals will not only guide you to your
             ideal plan, but they will be your ongoing support for all your
@@ -25,7 +25,7 @@ export default function Home(props) {
       </div>
 
       <div className="full_container">
-        <h1 className="full_title">We find the right health care solution</h1>
+        <h1 className="full_title">We find the right health care solutions</h1>
         <p className="full_body">
           Find a health plan to suit your budget while fulfilling your health
           care needs.
