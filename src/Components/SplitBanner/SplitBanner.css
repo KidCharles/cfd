@@ -65,4 +65,8 @@
   .layout_img img {
     width: 350px;
   }
+  .layout_img img:hover {
+    cursor: pointer;
+    width: 352px;
+  }
 }

@@ -4,6 +4,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; 
+  background-image: linear-gradient(#8ac03f00, #3399cc9c);
+  padding: 24px 0px;
 }
 .card {
   width: 300px;
@@ -14,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
   transition: 0.3s;
-  margin: 20px;
+  margin: 4px;
   background-color: #FFF;
 }
 
@@ -24,6 +26,7 @@
 }
 .card img {
   width: 100%;
+  display: none;
   justify-content: flex-start;
   border-radius: 4px 4px 0 0;
 }
@@ -32,13 +35,13 @@
   text-align: center;
 }
 .container h1 {
-  padding: 12px;
+  padding: 6px;
   font-weight: 700;
   letter-spacing: 1px;
 }
 .container p {
   color: #939598;
-  padding-bottom: 36px;
+  padding-bottom: 12px;
 }
 
 .card:hover {
@@ -53,13 +56,25 @@
 }
 
 .learnMore_container{
-  
+
 }
 
 @media (min-width: 769px) {
 
   .card {
     width: 200px;
+    margin: 20px;
+    padding: 0px;
+  }
+
+  .card img{
+    display: flex;
+  }
+  .container h1 {
+    padding: 12px;
+  }
+  .container p {
+    padding-bottom: 36px;
   }
 
 }

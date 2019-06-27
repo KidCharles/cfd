@@ -9,14 +9,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .full_title {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 900;
   text-align: left;
   line-height: 48px;
-  padding: 36px;
+  padding: 48px 36px 12px 36px;
   color: #004869;
 }
 .full_body {
@@ -49,7 +50,6 @@
   align-items: center;
 }
 
-
 @media (min-width: 769px) {
   .home_wrapper {
     width: 100vw;
@@ -62,5 +62,11 @@
   }
   .pic {
     height: 500px;
+  }
+  .full_title {
+    font-size: 36px;
+  }
+  .full_body {
+    margin-bottom: 24px;
   }
 }

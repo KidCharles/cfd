@@ -60,7 +60,7 @@
 }
 
 .scrolled {
-  background-color: #00486b;
+  /* background-color: #00486b; */
   background-image: linear-gradient(to bottom right, #00324e, #044e74);
 }
 

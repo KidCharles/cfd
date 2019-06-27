@@ -18,7 +18,7 @@ export default function Home(props) {
           care needs.
         </p>
         <div className="products_container">
-          <Product/>
+          <Product />
         </div>
       </div>
       <Banner
@@ -67,7 +67,6 @@ export default function Home(props) {
           <div className="whiteSpace64" />
         </div>
         <div className="full">
-          <Call />
           <Call />
         </div>
         <div className="pic home_pic" />
