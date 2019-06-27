@@ -3,8 +3,8 @@ import "./Product.css";
 
 export default function Products(props) {
   let title = props.title;
-  let pic = props.pic;
-  let route = props.route;
+  // let pic = props.pic;
+  // let route = props.route;
   
   return (
     <div className="card">

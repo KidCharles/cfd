@@ -43,7 +43,7 @@ class App extends Component {
     const tesNode = ReactDOM.findDOMNode(this.refs[e]);
     window.scrollTo({ top: tesNode.offsetTop, behavior: "smooth" });
   }
-  toTop =()=> {
+  toTop = () => {
     this.handleScrollToElement("nav");
   };
 
@@ -63,16 +63,7 @@ class App extends Component {
         <Toolbar show={this.state.toolbarOpen} />
         {backdrop}
         {router}
-        <Footer
-          top_button={
-            <span
-              className="top_button"
-              onClick={() => this.handleScrollToElement("nav")}
-            >
-              top
-            </span>
-          }
-        />
+        <Footer to_top={this.toTop} />
       </div>
     );
   }

@@ -3,7 +3,6 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 
 export default function Footer(props) {
-  let top_button = props.top_button;
   let logo = "https://i.imgur.com/hpOyKyC.png";
   let phone = "https://i.imgur.com/PhmyHS2.png";
   let fb = "https://i.imgur.com/jOBXFmz.png";
@@ -14,18 +13,17 @@ export default function Footer(props) {
   return (
     <div className="footer_wrapper">
       <div className="footer_container">
-        <div className="top_container">{top_button}</div>
         <ul>
           <Link to="/About" style={{ textDecoration: "none" }}>
-            <li> About Us</li>
+            <li onClick={() => props.to_top()}> About Us</li>
           </Link>
           <span>|</span>
           <Link to="/dental" style={{ textDecoration: "none" }}>
-            <li>Dental</li>
+            <li onClick={() => props.to_top()}>Dental</li>
           </Link>
           <span>|</span>
           <Link to="/vision" style={{ textDecoration: "none" }}>
-            <li>Vision</li>
+            <li onClick={() => props.to_top()}>Vision</li>
           </Link>
           <span>|</span>
           <a
@@ -54,6 +52,7 @@ export default function Footer(props) {
               className="footer_logo"
               src={logo}
               alt="Carefree Direct Logo"
+              onClick={() => props.to_top()}
             />
           </Link>
           <div>
