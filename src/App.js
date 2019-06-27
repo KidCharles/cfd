@@ -43,6 +43,10 @@ class App extends Component {
     const tesNode = ReactDOM.findDOMNode(this.refs[e]);
     window.scrollTo({ top: tesNode.offsetTop, behavior: "smooth" });
   }
+  toTop =()=> {
+    this.handleScrollToElement("nav");
+  };
+
   render() {
     let backdrop;
     if (this.state.toolbarOpen) {
@@ -53,6 +57,7 @@ class App extends Component {
         <Nav
           toolbarToggleClickHandler={this.toolbarToggleClickHandler}
           scrolled={this.state.scrolled}
+          to_top={this.toTop}
         />
         <div id="nav" />
         <Toolbar show={this.state.toolbarOpen} />

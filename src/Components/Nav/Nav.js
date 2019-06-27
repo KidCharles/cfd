@@ -29,7 +29,7 @@ export default function Nav(props) {
           />
         </Link>
         <Link to="/">
-          <img src={logo} alt="CareFree Direct Logo" className="cfd_logo" />
+          <img src={logo} alt="CareFree Direct Logo" className="cfd_logo" onClick={()=> props.to_top()} />
         </Link>
       </div>
       <div className="hamburger">
@@ -38,16 +38,16 @@ export default function Nav(props) {
       <div className={items_nav}>
         <ul>
           <Link to="/dental" style={{ textDecoration: "none" }}>
-            <li>Dental</li>
+            <li onClick={()=> props.to_top()}>Dental</li>
           </Link>
           <Link to="/vision" style={{ textDecoration: "none" }}>
-            <li>Vision</li>
+            <li onClick={()=> props.to_top()}>Vision</li>
           </Link>
           <Link to="/medicare" style={{ textDecoration: "none" }}>
-            <li>Medicare</li>
+            <li onClick={()=> props.to_top()}>Medicare</li>
           </Link>
           <Link to="/About" style={{ textDecoration: "none" }}>
-            <li>About</li>
+            <li onClick={()=> props.to_top()}>About</li>
           </Link>
           <li>
             {/* <a
