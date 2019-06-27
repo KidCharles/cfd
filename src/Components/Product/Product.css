@@ -1,3 +1,10 @@
+.card_container{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
 .card {
   width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -44,6 +51,11 @@
 .container p:active {
   color: #e03063;
 }
+
+.learnMore_container{
+  
+}
+
 @media (min-width: 769px) {
 
   .card {

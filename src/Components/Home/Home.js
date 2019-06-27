@@ -18,11 +18,7 @@ export default function Home(props) {
           care needs.
         </p>
         <div className="products_container">
-          <Product title={"Medicare Advantage"} />
-          <Product title={"Medicare Supplements"} />
-          <Product title={"Medicare Part D"} />
-          <Product title={"Individual Health"} />
-          <Product title={"Dental / Vision / Hearing"} />
+          <Product/>
         </div>
       </div>
       <Banner
