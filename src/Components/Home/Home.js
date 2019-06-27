@@ -5,25 +5,12 @@ import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
 import Button from "../Button/Button";
 import Product from "../Product/Product.js";
+import Split from "../SplitBanner/SplitBanner.js";
 
 export default function Home(props) {
   return (
     <div className="">
-      <div className="layout">
-        <div className="layout_text">
-          <h1>Find the right health care solutions</h1>
-          <p>
-            Our licensed broker professionals will not only guide you to your
-            ideal plan, but they will be your ongoing support for all your
-            health plan needs.
-          </p>
-        </div>
-        <div className="layout_img">
-        <div></div> 
-          <img src="https://i.imgur.com/CJfws56.png" alt="" />
-        </div>
-      </div>
-
+      <Split />
       <div className="full_container">
         <h1 className="full_title">We find the right health care solutions</h1>
         <p className="full_body">
