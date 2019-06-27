@@ -16,10 +16,10 @@ export default function Home(props) {
         </h1>
         <p className="large_body">description</p>
         <Product title={"Medicare Advantage"} />
-        <Product title={"Medicare Supplements"} />
+        {/* <Product title={"Medicare Supplements"} />
         <Product title={"Medicare Part D"} />
         <Product title={"Individual Health"} />
-        <Product title={"Dental / Vision / Hearing"} />
+        <Product title={"Dental / Vision / Hearing"} /> */}
       </div>
       <Banner
         dental_kid={" "}
