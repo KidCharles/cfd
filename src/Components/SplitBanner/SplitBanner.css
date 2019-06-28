@@ -1,6 +1,6 @@
 .layout {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   box-shadow: 0 -12px 12px 12px #00324e;
@@ -8,7 +8,7 @@
 
 .layout_text {
   width: 100vw;
-  height: 45vh;
+  height: 36vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -32,7 +32,7 @@
 }
 .layout_img {
   width: 100vw;
-  height: 45vh;
+  height: 36vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,6 +49,7 @@
     flex-direction: row;
   }
   .layout_text {
+    height: 45vh;
     width: 50vw;
     padding: 0;
   }
@@ -60,6 +61,7 @@
     width: 60%;
   }
   .layout_img {
+    height: 45vh;
     width: 50vw;
   }
   .layout_img img {
