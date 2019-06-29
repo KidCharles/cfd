@@ -34,6 +34,17 @@ export default function Footer(props) {
           </a>
         </ul>
         <div className="footer_cta">
+          <ul>
+            <Link to="/termsPrivacy" style={{ textDecoration: "none" }}>
+              <li onClick={() => props.to_top()}> Terms of Use</li>
+            </Link>
+            <span>|</span>
+            <Link to="/termsPrivacy" style={{ textDecoration: "none" }}>
+              <li onClick={() => props.to_top()}>Privacy Policy</li>
+            </Link>
+          </ul>
+        </div>
+        <div className="footer_cta">
           <p>Speak to a Benefit Advisor!</p>
           <div>
             <img className="footer_phone" src={phone} alt="phone icon" />

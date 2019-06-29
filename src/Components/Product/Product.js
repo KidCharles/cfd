@@ -42,35 +42,35 @@ class Products extends Component {
       <div>
         <div className="card_container">
           <div className="card" onClick={this.changeCard0}>
-            <img src="https://i.imgur.com/DNkikUV.jpg" alt="" />
+            <img src="https://i.imgur.com/SVIzihJ.jpg" alt="" />
             <div className="container">
               <h1>Medicare Advantage</h1>
               <p>Learn More</p>
             </div>
           </div>
           <div className="card" onClick={this.changeCard1}>
-            <img src="https://i.imgur.com/rmWiv5W.png" alt="" />
+            <img src="https://i.imgur.com/TKd7BfV.jpg" alt="" />
             <div className="container">
               <h1>Medicare Supplements</h1>
               <p>Learn More</p>
             </div>
           </div>
           <div className="card" onClick={this.changeCard2}>
-            <img src="https://i.imgur.com/Wa21EPT.png" alt="" />
+            <img src="https://i.imgur.com/p6miqu2.jpg" alt="" />
             <div className="container">
               <h1>Medicare Part D</h1>
               <p>Learn More</p>
             </div>
           </div>
           <div className="card" onClick={this.changeCard3}>
-            <img src="https://i.imgur.com/DNkikUV.jpg" alt="" />
+            <img src="https://i.imgur.com/o3zl3Ar.jpg" alt="" />
             <div className="container">
               <h1>Individual Health</h1>
               <p>Learn More</p>
             </div>
           </div>
           <div className="card" onClick={this.changeCard4}>
-            <img src="https://i.imgur.com/DNkikUV.jpg" alt="" />
+            <img src="https://i.imgur.com/O674mGb.jpg" alt="" />
             <div className="container">
               <h1>Dental / Vision / Hearing</h1>
               <p>Learn More</p>
@@ -78,7 +78,7 @@ class Products extends Component {
           </div>
         </div>
         <div className="learnMore_container">
-          <h1>{this.state.titles[this.state.clicked]}</h1>
+          <h1 className="learnMoreTitle">{this.state.titles[this.state.clicked]}</h1>
           <p>{this.state.descriptions[this.state.clicked]}</p>
         </div>
       </div>
