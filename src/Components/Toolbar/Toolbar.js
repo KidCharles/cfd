@@ -10,23 +10,33 @@ const toolbar = props => {
   }
   return (
     <nav className={toolbarClasses}>
-      <div className="toolbar_container">
+      <div className="toolbar_container" onClick={props.backdropClickHandler}>
         <div>
           <ul>
             <Link to="/About" style={{ textDecoration: "none" }}>
-              <li className="toolbar_item">About</li>
+              <li className="toolbar_item" onClick={() => props.to_top()}>
+                About
+              </li>
             </Link>
             <Link to="/dental" style={{ textDecoration: "none" }}>
-              <li className="toolbar_item">Dental</li>
+              <li className="toolbar_item" onClick={() => props.to_top()}>
+                Dental
+              </li>
             </Link>
             <Link to="/vision" style={{ textDecoration: "none" }}>
-              <li className="toolbar_item">Vision</li>
+              <li className="toolbar_item" onClick={() => props.to_top()}>
+                Vision
+              </li>
             </Link>
             <Link to="/medicare" style={{ textDecoration: "none" }}>
-              <li className="toolbar_item">Medicare</li>
+              <li className="toolbar_item" onClick={() => props.to_top()}>
+                Medicare
+              </li>
             </Link>
             <Link to="/" style={{ textDecoration: "none" }}>
-              <li className="toolbar_item">Home</li>
+              <li className="toolbar_item" onClick={() => props.to_top()}>
+                Home
+              </li>
             </Link>
           </ul>
         </div>

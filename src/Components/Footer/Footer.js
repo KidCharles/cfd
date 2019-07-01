@@ -33,7 +33,7 @@ export default function Footer(props) {
             <li>Contact</li>
           </a>
         </ul>
-        <div className="footer_cta">
+        <div className="">
           <ul>
             <Link to="/termsPrivacy" style={{ textDecoration: "none" }}>
               <li onClick={() => props.to_top()}> Terms of Use</li>
@@ -42,6 +42,13 @@ export default function Footer(props) {
             <Link to="/termsPrivacy" style={{ textDecoration: "none" }}>
               <li onClick={() => props.to_top()}>Privacy Policy</li>
             </Link>
+            <span>|</span>
+            <a
+              href="mailto:cfdirect@mycarefree.com"
+              style={{ textDecoration: "none", color: "#fff" }}
+            >
+              <li>Careers</li>
+            </a>
           </ul>
         </div>
         <div className="footer_cta">

@@ -60,7 +60,7 @@ class App extends Component {
           to_top={this.toTop}
         />
         <div id="nav" />
-        <Toolbar show={this.state.toolbarOpen} />
+        <Toolbar show={this.state.toolbarOpen} backdropClickHandler={this.backdropClickHandler} to_top={this.toTop}/>
         {backdrop}
         {router}
         <Footer to_top={this.toTop} />
