@@ -22,19 +22,39 @@ class Products extends Component {
   };
 
   changeCard0 = e => {
-    this.setState({ clicked: 0 });
+    if (this.state.clicked !== 0) {
+      this.setState({ clicked: 0 });
+    } else if (this.state.clicked === 0) {
+      this.setState({ clicked: "" });
+    }
   };
   changeCard1 = e => {
-    this.setState({ clicked: 1 });
+    if (this.state.clicked !== 1) {
+      this.setState({ clicked: 1 });
+    } else if (this.state.clicked === 1) {
+      this.setState({ clicked: "" });
+    }
   };
   changeCard2 = e => {
-    this.setState({ clicked: 2 });
+    if (this.state.clicked !== 2) {
+      this.setState({ clicked: 2 });
+    } else if (this.state.clicked === 2) {
+      this.setState({ clicked: "" });
+    }
   };
   changeCard3 = e => {
-    this.setState({ clicked: 3 });
+    if (this.state.clicked !== 3) {
+      this.setState({ clicked: 3 });
+    } else if (this.state.clicked === 3) {
+      this.setState({ clicked: "" });
+    }
   };
   changeCard4 = e => {
-    this.setState({ clicked: 4 });
+    if (this.state.clicked !== 4) {
+      this.setState({ clicked: 4 });
+    } else if (this.state.clicked === 4) {
+      this.setState({ clicked: "" });
+    }
   };
 
   render() {
@@ -78,7 +98,9 @@ class Products extends Component {
           </div>
         </div>
         <div className="learnMore_container">
-          <h1 className="learnMoreTitle">{this.state.titles[this.state.clicked]}</h1>
+          <h1 className="learnMoreTitle">
+            {this.state.titles[this.state.clicked]}
+          </h1>
           <p>{this.state.descriptions[this.state.clicked]}</p>
         </div>
       </div>

@@ -1,9 +1,11 @@
 .bannerWrapper {
-  background-color: #3399cc;
   height: 500px;
   width: 100vw;
+  background-color: #3399cc;
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
