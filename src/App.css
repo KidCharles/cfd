@@ -25,7 +25,6 @@
   width: 100%;
   font-size: 16px;
   line-height: 40px;
-  text-indent: 36px;
   animation: large_body 1.5s ease-out 0s 1;
 }
 
@@ -114,7 +113,6 @@
   }
   .large_body {
     font-size: 20px;
-    text-indent: 52px;
   }
   .banner {
     width: 64vw;

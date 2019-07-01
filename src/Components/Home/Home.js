@@ -12,9 +12,9 @@ export default function Home(props) {
     <div className="">
       <Split />
       <div className="full_container">
-        <h1 className="full_title">We find the right health care solutions</h1>
+        <h1 className="full_title">Why CareFree Direct?</h1>
         <p className="full_body">
-          Find a health plan to suit your budget while fulfilling your health
+        We find the right health care solutions. Find a health plan to suit your budget while fulfilling your health
           care needs.
         </p>
         <div className="products_container">

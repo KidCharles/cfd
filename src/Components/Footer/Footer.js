@@ -8,7 +8,7 @@ export default function Footer(props) {
   let fb = "https://i.imgur.com/jOBXFmz.png";
   let ig = "https://i.imgur.com/AfNv3Wi.png";
   let linked = "https://i.imgur.com/1JOMbnX.png";
-  // let mail = "https://i.imgur.com/1JOMbnX.png";
+  let mail = "https://i.imgur.com/k4uSafY.png";
 
   return (
     <div className="footer_wrapper">
@@ -52,7 +52,7 @@ export default function Footer(props) {
           </ul>
         </div>
         <div className="footer_cta">
-          <p>Speak to a Benefit Advisor!</p>
+          <p>Speak to a Licensed Benefits Advisor!</p>
           <div>
             <img className="footer_phone" src={phone} alt="phone icon" />
           </div>
@@ -95,10 +95,16 @@ export default function Footer(props) {
             >
               <img className="social_media_icon" src={linked} alt="" />
             </a>
+            <a
+            href="mailto:cfdirect@mycarefree.com"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+              <img className="social_media_icon" src={mail} alt="" />
+            </a>
           </div>
         </div>
         <p className="footer_copyright">
-          © CareFree Direct All Rights Reserved.
+          ©2019 CareFree Direct All Rights Reserved.
         </p>
       </div>
     </div>
