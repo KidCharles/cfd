@@ -45,31 +45,12 @@ export default function Home(props) {
             text={"Get A Quote"}
           />
           <div className="whiteSpace48" />
-          <p className="large_body">
-            This is the information on why you want to click the link below.
-            After reading this you wont be able to refuse. This is the
-            information on why you want to click the link below. After reading
-            this you wont be able to refuse.This is the information on why you
-            want to click the link below. After reading this you wont be able to
-            refuse.
-          </p>
-          <br />
-          <p className="large_body ">
-            This is the information on why you want to click the link below.
-            After reading this you wont be able to refuse.This is the
-            information on why you want to click the link below. After reading
-            this you wont be able to refuse.This is the information on why you
-            want to click the link below. After reading this you wont be able to
-            refuse.This is the information on why you want to click the link
-            below. After reading this you wont be able to refuse.
-          </p>
-          <br />
-          <div className="whiteSpace64" />
         </div>
         <div className="full">
           <Call />
         </div>
-        <div className="pic home_pic" />
+        <div className="pic">
+        </div> 
       </div>
     </div>
   );

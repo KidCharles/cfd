@@ -39,15 +39,18 @@
 
 .pic {
   width: 100vw;
-  height: 400px;
+  height: 200px;
+  background-image: url("https://i.imgur.com/nENeKza.jpg");
   background-color: #3399cc;
-  background-position: center; /* Center the image */
+  background-position: center;
   background-size: cover;
+  overflow: hidden;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: -100;
 }
 
 @media (min-width: 769px) {
@@ -61,7 +64,7 @@
     text-align: center;
   }
   .pic {
-    height: 500px;
+    height: 400px;
   }
   .full_title {
     font-size: 36px;

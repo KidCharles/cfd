@@ -6,6 +6,7 @@ import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
 import Button from "../Button/Button";
 
+
 export default function About(props) {
   return (
     <div className="home_wrapper">
