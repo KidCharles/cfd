@@ -1,4 +1,5 @@
-.career_wrapper {
+.careers_wrapper {
+  padding: 0px;
 }
 
 .split_container {
@@ -7,7 +8,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* background-image: radial-gradient(#004869, #00324e); */
 }
 
 .split_container div {
@@ -43,9 +43,12 @@
 }
 
 @media (min-width: 769px) {
+  .careers_wrapper {
+    padding: 40px 0px;
+  }
   .split_container {
     flex-direction: row;
-    width: 90vw;
+    width: 1080px;
   }
 
   .split_container div {

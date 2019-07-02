@@ -28,6 +28,15 @@ export default function Careers(props) {
           </p>
         </div>
       </div>
+      <div className="split_container">
+        <div>
+          <h1>Teamwork Culture</h1>
+          <p>We work together to reach our goals.</p>
+        </div>
+        <div>
+          <img src="https://i.imgur.com/Cr9Y4Jj.jpg" alt="agent" />
+        </div>
+      </div>
     </div>
   );
 }
