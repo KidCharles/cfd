@@ -39,8 +39,15 @@
   align-items: center;
   /* background-color: #3399cc;   */
   background-image: radial-gradient(#0cb6f2, #0c8dba);
+  overflow: hidden;
 }
 .layout_img img {
+  width: 300px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.layout_img img:hover {
   width: 300px;
 }
 
@@ -68,7 +75,6 @@
     width: 350px;
   }
   .layout_img img:hover {
-    cursor: pointer;
     width: 352px;
   }
 }

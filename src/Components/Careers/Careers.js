@@ -1,5 +1,6 @@
 import React from "react";
 import "./careers.css";
+import Button from "../Button/Button";
 
 export default function Careers(props) {
   return (
@@ -8,6 +9,12 @@ export default function Careers(props) {
         <div>
           <h1>Intersted in Joing the CFD Family?</h1>
           <p> then do this thing</p>
+          <a
+            href="mailto:careers@mycarefree.com"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+            <span className="button">Email us</span>
+          </a>
         </div>
         <div>
           <img src="https://i.imgur.com/04PbaMu.jpg" alt="agent" />

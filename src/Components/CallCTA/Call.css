@@ -1,10 +1,11 @@
 .call_wrapper {
-  background-color: rgb(239, 240, 241);
+  background-color: rgba(239, 240, 241, 0.103);
   padding: 24px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 0 5px 0 #ccc;
+  /* background-image: linear-gradient(#0a9ad700, #0a9ad777); */
 }
 .call_contianer {
   padding: 24px;

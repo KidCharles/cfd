@@ -1,9 +1,9 @@
-.card_container{
+.card_container {
   width: 100vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
   background-image: linear-gradient(#8ac03f00, #3399cc9c);
   padding: 24px 0px;
 }
@@ -17,12 +17,12 @@
   justify-content: space-between;
   transition: 0.3s;
   margin: 4px;
-  background-color: #FFF;
+  background-color: #fff;
+  overflow: hidden;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.418);
-
 }
 .card img {
   width: 100%;
@@ -55,39 +55,44 @@
   color: #e03063;
 }
 
-.learnMore_container{
+.learnMore_container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-image: radial-gradient(#004869, #00324e);
 }
-.learnMore_container h1{
+.learnMore_container h1 {
   font-size: 36px;
   font-weight: 900;
   color: #fff;
   width: 80%;
   line-height: 48px;
-  padding: 0px 24px;
+  padding-top: 20px;
 }
 .learnMore_container p {
   font-size: 18px;
   color: #b6e7ff;
   width: 80%;
   line-height: 32px;
-  padding: 0px 24px;
+  padding: 20px 24px;
+}
+.card img:hover {
+  width: 102%;
+  transition: 0.2s ease-in;
 }
 
 @media (min-width: 769px) {
-
   .card {
     width: 200px;
     margin: 20px;
     padding: 0px;
   }
 
-  .card img{
+  .card img {
     display: flex;
+    /* width: 200px; */
+    height: 200px;
   }
   .container h1 {
     padding: 12px;
@@ -96,13 +101,8 @@
     padding-bottom: 36px;
   }
 
-  .learnMore_container h1{
-   
+  .learnMore_container h1 {
   }
   .learnMore_container p {
-  
   }
-
- 
-
 }

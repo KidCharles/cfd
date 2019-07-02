@@ -42,6 +42,19 @@
   line-height: 32px;
 }
 
+.split_container a{
+  padding: 20px 0px;
+}
+.split_container span{
+  width: 80vw;
+}
+
+.split_container img:hover {
+  width: 51vw;
+  transition: width 0.2s ease-in-out;
+  
+}
+
 @media (min-width: 769px) {
   .careers_wrapper {
     padding: 40px 0px;

@@ -44,7 +44,7 @@ export default function Footer(props) {
             </Link>
             <span>|</span>
             <Link to="/careers" style={{ textDecoration: "none" }}>
-              <li>Careers</li>
+              <li onClick={() => props.to_top()}>Careers</li>
             </Link>
           </ul>
         </div>

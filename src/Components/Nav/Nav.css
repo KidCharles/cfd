@@ -10,6 +10,7 @@
   transition-duration: 200ms;
   transition-property: background-color;
   box-shadow: 0 0 8px 0 rgba(37, 37, 37, 0.589);
+  z-index: 100;
 }
 
 .hamburger {
