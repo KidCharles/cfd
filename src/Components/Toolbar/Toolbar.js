@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./toolbar.css";
+import "../Button/button.css";
 
 const toolbar = props => {
   let phone = "https://i.imgur.com/PhmyHS2.png";
@@ -41,13 +42,13 @@ const toolbar = props => {
           </ul>
         </div>
         <div className="call_toolbar">
-          <img src={phone} alt="phone icon" className="phone_icon" />
+          {/* <img src={phone} alt="phone icon" className="phone_icon" /> */}
           <a
             data-replaceable-phone-dialable=""
             className="toolbar_item"
             href="tel:8558700077"
           >
-            <span className="">1-855-870-0077</span>
+            <span className="button">Call Now</span>
           </a>
         </div>
       </div>

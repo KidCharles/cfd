@@ -14,8 +14,8 @@ export default function Home(props) {
       <div className="full_container">
         <h1 className="full_title">Why CareFree Direct?</h1>
         <p className="full_body">
-        We find the right health care solutions. Find a health plan to suit your budget while fulfilling your health
-          care needs.
+          We find the right health care solutions. Find a health plan to suit
+          your budget while fulfilling your health care needs.
         </p>
         <div className="products_container">
           <Product />
@@ -50,7 +50,8 @@ export default function Home(props) {
           <Call />
         </div>
         <div className="pic">
-        </div> 
+          <img src="https://i.imgur.com/sOLYWB1.png" alt="CFD logo overlay" />
+        </div>
       </div>
     </div>
   );

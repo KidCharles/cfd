@@ -1,7 +1,7 @@
 import React from "react";
 import "./Terms.css";
 
-export default function Home(props) {
+export default function Terms(props) {
   return (
     <div className="termsWrapper">
       <div>

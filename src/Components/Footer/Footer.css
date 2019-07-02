@@ -69,8 +69,8 @@
   padding: 20px 20px;
 }
 .social_media_icon {
-  width: 44px;
-  padding: 0px 12px;
+  width: 24px;
+  padding: 0px 8px;
 }
 
 .social_media_icon:hover {
@@ -85,6 +85,8 @@
 .footer_copyright {
   padding-top: 24px;
 }
+
+
 @media (min-width: 769px) {
   .footer_wrapper {
     overflow: hidden;

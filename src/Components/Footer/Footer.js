@@ -96,9 +96,9 @@ export default function Footer(props) {
               <img className="social_media_icon" src={linked} alt="" />
             </a>
             <a
-            href="mailto:cfdirect@mycarefree.com"
-            style={{ textDecoration: "none", color: "#fff" }}
-          >
+              href="mailto:cfdirect@mycarefree.com"
+              style={{ textDecoration: "none", color: "#fff" }}
+            >
               <img className="social_media_icon" src={mail} alt="" />
             </a>
           </div>

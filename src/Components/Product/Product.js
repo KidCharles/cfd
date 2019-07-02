@@ -82,13 +82,13 @@ class Products extends Component {
               <p>Learn More</p>
             </div>
           </div>
-          <div className="card" onClick={this.changeCard3}>
+          {/* <div className="card" onClick={this.changeCard3}>
             <img src="https://i.imgur.com/o3zl3Ar.jpg" alt="" />
             <div className="container">
               <h1>Individual Health</h1>
               <p>Learn More</p>
             </div>
-          </div>
+          </div> */}
           <div className="card" onClick={this.changeCard4}>
             <img src="https://i.imgur.com/O674mGb.jpg" alt="" />
             <div className="container">

@@ -53,6 +53,11 @@
   z-index: -100;
 }
 
+.pic img {
+  width: 28vw;
+  opacity: 0.5;
+}
+
 @media (min-width: 769px) {
   .home_wrapper {
     width: 100vw;

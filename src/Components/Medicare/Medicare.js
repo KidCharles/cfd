@@ -6,19 +6,18 @@ import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
 import Product from "../Product/Product.js";
 
-
 // import Button from "../Button/Button";
 
 export default function About(props) {
   return (
     <div>
-  <div className="products_container">
-          <Product />
-        </div>
-    <div className="home_wrapper">
+      <div className="products_container">
+        <Product />
+      </div>
+      <div className="home_wrapper">
         <Banner
-          title={"Medicare Page"}
-          text={"Medicare Prompt"}
+          title={"Medicare Coverage Options"}
+          text={"Get more than basic Medicare"}
           btnText={"Medicare Button"}
           medical={"medical"}
         />
