@@ -1,0 +1,59 @@
+.career_wrapper {
+}
+
+.split_container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* background-image: radial-gradient(#004869, #00324e); */
+}
+
+.split_container div {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.reverse {
+  flex-direction: column-reverse;
+}
+.split_container img {
+  background-color: #3399cc;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  width: 120vw;
+}
+.split_container h1 {
+  font-size: 36px;
+  font-weight: 900;
+  width: 80%;
+  line-height: 48px;
+  color: #004869;
+}
+.split_container p {
+  font-size: 18px;
+  width: 80%;
+  line-height: 32px;
+}
+
+@media (min-width: 769px) {
+  .split_container {
+    flex-direction: row;
+    width: 90vw;
+  }
+
+  .split_container div {
+    width: 48vw;
+    height: 400px;
+  }
+  .split_container img {
+    height: initial;
+    width: 50vw;
+  }
+}

@@ -7,6 +7,7 @@ import Dental from "./Components/Dental/Dental";
 import Vision from "./Components/Vision/Vision";
 import Medicare from "./Components/Medicare/Medicare";
 import Terms from "./Components/Terms/Terms";
+import Careers from "./Components/Careers/Careers";
 
 export default (
   <Switch>
@@ -16,5 +17,6 @@ export default (
     <Route path="/vision" component={Vision} />
     <Route path="/medicare" component={Medicare} />
     <Route path="/termsPrivacy" component={Terms} />
+    <Route path="/careers" component={Careers} />
   </Switch>
 );
