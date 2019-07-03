@@ -20,10 +20,7 @@ export default function SplitBanner(props) {
             data-replaceable-phone-dialable=""
             href="tel:18558700077"
           > */}
-          <img
-            src="https://i.imgur.com/CJfws56.png"
-            alt="Phone graphic"
-          />
+          <img src="https://i.imgur.com/CJfws56.png" alt="Phone graphic" />
           {/* </a> */}
         </div>
       </div>

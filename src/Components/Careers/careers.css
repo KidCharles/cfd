@@ -46,7 +46,7 @@
   padding: 20px 0px;
 }
 .split_container span{
-  width: 80vw;
+  width: 69vw;
 }
 
 .split_container img:hover {
@@ -71,5 +71,8 @@
   .split_container img {
     height: initial;
     width: 50vw;
+  }
+  .split_container span{
+    width: initial;
   }
 }
