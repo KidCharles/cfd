@@ -60,7 +60,7 @@
   /* font-weight: bold; */
 }
 
-.navNumber{
+.navNumber {
   font-weight: 900;
   font-size: 20px;
 }
@@ -108,18 +108,22 @@
   }
   .items_nav ul li ul {
     position: absolute;
-    display: none;
+    display: block;
     background-color: #df3063;
     width: 50vw;
-    right: -40px;
+    right: -2000px;
     top: 48px;
     border-radius: 0px 0px 4px 40px;
+    transition: 0.1s ease-in;
+    z-index: -100;
   }
   .items_nav ul li:hover ul {
-    display: block;
+    /* display: block; */
+    right: -40px;
+    transition: 0.2s ease-in;
   }
   .items_nav ul li ul li {
-    padding: 12px 0px;
+    padding: 18px 0px;
     text-align: center;
     color: #ffffff;
   }

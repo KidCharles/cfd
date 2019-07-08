@@ -14,7 +14,7 @@ export default function Home(props) {
       <div className="full_container">
         <h1 className="full_title">Why CareFree Direct?</h1>
         <p className="full_body">
-          We find the right health care solutions. Find a health plan to suit
+          We find the right health care solutions, so you don't have to. Find a health plan to suit
           your budget while fulfilling your health care needs.
         </p>
         <div className="products_container">
