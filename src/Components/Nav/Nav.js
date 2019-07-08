@@ -54,9 +54,9 @@ export default function Nav(props) {
           <Link to="/About" style={{ textDecoration: "none" }}>
             <li onClick={() => props.to_top()}>About</li>
           </Link>
-          <Link to="/" style={{ textDecoration: "none" }}>
+          {/* <Link to="/" style={{ textDecoration: "none" }}>
             <li onClick={() => props.to_top()}>Home</li>
-          </Link>
+          </Link> */}
           <li>
             {/* <a
               data-replaceable-phone-dialable=""

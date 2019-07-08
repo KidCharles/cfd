@@ -114,7 +114,7 @@ export default function Terms(props) {
           CareFree Direct does not accept claims for insurance benefits and any
           claims or related materials should be sent to the appropriate insurer.
         </p>
-        <p>Last Updated: 01/30/2017</p>
+        <p>Last Updated: 0/0/2019</p>
       </div>
     </div>
   );

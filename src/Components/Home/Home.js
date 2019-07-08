@@ -35,7 +35,7 @@ export default function Home(props) {
             out on a ton of benefits like fillings, dentures, bridges, and
             crowns at a discounted or at no cost rate. Most dental plans only
             cover cleaning, TWICE A YEAR! You deserve better than that. To
-            ensure that you're being taken care of, get a personaized quote for
+            ensure that you're being taken care of, get a personalized quote for
             a dental plan today or speak to one of CareFree Direct's Licensed
             Benefit Advisors.
           </p>
