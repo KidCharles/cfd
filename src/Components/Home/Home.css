@@ -54,7 +54,7 @@
 }
 
 .pic img {
-  width: 28vw;
+  width: 80vw;
   opacity: 0.5;
 }
 
@@ -76,5 +76,8 @@
   }
   .full_body {
     margin-bottom: 24px;
+  }
+  .pic img {
+    width: 28vw;
   }
 }
