@@ -64,7 +64,7 @@ class Products extends Component {
     let card4 = "card";
     let arrow = "";
 
-    let trayClass = "";
+    let trayClass = "learnMoreClosed";
     if (this.state.clicked !== "") {
       trayClass = "learnMoreOpened";
     }
