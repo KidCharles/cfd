@@ -58,46 +58,78 @@ class Products extends Component {
   };
 
   render() {
+    let card0 = "card";
+    let card1 = "card";
+    let card2 = "card";
+    let card4 = "card";
+    let arrow = "";
+
+    let trayClass = "";
+    if (this.state.clicked !== "") {
+      trayClass = "learnMoreOpened";
+    }
+
+    if (this.state.clicked === 0) {
+      card0 = "card active";
+      arrow = "arrow";
+    }
+    if (this.state.clicked === 1) {
+      card1 = "card active";
+      arrow = "arrow";
+    }
+    if (this.state.clicked === 2) {
+      card2 = "card active ";
+      arrow = "arrow";
+    }
+    if (this.state.clicked === 4) {
+      card4 = "card active";
+      arrow = "arrow";
+    }
+    console.log(this.state);
     return (
       <div>
         <div className="card_container">
-          <div className="card" onClick={this.changeCard0}>
+          <div className={card0} onClick={this.changeCard0}>
             <img src="https://i.imgur.com/SVIzihJ.jpg" alt="" />
             <div className="container">
               <h1>Medicare Advantage</h1>
               <p>Learn More</p>
             </div>
+            <div className={arrow} />
           </div>
-          <div className="card" onClick={this.changeCard1}>
+          <div className={card1} onClick={this.changeCard1}>
             <img src="https://i.imgur.com/TKd7BfV.jpg" alt="" />
             <div className="container">
               <h1>Medicare Supplements</h1>
               <p>Learn More</p>
             </div>
+            <div className={arrow} />
           </div>
-          <div className="card" onClick={this.changeCard2}>
+          <div className={card2} onClick={this.changeCard2}>
             <img src="https://i.imgur.com/p6miqu2.jpg" alt="" />
             <div className="container">
               <h1>Medicare Part D</h1>
               <p>Learn More</p>
             </div>
+            <div className={arrow} />
           </div>
-          {/* <div className="card" onClick={this.changeCard3}>
+          {/* <div className={card3} onClick={this.changeCard3}>
             <img src="https://i.imgur.com/o3zl3Ar.jpg" alt="" />
             <div className="container">
               <h1>Individual Health</h1>
               <p>Learn More</p>
             </div>
           </div> */}
-          <div className="card" onClick={this.changeCard4}>
+          <div className={card4} onClick={this.changeCard4}>
             <img src="https://i.imgur.com/O674mGb.jpg" alt="" />
             <div className="container">
               <h1>Dental / Vision / Hearing</h1>
               <p>Learn More</p>
             </div>
+            <div className={arrow} />
           </div>
         </div>
-        <div className="learnMore_container">
+        <div className={trayClass}>
           <h1 className="learnMoreTitle">
             {this.state.titles[this.state.clicked]}
           </h1>

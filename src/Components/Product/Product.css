@@ -9,6 +9,7 @@
 }
 .card {
   width: 300px;
+  position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   display: flex;
@@ -55,31 +56,49 @@
   color: #e03063;
 }
 
-.learnMore_container {
+.learnMoreOpened {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-image: radial-gradient(#004869, #00324e);
 }
-.learnMore_container h1 {
+.learnMoreOpened h1 {
   font-size: 36px;
   font-weight: 900;
   color: #fff;
   width: 80%;
   line-height: 48px;
-  padding-top: 20px;
+  padding-top: 32px;
 }
-.learnMore_container p {
+.learnMoreOpened p {
   font-size: 18px;
   color: #b6e7ff;
   width: 80%;
   line-height: 32px;
   padding: 20px 24px;
 }
+
 .card img:hover {
   width: 102%;
   transition: 0.2s ease-in;
+}
+
+.active {
+  background-color: #004969;
+}
+.active h1 {
+  color: #fff;
+}
+.active p {
+  color: #b6e7ff;
+}
+.active p:hover {
+  color: #71b2d3;
+}
+
+.arrow {
+ display: none;
 }
 
 @media (min-width: 769px) {
@@ -100,9 +119,15 @@
   .container p {
     padding-bottom: 36px;
   }
-
-  .learnMore_container h1 {
-  }
-  .learnMore_container p {
+  .arrow {
+    position: absolute;
+    display: flex;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #fff;
+    bottom: 0;
+    padding-bottom: 12px;
   }
 }
