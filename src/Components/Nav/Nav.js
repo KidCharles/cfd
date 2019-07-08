@@ -57,7 +57,7 @@ export default function Nav(props) {
           {/* <Link to="/" style={{ textDecoration: "none" }}>
             <li onClick={() => props.to_top()}>Home</li>
           </Link> */}
-          <li>
+          <li className="navNumber">
             {/* <a
               data-replaceable-phone-dialable=""
               className={nav_number_scrolled}
