@@ -52,14 +52,14 @@ export default function Footer(props) {
           <p>Speak to a Licensed Benefits Advisor!</p>
           <div>
             <img className="footer_phone" src={phone} alt="phone icon" />
+            <a
+              data-replaceable-phone-dialable=""
+              className="footer_number"
+              href="tel:18558700077"
+            >
+              <span className="">1-855-870-0077</span>
+            </a>
           </div>
-          <a
-            data-replaceable-phone-dialable=""
-            className="footer_number"
-            href="tel:18558700077"
-          >
-            <span className="">1-855-870-0077</span>
-          </a>
         </div>
         <div className="social_media_wrapper">
           <Link to="/" style={{ textDecoration: "none" }}>

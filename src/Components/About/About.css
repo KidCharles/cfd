@@ -1,12 +1,31 @@
 .mobile_banner {
   display: flex;
 }
-.videoWrapper{
+/* .videoWrapper{
   width: 100vw;
   overflow: hidden;
 }
 .videoWrapper video {
   width: 100vw;
+} */
+
+.textHalf {
+  margin: 32px 0px;
+}
+
+.imgHalf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgHalfTitle {
+  position: absolute;
+  width: 300px !important;
+  font-size: 40px !important;
+  text-align: center;
+  line-height: 52px !important;
+  color: #fff !important;
+  text-shadow: 2px 4px 6px #00324e;
 }
 
 .logo_white {
@@ -16,5 +35,12 @@
 @media (min-width: 769px) {
   .mobile_banner {
     display: none;
+  }
+  .textHalf {
+    margin: 0px 0px;
+  }
+  .imgHalfTitle {
+    width: 400px !important;
+    line-height: 64px !important;
   }
 }

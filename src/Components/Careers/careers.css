@@ -12,7 +12,7 @@
 
 .split_container div {
   width: 100vw;
-  height: 300px;
+  /* height: 300px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,8 +27,9 @@
   background-position: center;
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
-  width: 120vw;
+  width: 100vw;
 }
+
 .split_container h1 {
   font-size: 36px;
   font-weight: 900;
@@ -42,17 +43,16 @@
   line-height: 32px;
 }
 
-.split_container a{
+.split_container a {
   padding: 20px 0px;
 }
-.split_container span{
+.split_container span {
   width: 69vw;
 }
 
 .split_container img:hover {
   width: 51vw;
   transition: width 0.2s ease-in-out;
-  
 }
 
 @media (min-width: 769px) {
@@ -72,7 +72,7 @@
     height: initial;
     width: 50vw;
   }
-  .split_container span{
+  .split_container span {
     width: initial;
   }
 }
