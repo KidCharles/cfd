@@ -32,9 +32,11 @@ export default function Home(props) {
           <h1 className="title">CareFree Direct can help!</h1>
           <p className="large_body">
             Get the absolute most from your Healthcare Plan. You may be missing
-            out on a ton of benefits like fillings, dentures, bridges, and
-            crowns at a discounted or at no cost rate. Most dental plans only
-            cover cleaning, TWICE A YEAR! You deserve better than that. To
+            out on a ton of benefits like <span>dentures</span>,{" "}
+            <span>crowns</span>, <span>root canals</span>,<span> fillings</span>
+            , <span>extractions</span> and other dental services at a{" "}
+            <span>discounted or no cost rate</span> . Most dental plans only
+            cover cleaning, twice a year! You deserve better than that. To
             ensure that you're being taken care of, get a personalized quote for
             a dental plan today or speak to one of CareFree Direct's Licensed
             Benefit Advisors.

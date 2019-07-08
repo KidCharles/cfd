@@ -30,7 +30,7 @@ export default function Footer(props) {
             href="mailto:cfdirect@mycarefree.com"
             style={{ textDecoration: "none", color: "#fff" }}
           >
-            <li>Contact</li>
+            <li>Contact Us</li>
           </a>
         </ul>
         <div className="">
