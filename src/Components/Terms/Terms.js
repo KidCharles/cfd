@@ -7,16 +7,17 @@ export default function Terms(props) {
       <div>
         <h1>TERMS OF USE | PRIVACY & SECURITY POLICY</h1>
         <p>
-          Use of the CareFree Direct website (www.***.com, all subdomains, and
-          all “federated” websites that we provide secure, encrypted integration
-          with) is governed by following Privacy & Security Policy.
+          Use of the CareFree Direct website (www.carefreedirect.com, all
+          subdomains, and all “federated” websites that we provide secure,
+          encrypted integration with) is governed by following Privacy &
+          Security Policy.
         </p>
         <p>
-          This Privacy & Security Policy is may be updated from time to time.
-          Any updates take effect immediately upon their posting on this Web
-          Site. The Privacy & Security Policy should therefore reviewed every
-          time you use the Web Site. By using the aforementioned websites you
-          consent to the terms set forth in this Privacy & Security Policy.
+          This Privacy & Security Policy may be updated from time to time. Any
+          updates take effect immediately upon their posting on this Web Site.
+          The Privacy & Security Policy should therefore reviewed every time you
+          use the Web Site. By using the aforementioned websites you consent to
+          the terms set forth in this Privacy & Security Policy.
         </p>
         <h1>Privacy</h1>
         <p>
@@ -33,20 +34,6 @@ export default function Terms(props) {
           Direct email or text message notifications, please email
           optout@carefreeagency.com, providing your name, and the associated
           email or wireless number you do not wish to receive communications.
-        </p>
-        <p>
-          This information that is necessary to complete licensing, contracting
-          and certification, with an insurance product. Additionally, from time
-          to time, CareFree Direct may access information pertaining to your
-          insurance license status from the National Insurance Producer Registry
-          (NIPR) Producer Database (PDB). We will not share your information
-          with a third party unless you request it. We will only share
-          information to the extent that it is necessary to support your tasks
-          and abide by any associated government regulations. If you choose to
-          make application for an insurance licenses (appointment with an
-          insurance company), contract and/or certification, our company will
-          only share this information with an (the) insurance carrier or related
-          service providers to assist in the process of obtaining your request.
         </p>
         <p>
           In certain instances, CareFree Direct may aggregate data anonymously

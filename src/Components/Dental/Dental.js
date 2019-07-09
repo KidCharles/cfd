@@ -34,10 +34,9 @@ export default function About(props) {
         </h1>
         <p className="large_body">
           We're committed to finding you the dental and vision plans that meets
-          your needs. Our PrimeStar dental and vision insurance plans offer
+          your needs. Our dental and vision insurance plans offer
           affordable coverage with instant free online quotes, coverage for
-          individuals 18+ (including seniors), no online enrollment fees and the
-          Ameritas dental network.
+          individuals 18+ (including seniors), no online enrollment fees and a broad dental network.
         </p>
         <div className="whiteSpace48" />
         <Button

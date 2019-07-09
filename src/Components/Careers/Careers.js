@@ -7,8 +7,11 @@ export default function Careers(props) {
     <div className="careers_wrapper">
       <div className="split_container">
         <div>
-          <h1>Intersted in Joing the CFD Family?</h1>
-          <p> then do this thing</p>
+          <h1>Interested in joining the CareFree Direct Team?</h1>
+          <p>
+            Reach out to our recruiting team by emailing us at
+            careers@mycarefree.com
+          </p>
           <a
             href="mailto:careers@mycarefree.com"
             style={{ textDecoration: "none", color: "#fff" }}
@@ -25,14 +28,12 @@ export default function Careers(props) {
           <img src="https://i.imgur.com/vHU2AZS.jpg" alt="agent" />
         </div>
         <div>
-          <p>
-            then do this thing so many things that we can contain all the things
-            then do this thing so many things that we can contain all the things
-            <br />
-            <br />
-            then do this thing so many things that we can contain all the things
-            then do this thing so many things that we can contain all the things
-          </p>
+          <h1>Email</h1>
+          <p>Be sure to include:</p>
+          <p>- First and Last name</p>
+          <p>- Location</p>
+          <p>- Prior Insurance Experience</p>
+         
         </div>
       </div>
       <div className="split_container">

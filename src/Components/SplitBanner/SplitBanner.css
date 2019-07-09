@@ -25,8 +25,9 @@
   line-height: 48px;
 }
 .layout_text p {
-  font-size: 18px;
-  color: #b6e7ff;
+  font-size: 20px;
+  font-weight: 500;
+  color: #d1f0ff;
   width: 80%;
   line-height: 32px;
 }

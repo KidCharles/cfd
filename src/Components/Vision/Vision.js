@@ -9,9 +9,9 @@ export default function About(props) {
   return (
     <div className="home_wrapper">
       <Banner
-        title={"Vision Page"}
-        text={"Vision plans to fit your needs"}
-        btnText={"Get Dental Coverage"}
+        title={"Vision and Hearing"}
+        text={"Vision and Hearing plans to fit your needs"}
+        btnText={"Talk Now"}
         link={"http://www.star.ameritas.com/personal-plans?agnt=010S0582"}
         visionKid={"visionKid"}
       />
@@ -28,6 +28,16 @@ export default function About(props) {
         <p className="large_body">
           We excel in exceeding clients goals by understanding objectives, and
           pivoting real-time to drive superior outcomes
+        </p>
+        <h1 className="title">
+          CareFree Direct Works with Leading Health Plans to Provide Comprehensive and Affordable
+          Hearing Aid Coverage
+        </h1>
+        <p className="large_body">
+          Getting help with hearing loss can be confusing and expensive. That’s
+          where CareFree Direct comes in. Our hearing aid benefit programs give you
+          everything you need to improve your hearing at the lowest possible
+          out-of-pocket cost.
         </p>
       </div>
       <div className="whiteSpace64" />

@@ -8,7 +8,7 @@ export default function SplitBanner(props) {
         <div className="layout_text">
           <h1>Find the right health care solutions</h1>
           <p>
-            Our licensed broker professionals will not only guide you to your
+            Our Licensed Benefits Advisor will not only guide you to your
             ideal plan, but they will be your ongoing support for all your
             health plan needs.
           </p>

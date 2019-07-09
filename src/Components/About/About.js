@@ -14,7 +14,7 @@ export default function About(props) {
       <Banner
         title={"CAREFREE DIRECT"}
         text={
-          "We work hard to find the right health care solutions, so you don’t have to."
+          "We work hard to find the right Medicare and health care solutions, so you don’t have to."
         }
         pic1={"pic1"}
       />
@@ -24,10 +24,9 @@ export default function About(props) {
             <h1>Why CareFree Direct?</h1>
             <p className="quote">"Health CARE, not just health insurance."</p>
             <p>
-              Carefree Direct is a leading healthcare insurance agency. Our
-              Brokers empower consumers to confidently make sound decisions with
-              ease regarding their health insurance options while eliminating
-              unnecessary difficulties.
+              CareFree Direct has a team of courteous and knowledgeable licensed
+              agents that can share additional insights on your Medicare
+              coverage options and find the right plan for you.
             </p>
           </div>
           <div className="imgHalf">
@@ -40,9 +39,10 @@ export default function About(props) {
           </div>
           <div className="textHalf">
             <p>
-              With nearly 4,000 new members a month trusting Carefree to guide
-              them in their healthcare decisions, we have quickly become one of
-              the fastest growing agencies in America.
+              If you're unsure of what type of Medicare coverage would best suit
+              your needs, don't hesitate to call us to speak with a CareFree
+              Direct licensed agent to assist in finding the right coverage to
+              meet your needs.
               <br />
               <br />
               Understanding each member’s unique situation, providing a unique
@@ -77,9 +77,9 @@ export default function About(props) {
           </div>
           <div className="textHalf">
             <p>
-              Our managed care programs will provide necessary benefits to
+              Our managed Medicare and health care programs will provide necessary benefits to
               maintain your health, with some plans offering notable extras such
-              as gym memberships or even resources for assistance on those
+              as vision, dental, hearing, gym memberships, and even resources for assistance on those
               endless utility bills.
             </p>
           </div>
