@@ -61,7 +61,7 @@ export default function About(props) {
           "Finding dental and vision insurance to meet your needs doesn't have to be difficult. Let us help!"
         }
       />
-      <div className="pic" />
+      <div className="pic2" />
     </div>
   );
 }

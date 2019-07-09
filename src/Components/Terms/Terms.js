@@ -26,14 +26,14 @@ export default function Terms(props) {
           information you provide to us to ensure your privacy. In order to take
           advantage of some of the services offered through the use of this Web
           Site, you may be required to provide general personal information,
-          such as your National Producer Number (NPN), business and personal
-          name, address, phone number, and e-mail address. By giving us your
-          telephone number and email, you agree to allow us to contact you via
-          voice, email or text about our health plans, services and/or education
-          information related to health care. If you wish to opt-out of CareFree
-          Direct email or text message notifications, please email
-          optout@carefreeagency.com, providing your name, and the associated
-          email or wireless number you do not wish to receive communications.
+          such as your name, address, phone number, and e-mail address. By
+          giving us your telephone number and email, you agree to allow us to
+          contact you via voice, email or text about our health plans, services
+          and/or education information related to health care. If you wish to
+          opt-out of CareFree Direct email or text message notifications, please
+          email optout@carefreeagency.com, providing your name, and the
+          associated email or wireless number you do not wish to receive
+          communications.
         </p>
         <p>
           In certain instances, CareFree Direct may aggregate data anonymously
@@ -83,7 +83,7 @@ export default function Terms(props) {
         </p>
         <h1>Security</h1>
         <p>
-          CareFree Direct maintains a multiple security measures at our physical
+          CareFree Direct maintains multiple security measures at our physical
           location as well as our data centers in an effort to ensure that only
           approved staff may access your information. Please note that e-mail
           communications initiated by you are not secure and should not include
@@ -93,15 +93,18 @@ export default function Terms(props) {
         <h1>Additional Provisions</h1>
         <p>
           If you have any questions about our Privacy & Security Policy, write
-          us at CareFree Direct,ADDESS.
+          us at CareFree Direct, 13621 NW 12th Street, Suite 107 Sunrise, FL
+          33323.
         </p>
         <h1>Contact Us</h1>
-        <p>address</p>
+        <p>13621 NW 12th Street, Suite 107 Sunrise, FL 33323</p>
         <p>
           CareFree Direct does not accept claims for insurance benefits and any
           claims or related materials should be sent to the appropriate insurer.
         </p>
-        <p>Last Updated: 0/0/2019</p>
+        <br />
+        <br />
+        <p>Last Updated: 7/9/2019</p>
       </div>
     </div>
   );

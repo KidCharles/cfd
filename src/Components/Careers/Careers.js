@@ -47,6 +47,7 @@ export default function Careers(props) {
           />
         </div>
       </div>
+      <div className="pic6" />
     </div>
   );
 }
