@@ -25,18 +25,21 @@ export default function Footer(props) {
           <Link to="/vision" style={{ textDecoration: "none" }}>
             <li onClick={() => props.to_top()}>Vision/Hearing</li>
           </Link>
-          <span>|</span>
-          <Link to="/About" style={{ textDecoration: "none" }}>
-            <li onClick={() => props.to_top()}> About Us</li>
-          </Link>
-          <span>|</span>
-          <a
-            href="mailto:cfdirect@mycarefree.com"
-            style={{ textDecoration: "none", color: "#fff" }}
-          >
-            <li>Contact Us</li>
-          </a>
         </ul>
+        <div>
+          <ul>
+            <Link to="/About" style={{ textDecoration: "none" }}>
+              <li onClick={() => props.to_top()}> About Us</li>
+            </Link>
+            <span>|</span>
+            <a
+              href="mailto:cfdirect@mycarefree.com"
+              style={{ textDecoration: "none", color: "#fff" }}
+            >
+              <li>Contact Us</li>
+            </a>
+          </ul>
+        </div>
         <div className="">
           <ul>
             <Link to="/termsPrivacy" style={{ textDecoration: "none" }}>
