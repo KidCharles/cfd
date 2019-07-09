@@ -49,10 +49,7 @@ export default function Nav(props) {
             <li onClick={() => props.to_top()}>Dental</li>
           </Link>
           <Link to="/vision" style={{ textDecoration: "none" }}>
-            <li onClick={() => props.to_top()}>Vision</li>
-          </Link>
-          <Link to="/vision" style={{ textDecoration: "none" }}>
-            <li onClick={() => props.to_top()}>Hearing</li>
+            <li onClick={() => props.to_top()}>Vision/Hearing</li>
           </Link>
           <Link to="/About" style={{ textDecoration: "none" }}>
             <li onClick={() => props.to_top()}>About</li>

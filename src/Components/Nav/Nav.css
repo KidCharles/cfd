@@ -110,17 +110,19 @@
     position: absolute;
     display: block;
     background-color: #df3063;
-    width: 50vw;
-    right: -2000px;
-    top: 48px;
-    border-radius: 0px 0px 4px 40px;
-    transition: 0.1s ease-in;
+    width: 55vw;
+    /* right: -2000px; */
+    right: -24px;
+    opacity: 0;
+    top: 50px;
+    border-radius: 0px 0px 0px 100px;
     z-index: -100;
+    transition: 0.4s ease-in;
   }
   .items_nav ul li:hover ul {
     /* display: block; */
-    right: -40px;
-    transition: 0.2s ease-in;
+    opacity: 1;
+    transition: 0.3s ease-in;
   }
   .items_nav ul li ul li {
     padding: 18px 0px;

@@ -4,7 +4,7 @@ import "./toolbar.css";
 import "../Button/button.css";
 
 const toolbar = props => {
-  let phone = "https://i.imgur.com/PhmyHS2.png";
+  // let phone = "https://i.imgur.com/PhmyHS2.png";
   let toolbarClasses = "toolbar";
   if (props.show) {
     toolbarClasses = "toolbar open";

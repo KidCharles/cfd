@@ -90,7 +90,7 @@ class Products extends Component {
       <div>
         <div className="card_container">
           <div className={card0} onClick={this.changeCard0}>
-            <img src="https://i.imgur.com/SVIzihJ.jpg" alt="" />
+            <img src="https://i.imgur.com/SVIzihJ.jpg" alt="yoga class" />
             <div className="container">
               <h1>Medicare Advantage and Dual Special Needs Plans</h1>
               <p>Learn More</p>
@@ -98,7 +98,7 @@ class Products extends Component {
             <div className={arrow} />
           </div>
           <div className={card1} onClick={this.changeCard1}>
-            <img src="https://i.imgur.com/TKd7BfV.jpg" alt="" />
+            <img src="https://i.imgur.com/UZ8lCdn.jpg" alt="stethascope" />
             <div className="container">
               <h1>Medicare Supplements</h1>
               <p>Learn More</p>

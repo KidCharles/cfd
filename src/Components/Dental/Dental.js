@@ -43,6 +43,26 @@ export default function About(props) {
           link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
           text={"See Dental Plans"}
         />
+        <h1 className="title">Dental / Vision / Hearing</h1>
+          <p className="large_body">
+            If you are in the market for dental and vision insurance and find
+            yourself asking, 'Why do I need it?' consider the advantages to your
+            overall health. Our oral and ocular health can be key indicators in
+            detecting early stages of many health risks and diseases along with
+            preventing many other health issues. We excel in exceeding clients
+            goals by understanding objectives, and pivoting real-time to drive
+            superior outcomes.
+          </p>
+          <br />
+          <br />
+          <p className="large_body">
+            CareFree Direct has a team of courteous and knowledgeable licensed
+            agents that can share additional insights on your Medicare coverage
+            options and find the right plan for you. If you're unsure of what
+            type of Medicare coverage would best suit your needs, don't hesitate
+            to call us to speak with a CareFree Direct licensed agent to assist
+            in finding the right coverage to meet your needs.
+          </p>
       </div>
       <div className="whiteSpace64" />
       <Call

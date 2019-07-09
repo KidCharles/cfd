@@ -41,8 +41,8 @@ export default function Home(props) {
           </p>
           <h1 className="title">Get the most from your Medicare Plan</h1>
           <p className="large_body">
-            Get the absolute most from your <span>Medicare Plan</span>. You may be missing
-            out on a ton of benefits like <span>dentures</span>,{" "}
+            Get the absolute most from your <span>Medicare Plan</span>. You may
+            be missing out on a ton of benefits like <span>dentures</span>,{" "}
             <span>crowns</span>, <span>root canals</span>,<span> fillings</span>
             , <span>extractions</span> and other dental services at a{" "}
             <span>discounted or no cost rate</span> . Most dental plans only
@@ -56,6 +56,10 @@ export default function Home(props) {
             link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
             text={"Get A Quote"}
           />
+          <h1 className="title">Learn More About Your Medicare Options</h1>
+          <p className="large_body">
+        
+          </p>
           <div className="whiteSpace48" />
         </div>
         <div className="full">

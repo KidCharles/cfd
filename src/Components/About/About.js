@@ -30,12 +30,12 @@ export default function About(props) {
             </p>
           </div>
           <div className="imgHalf">
-            <img src="https://i.imgur.com/gahGYgf.jpg" alt="agent" />
+            <img src="https://i.imgur.com/m9og9nj.jpg" alt="builings with logo on them" />
           </div>
         </div>
         <div className="split_container reverse">
           <div className="imgHalf">
-            <img src="https://i.imgur.com/syNXTfC.jpg" alt="agent" />
+            <img src="https://i.imgur.com/XE6HJRy.jpg" alt="man with briefcase" />
           </div>
           <div className="textHalf">
             <p>
@@ -65,7 +65,7 @@ export default function About(props) {
             </p>
           </div>
           <div className="imgHalf">
-            <img src="https://i.imgur.com/KSFQCLe.jpg" alt="agent" />
+            <img src="https://i.imgur.com/er6904e.jpg" alt="Meeting at a table" />
             <h1 className="imgHalfTitle">
               We find the right health care solution so you don’t have to.
             </h1>
@@ -73,7 +73,7 @@ export default function About(props) {
         </div>
         <div className="split_container reverse">
           <div className="imgHalf">
-            <img src="https://i.imgur.com/vHU2AZS.jpg" alt="agent" />
+            <img src="https://i.imgur.com/TPxrSY1.jpg" alt="office space" />
           </div>
           <div className="textHalf">
             <p>
@@ -89,13 +89,13 @@ export default function About(props) {
             <h1>Our Agents</h1>
             <p>
               In today’s world, you can’t just trust your health to anyone. Our
-              licensed broker professionals will not only guide you to your
+              Licensed Benefits Advisors will not only guide you to your
               ideal plan, but they will be your ongoing support for all your
               health plan needs.
             </p>
           </div>
           <div className="imgHalf">
-            <img src="https://i.imgur.com/hGXrIVL.jpg" alt="agent" />
+            <img src="https://i.imgur.com/0WRgt1I.jpg" alt="agent on phone" />
           </div>
         </div>
       </div>
