@@ -44,15 +44,6 @@ export default function About(props) {
           text={"See Dental Plans"}
         />
         <h1 className="title">Dental / Vision / Hearing</h1>
-          <p className="large_body">
-            If you are in the market for dental and vision insurance and find
-            yourself asking, 'Why do I need it?' consider the advantages to your
-            overall health. Our oral and ocular health can be key indicators in
-            detecting early stages of many health risks and diseases along with
-            preventing many other health issues. We excel in exceeding clients
-            goals by understanding objectives, and pivoting real-time to drive
-            superior outcomes.
-          </p>
           <br />
           <br />
           <p className="large_body">

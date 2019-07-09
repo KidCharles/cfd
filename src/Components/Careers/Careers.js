@@ -33,7 +33,6 @@ export default function Careers(props) {
           <p>- First and Last name</p>
           <p>- Location</p>
           <p>- Prior Insurance Experience</p>
-         
         </div>
       </div>
       <div className="split_container">
@@ -42,7 +41,10 @@ export default function Careers(props) {
           <p>We work together to reach our goals.</p>
         </div>
         <div>
-          <img src="https://i.imgur.com/Cr9Y4Jj.jpg" alt="agent" />
+          <img
+            src="https://i.imgur.com/TdJfrP3.jpg"
+            alt="jumping on a hill"
+          />
         </div>
       </div>
     </div>
