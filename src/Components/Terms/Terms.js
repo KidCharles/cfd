@@ -29,7 +29,7 @@ export default function Terms(props) {
           such as your name, address, phone number, and e-mail address. By
           giving us your telephone number and email, you agree to allow us to
           contact you via voice, email or text about our health plans, services
-          and/or education information related to health care. If you wish to
+          and/or education information related to healthcare. If you wish to
           opt-out of CareFree Direct email or text message notifications, please
           email optout@carefreeagency.com, providing your name, and the
           associated email or wireless number you do not wish to receive

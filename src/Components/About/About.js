@@ -14,7 +14,7 @@ export default function About(props) {
       <Banner
         title={"CAREFREE DIRECT"}
         text={
-          "We work hard to find the right Medicare and health care solutions, so you don’t have to."
+          "We work hard to find the right Medicare and healthcare solutions, so you don’t have to."
         }
         pic1={"pic1"}
       />
@@ -49,7 +49,7 @@ export default function About(props) {
               CareFree Direct’s service doesn’t end after your enrollment in a
               Medicare plan. Our licensed benefit advisors will provide ongoing
               support for the duration of your coverage. Our team will ensure
-              your selected plan continues to meet your health care needs as
+              your selected plan continues to meet your healthcare needs as
               your benefit needs evolve and available coverage options change.
             </p>
             <br />
@@ -85,7 +85,7 @@ export default function About(props) {
             <p>
               Established in 2013, CareFree Direct is comprised of employees who
               are encouraged professional Brokers with a firm commitment to
-              ethical business conduct. We offer quality health care from
+              ethical business conduct. We offer quality healthcare from
               numerous companies within the Fortune 500 and a footprint that
               expands across the United States. We are devoted to our
               ever-growing list of Medicare recipients to ensure they receive

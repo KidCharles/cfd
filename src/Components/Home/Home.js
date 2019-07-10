@@ -25,16 +25,21 @@ export default class Home extends Component {
     return (
       <div className="" ref="home">
         <div className="pic">
-            <img src="https://i.imgur.com/sOLYWB1.png" alt="CFD logo overlay" />
-            <p className="quote">"Healthcare, not just health insurance."</p>
-          </div>
+          <img src="https://i.imgur.com/sOLYWB1.png" alt="CFD logo overlay" />
+          <p className="quote">"Healthcare, not just health insurance."</p>
+        </div>
         <Split />
         <div className="full_container">
           <h1 className="full_title">Why CareFree Direct?</h1>
           <p className="full_body">
-            We find the right health care solutions, so you don't have to. Find
-            a health plan to suit your budget while fulfilling your health care
+            We find the right healthcare solutions, so you don't have to. Find
+            a health plan to suit your budget while fulfilling your healthcare
             needs.
+          </p>
+          <p className="full_body">
+            CareFree Direct has a team of courteous and knowledgeable licensed
+            agents that can share additional insights on your Medicare coverage
+            options and find the right plan for you
           </p>
           <div className="products_container">
             <Product />
@@ -81,7 +86,7 @@ export default class Home extends Component {
               <div>
                 <h1>Learn More about Medicare</h1>
                 <p className="quote">
-                  "Health CARE, not just health insurance."
+                  "Healthcare, not just health insurance."
                 </p>
                 <Link to="/medicare" style={{ textDecoration: "none" }}>
                   <span className="button" onClick={() => this.toTop()}>
@@ -90,12 +95,15 @@ export default class Home extends Component {
                 </Link>
               </div>
               <div>
-                <img src="https://i.imgur.com/gOfhoEx.jpg" alt="agent" />
+                <img
+                  src="https://i.imgur.com/W2pJi9O.jpg"
+                  alt="Ladies laughing on bench"
+                />
               </div>
             </div>
             <div className="split_container reverse">
               <div>
-                <img src="https://i.imgur.com/y7BCgeK.jpg" alt="agent" />
+                <img src="https://i.imgur.com/Mlac7xo.jpg" alt="dentures" />
               </div>
               <div>
                 <h1>Learn More about Dental</h1>
@@ -132,7 +140,7 @@ export default class Home extends Component {
                 </Link>
               </div>
               <div>
-                <img src="https://i.imgur.com/qc0Ph8o.jpg" alt="agent" />
+                <img src="https://i.imgur.com/tw7tNQN.jpg" alt="eye test" />
               </div>
             </div>
             <div className="split_container reverse">
@@ -142,7 +150,7 @@ export default class Home extends Component {
               <div>
                 <h1>Learn More about CareFree Direct</h1>
                 <p className="quote">
-                  "We work hard to find the right Medicare and health care
+                  "We work hard to find the right Medicare and healthcare
                   solutions, so you don’t have to."
                 </p>
                 <Link to="/About" style={{ textDecoration: "none" }}>
@@ -160,7 +168,6 @@ export default class Home extends Component {
           <div className="full">
             <Call />
           </div>
-        
         </div>
       </div>
     );

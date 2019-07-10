@@ -27,7 +27,7 @@ export default function About(props) {
           <h1 className="title">Need Medicare Coverage?</h1>
           <p className="large_body">
             CareFree Direct works with consumers to find affordable Medicare
-            coverage that meets their health care needs. CareFree Direct’s
+            coverage that meets their healthcare needs. CareFree Direct’s
             licensed agents can match consumers with a variety of Medicare
             coverage options including Medicare Advantage (MA or MAPD), Dual
             Special Needs Plans (DSNP), Medicare Prescription Drug Coverage
@@ -63,7 +63,7 @@ export default function About(props) {
           <h1 className="title">Medicare Supplement Plans (Medigap)</h1>
           <p className="large_body">
             These policies are sold by private insurance companies to help pay
-            some of the health care costs that Original Medicare (Parts A and B)
+            some of the healthcare costs that Original Medicare (Parts A and B)
             doesn't cover. These plans may offer benefits such as assistance
             with deductibles, premiums, and copayment/ coinsurance, as well as
             emergency foreign travel coverage.
