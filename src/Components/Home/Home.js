@@ -24,6 +24,10 @@ export default class Home extends Component {
   render() {
     return (
       <div className="" ref="home">
+        <div className="pic">
+            <img src="https://i.imgur.com/sOLYWB1.png" alt="CFD logo overlay" />
+            <p className="quote">"Healthcare, not just health insurance."</p>
+          </div>
         <Split />
         <div className="full_container">
           <h1 className="full_title">Why CareFree Direct?</h1>
@@ -39,6 +43,7 @@ export default class Home extends Component {
         <Banner
           dental_kid={" "}
           btnText={"Get a Quote"}
+          title={"Amazing Dental Support"}
           dental_button={" "}
           link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
         />
@@ -156,9 +161,7 @@ export default class Home extends Component {
           <div className="full">
             <Call />
           </div>
-          <div className="pic">
-            <img src="https://i.imgur.com/sOLYWB1.png" alt="CFD logo overlay" />
-          </div>
+        
         </div>
       </div>
     );

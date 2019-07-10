@@ -8,14 +8,14 @@ export default function SplitBanner(props) {
         <div className="layout_text">
           <h1>Find the right health care solutions</h1>
           <p>
-            Our Licensed Benefits Advisor will not only guide you to your
-            ideal plan, but they will be your ongoing support for all your
-            health plan needs.
+            Our Licensed Benefits Advisor will not only guide you to your ideal
+            plan, but they will be your ongoing support for all your health plan
+            needs.
           </p>
         </div>
         <div className="layout_img">
           <div />
-
+          <p>call one of our friendly Prfessional agent* </p>
           {/* <a
             data-replaceable-phone-dialable=""
             href="tel:18558700077"

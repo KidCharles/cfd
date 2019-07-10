@@ -22,7 +22,7 @@ export default function About(props) {
         <div className="split_container">
           <div className="textHalf">
             <h1>Why CareFree Direct?</h1>
-            <p className="quote">"Health CARE, not just health insurance."</p>
+            <p className="quote">"Healthcare, not just health insurance."</p>
             <p>
               CareFree Direct has a team of courteous and knowledgeable licensed
               agents that can share additional insights on your Medicare
