@@ -4,7 +4,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: linear-gradient(#8ac03f00, #3399cc9c);
+  background-image: linear-gradient(#8ac03f00, #3399cc50);
   padding: 24px 0px;
 }
 .card {
@@ -58,7 +58,7 @@
 .learnMoreClosed {
   height: 0px;
   transition: 0.5s all ease;
-  background-image: radial-gradient(#004869, #00324e);
+  background-image: radial-gradient(#FFF, #f1f2f2);
 }
 .learnMoreOpened {
   display: flex;
@@ -66,21 +66,21 @@
   justify-content: top;
   flex-direction: column;
   align-items: center;
-  background-image: radial-gradient(#004869, #00324e);
+  background-image: radial-gradient(#FFF, #f1f2f2);
   transition: 0.5s all ease;
   overflow: scroll;
 }
 .learnMoreOpened h1 {
   font-size: 36px;
   font-weight: 900;
-  color: #fff;
+  color: #004969;
   width: 80%;
   line-height: 48px;
   margin-top: 12px;
 }
 .learnMoreOpened p {
   font-size: 18px;
-  color: #d1f0ff;
+  color: #414042;
   width: 80%;
   line-height: 32px;
   margin: 20px 24px;

@@ -57,9 +57,6 @@ export default function About(props) {
       </div>
       <div className="whiteSpace64" />
       <Call
-        prompt={
-          "Finding dental and vision insurance to meet your needs doesn't have to be difficult. Let us help!"
-        }
       />
       <div className="pic2" />
     </div>

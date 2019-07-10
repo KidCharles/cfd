@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 -12px 12px 12px #00324e;
+  box-shadow: 0 2px 8px 0px #00324e;
+  
 }
 
 .layout_text {

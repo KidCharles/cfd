@@ -30,10 +30,39 @@ export default function About(props) {
             </p>
           </div>
           <div className="imgHalf">
-            <img src="https://i.imgur.com/m9og9nj.jpg" alt="builings with logo on them" />
+            <img
+              src="https://i.imgur.com/m9og9nj.jpg"
+              alt="builings with logo on them"
+            />
           </div>
         </div>
-        <div className="split_container reverse">
+        <div className="whole_container">
+          <div>
+            <p>
+              If you're unsure of what type of Medicare coverage best suits your
+              needs, one phone call with a knowledgeable CareFree Direct
+              licensed agent will help answer your questions and enroll you in a
+              plan that best meets your needs.
+            </p>
+            <br />
+            <p>
+              CareFree Direct’s service doesn’t end after your enrollment in a
+              Medicare plan. Our licensed benefit advisors will provide ongoing
+              support for the duration of your coverage. Our team will ensure
+              your selected plan continues to meet your health care needs as
+              your benefit needs evolve and available coverage options change.
+            </p>
+            <br />
+            <p>
+              We’ll be available to provide information to help with provider
+              network questions, drug coverage questions, and general benefit
+              questions about your coverage. We’re here to help and we look
+              forward to serving you.
+            </p>
+            <br />
+          </div>
+        </div>
+        {/* <div className="split_container reverse">
           <div className="imgHalf">
             <img src="https://i.imgur.com/XE6HJRy.jpg" alt="man with briefcase" />
           </div>
@@ -50,8 +79,8 @@ export default function About(props) {
               value for Carefree and each of its brokers.
             </p>
           </div>
-        </div>
-        <div className="split_container">
+        </div> */}
+        {/* <div className="split_container">
           <div className="textHalf">
             <p>
               Established in 2013, CareFree Direct is comprised of employees who
@@ -97,7 +126,7 @@ export default function About(props) {
           <div className="imgHalf">
             <img src="https://i.imgur.com/0WRgt1I.jpg" alt="agent on phone" />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="pic5" />
     </div>

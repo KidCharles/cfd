@@ -44,7 +44,6 @@ export default class Home extends Component {
           dental_kid={" "}
           btnText={"Get a Quote"}
           title={"Amazing Dental Support"}
-          dental_button={" "}
           link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
         />
         <div className="home_wrapper">

@@ -41,7 +41,7 @@
 .split_container p {
   font-size: 18px;
   width: 80%;
-  line-height: 32px;
+  line-height: 36px;
 }
 
 .split_container a {
@@ -56,6 +56,34 @@
   transition: width 0.2s ease-in-out;
 }
 
+.whole_container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  margin-top: 32px;
+}
+
+.whole_container div{
+width: 80%;
+}
+
+
+.whole_container h1 {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 48px;
+  color: #004869;
+  padding-left: 48px;
+}
+
+.whole_container p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
 @media (min-width: 769px) {
   .careers_wrapper {
     padding: 40px 0px;
@@ -64,6 +92,9 @@
     flex-direction: row;
     width: 1080px;
   }
+  /* .split_container p {
+    font-size: 20px;
+  } */
 
   .split_container div {
     width: 48vw;
@@ -75,5 +106,21 @@
   }
   .split_container span {
     width: initial;
+  }
+  .whole_container{
+    width: 1080px;
+    }
+  .whole_container div{
+    width: 90%;
+    }
+  .whole_container h1 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #004869;
+    padding-left: 48px;
+  }
+  .whole_container p {
+    /* padding-left: 56px; */
   }
 }

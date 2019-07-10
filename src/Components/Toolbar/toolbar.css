@@ -59,10 +59,11 @@
 
 .toolbar li {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 0.5rem;
   padding: 16px;
   border: 1px solid #00486931;
+  letter-spacing: 1px;
 }
 
 .toolbar li:hover,
@@ -84,6 +85,11 @@
 }
 .phone_icon {
   width: 8%;
+}
+
+#toolbar_button{
+  width: initial;
+  padding: 20px 36px;
 }
 @media (min-width: 769px) {
   .ham {

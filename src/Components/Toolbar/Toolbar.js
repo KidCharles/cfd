@@ -14,9 +14,9 @@ const toolbar = props => {
       <div className="toolbar_container" onClick={props.backdropClickHandler}>
         <div>
           <ul>
-            <Link to="/About" style={{ textDecoration: "none" }}>
+            <Link to="/medicare" style={{ textDecoration: "none" }}>
               <li className="toolbar_item" onClick={() => props.to_top()}>
-                About
+                Medicare
               </li>
             </Link>
             <Link to="/dental" style={{ textDecoration: "none" }}>
@@ -26,12 +26,12 @@ const toolbar = props => {
             </Link>
             <Link to="/vision" style={{ textDecoration: "none" }}>
               <li className="toolbar_item" onClick={() => props.to_top()}>
-                Vision
+                Vision / Hearing
               </li>
             </Link>
-            <Link to="/medicare" style={{ textDecoration: "none" }}>
+            <Link to="/About" style={{ textDecoration: "none" }}>
               <li className="toolbar_item" onClick={() => props.to_top()}>
-                Medicare
+                About
               </li>
             </Link>
             <Link to="/" style={{ textDecoration: "none" }}>
@@ -48,7 +48,7 @@ const toolbar = props => {
             className="toolbar_item"
             href="tel:8558700077"
           >
-            <span className="button">Call Now</span>
+            <span className="button" id="toolbar_button">Call Now</span>
           </a>
         </div>
       </div>

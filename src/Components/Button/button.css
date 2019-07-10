@@ -17,6 +17,7 @@
   text-transform: uppercase;
   padding: 20px;
   transition: 0.2s all ease;
+  width: 69vw;
 }
 
 .button:active {
@@ -87,6 +88,7 @@
   .button {
     font-size: 20px;
     padding: 20px 56px;
+    width: initial;
   }
   .dental_button {
     margin-top: 200px;
