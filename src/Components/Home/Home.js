@@ -129,7 +129,7 @@ export default class Home extends Component {
               </div>
               <div>
                 <img
-                  src="https://i.imgur.com/W2pJi9O.jpg"
+                  src="https://i.imgur.com/279yx0O.jpg"
                   alt="Ladies laughing on bench"
                 />
               </div>

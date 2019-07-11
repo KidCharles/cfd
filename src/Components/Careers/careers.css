@@ -57,7 +57,7 @@
 }
 
 .split_container img:hover {
-  width: 51vw;
+  width: 41vw;
   transition: width 0.2s ease-in-out;
 }
 
@@ -107,7 +107,7 @@ width: 80%;
   }
   .split_container img {
     height: initial;
-    width: 50vw;
+    width: 40vw;
   }
   .split_container span {
     width: initial;

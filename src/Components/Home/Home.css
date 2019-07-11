@@ -96,10 +96,16 @@
 }
 
 .homePromo {
-  background-image: url("https://i.imgur.com/RkPaNDp.jpg");
+  background-image: url("https://i.imgur.com/rG9g9yy.jpg");
   width: 100vw;
-  height: 400px;
-  background-position: center;
+  height: 450px;
+  background-position: left;
+}
+.homePromo h1{
+  color: #fff;
+}
+.homePromo p{
+  color: #fff;
 }
 
 .howItWorks {
