@@ -5,7 +5,6 @@ import "./Home.css";
 import "../Careers/careers.css";
 // import "../../App.css";
 import Call from "../CallCTA/Callcta";
-import Banner from "..//Banner/Banner";
 import Button from "../Button/Button";
 import Product from "../Product/Product.js";
 import Split from "../SplitBanner/SplitBanner.js";
@@ -23,7 +22,7 @@ export default class Home extends Component {
   render() {
     return (
       <div ref="home">
-        <div className="pic">
+        <div className="banner homeBanner">
           <img src="https://i.imgur.com/R2UDOX1.png" alt="CFD logo overlay" />
           <p className="quote">"Healthcare, not just health insurance."</p>
         </div>
@@ -77,15 +76,14 @@ export default class Home extends Component {
             <Product />
           </div>
         </div>
-        <Banner
-          dental_kid={" "}
-          title={"Amazing Dental Support"}
-          text={
-            "Our Advisors will answer any questions you may have about benefits you could be missing out on."
-          }
-          btnText={"Get a Free Quote"}
-          link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
-        />
+        <div className="banner homePromo">
+          <h1 className="" >Amazing Dental Support</h1>
+          <p>
+            Our Advisors will answer any questions you may have about benefits
+            you could be missing out on.
+          </p>
+          <span className="button">Get a Free Quote</span>
+        </div>
         <div className="home_wrapper">
           <div className="text_container">
             <h1 className="title">Get the most from your Medicare Plan</h1>

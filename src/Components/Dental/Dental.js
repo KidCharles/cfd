@@ -6,17 +6,21 @@ import Call from "../CallCTA/Callcta";
 import Banner from "..//Banner/Banner";
 import Button from "../Button/Button";
 
-
 export default function About(props) {
   return (
     <div className="home_wrapper">
-      <Banner
+      {/* <Banner
         title={"Dental and vision plans to fit your needs"}
         text={"Get started on your quote by clicking the link below"}
         btnText={"See Dental Plans"}
         link={"http://www.star.ameritas.com/personal-plans?agnt=010S0582"}
         dentalPic={"dentalPic"}
-      />
+      /> */}
+      <div className="banner dentalPic">
+        <h1>Dental Promo</h1>
+        <p>Vision and Hearing plans to fit your needs</p>
+        <span className="button">Review Dental Plans</span>
+      </div>
       <div className="text_container">
         <h1 className="title">
           Why do I need dental and vision insurance coverage?
@@ -34,9 +38,10 @@ export default function About(props) {
         </h1>
         <p className="large_body">
           We're committed to finding you the dental and vision plans that meets
-          your needs. Our dental and vision insurance plans offer
-          affordable coverage with instant free online quotes, coverage for
-          individuals 18+ (including seniors), no online enrollment fees and a broad dental network.
+          your needs. Our dental and vision insurance plans offer affordable
+          coverage with instant free online quotes, coverage for individuals 18+
+          (including seniors), no online enrollment fees and a broad dental
+          network.
         </p>
         <div className="whiteSpace48" />
         <Button
@@ -44,20 +49,19 @@ export default function About(props) {
           text={"See Dental Plans"}
         />
         <h1 className="title">Dental / Vision / Hearing</h1>
-          <br />
-          <br />
-          <p className="large_body">
-            CareFree Direct has a team of courteous and knowledgeable licensed
-            agents that can share additional insights on your Medicare coverage
-            options and find the right plan for you. If you're unsure of what
-            type of Medicare coverage would best suit your needs, don't hesitate
-            to call us to speak with a CareFree Direct licensed agent to assist
-            in finding the right coverage to meet your needs.
-          </p>
+        <br />
+        <br />
+        <p className="large_body">
+          CareFree Direct has a team of courteous and knowledgeable licensed
+          agents that can share additional insights on your Medicare coverage
+          options and find the right plan for you. If you're unsure of what type
+          of Medicare coverage would best suit your needs, don't hesitate to
+          call us to speak with a CareFree Direct licensed agent to assist in
+          finding the right coverage to meet your needs.
+        </p>
       </div>
       <div className="whiteSpace64" />
-      <Call
-      />
+      <Call />
       <div className="pic2" />
     </div>
   );

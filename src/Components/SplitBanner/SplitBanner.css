@@ -13,7 +13,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  /* background-color: #004869; */
   background-image: radial-gradient(#004869, #00324e);
   padding: 36px 0px;
 }
