@@ -66,7 +66,7 @@ export default function Nav(props) {
             1-855-870-0077
             {/* </a> */}
             <ul>
-              <li>Available: Mon - Fri, 7 AM - 7 PM</li>
+              <li>Available: Mon - Fri, 8 AM - 8 PM</li>
             </ul>
           </li>
         </ul>

@@ -20,20 +20,19 @@ export default class Home extends Component {
     this.handleScrollToElement("home");
   };
 
-  // export default function Home(props) {
   render() {
     return (
       <div className="" ref="home">
         <div className="pic">
-          <img src="https://i.imgur.com/sOLYWB1.png" alt="CFD logo overlay" />
+          <img src="https://i.imgur.com/R2UDOX1.png" alt="CFD logo overlay" />
           <p className="quote">"Healthcare, not just health insurance."</p>
         </div>
         <Split />
         <div className="full_container">
           <h1 className="full_title">Why CareFree Direct?</h1>
           <p className="full_body">
-            We find the right healthcare solutions, so you don't have to. Find
-            a health plan to suit your budget while fulfilling your healthcare
+            We find the right healthcare solutions, so you don't have to. Find a
+            health plan to suit your budget while fulfilling your healthcare
             needs.
           </p>
           <p className="full_body">
@@ -112,11 +111,7 @@ export default class Home extends Component {
                   doesn't have to be difficult. Let us help!"
                 </p>
                 <Link to="/dental" style={{ textDecoration: "none" }}>
-                  <span
-                    className="button"
-                    className="button"
-                    onClick={() => this.toTop()}
-                  >
+                  <span className="button" onClick={() => this.toTop()}>
                     Dental
                   </span>
                 </Link>
@@ -130,11 +125,7 @@ export default class Home extends Component {
                   expensive. That’s where CareFree Direct comes in."
                 </p>
                 <Link to="/vision" style={{ textDecoration: "none" }}>
-                  <span
-                    className="button"
-                    className="button"
-                    onClick={() => this.toTop()}
-                  >
+                  <span className="button" onClick={() => this.toTop()}>
                     Vision / Hearing
                   </span>
                 </Link>
@@ -154,11 +145,7 @@ export default class Home extends Component {
                   solutions, so you don’t have to."
                 </p>
                 <Link to="/About" style={{ textDecoration: "none" }}>
-                  <span
-                    className="button"
-                    className="button"
-                    onClick={() => this.toTop()}
-                  >
+                  <span className="button" onClick={() => this.toTop()}>
                     About Us
                   </span>
                 </Link>
