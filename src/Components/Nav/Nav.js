@@ -26,6 +26,7 @@ export default function Nav(props) {
             src={icon}
             alt="CareFree Direct Icon"
             className="cfd_icon_mobile"
+            onClick={() => props.to_top()}
           />
         </Link>
         <Link to="/">

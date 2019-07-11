@@ -23,8 +23,15 @@
   font-size: 36px;
   font-weight: 900;
   line-height: 48px;
-  padding: 36px 0px 24px 0px;
+  padding-top: 36px;
   color: #004869;
+}
+
+.subtitle {
+  font-size: 28px;
+  line-height: 48px;
+  color: #6d6e71;
+  font-weight: 600;
 }
 
 .large_body {
@@ -32,6 +39,7 @@
   font-size: 16px;
   line-height: 40px;
   animation: large_body 1.5s ease-out 0s 1;
+  padding-top: 24px;
 }
 
 .body {
@@ -114,7 +122,12 @@
 @media (min-width: 769px) {
   .title {
     width: 100%;
-    font-size: 36px;
+    font-size: 48px;
+    text-align: left;
+  }
+  .subtitle {
+    width: 100%;
+    font-size: 24px;
     text-align: left;
   }
   .large_body {

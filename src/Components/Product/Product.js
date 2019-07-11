@@ -6,16 +6,16 @@ class Products extends Component {
   state = {
     clicked: "",
     titles: [
-      "Medicare Advantage and Dual Special Needs Plans",
-      "Medicare Supplements",
-      "Medicare Part D",
+      "Medicare Advantage and Dual Special Needs Plans (DSNP)",
+      "Medicare Supplement Plans (Medigap)",
+      "Medicare Prescription Drug Coverage (Part D)",
       "Individual Health",
       "Dental / Vision / Hearing"
     ],
     descriptions: [
       "These plans offer an alternative way to get your Original Medicare, Part A and Part B, benefits. Unlike Original Medicare, Medicare Advantage and DSNP plans may also include prescription drug coverage (Part D) and additional benefits, like vision, dental, hearing coverage, over-the-counter health products, transportation and a fitness benefit.",
-      "These policies are sold by private insurance companies to help pay some of the healthcare costs that Original Medicare (Parts A and B) doesn't cover.  These plans may offer benefits such as assistance with deductibles, premiums, and copayment/ coinsurance, as well as emergency foreign travel coverage.",
-      "You can enroll in a stand-alone Medicare Prescription Drug Plan that can complement your existing Original Medicare (Part A and Part B) coverage.  These plans cover a formulary of brand and generic medications.  ",
+      "These policies are sold by private insurance companies to help pay some of the health care costs that Original Medicare (Parts A and B) doesn't cover.  These plans may offer benefits such as assistance with deductibles, premiums, and copayment/ coinsurance, as well as emergency foreign travel coverage.",
+      "You can enroll in a stand-alone Medicare Prescription Drug Plan that can complement your existing Original Medicare (Part A and Part B) coverage.  These plans cover a formulary of brand and generic medications.",
       "CareFree Direct provides you with the latest quoting and enrollment technology tools designed for mobile/tablet or desktop, in order to find the right plan for each customer. Quick or detailed side by side cost and feature comparison of individual health plans with plans like Medicare Advantage, Medigap, and other products. Through us, you as an agent can sell these popular plans with a wide range of prices from a variety of trusted carriers. With our deep carrier relationships, our leading digital marketing, our social media presence, and our agent tools and expertise, our primary objective remains how to help you write more business faster.",
       "If you are in the market for dental and vision insurance and find yourself asking, 'Why do I need it?' consider the advantages to your overall health. Our oral and ocular health can be key indicators in detecting early stages of many health risks and diseases along with preventing many other health issues. We excel in exceeding clients goals by understanding objectives, and pivoting real-time to drive superior outcomes."
     ]
@@ -97,18 +97,18 @@ class Products extends Component {
             </div>
             <div className={arrow} />
           </div>
-          <div className={card1} onClick={this.changeCard1}>
-            <img src="https://i.imgur.com/UZ8lCdn.jpg" alt="stethascope" />
-            <div className="container">
-              <h1>Medicare Supplements</h1>
-              <p>Learn More</p>
-            </div>
-            <div className={arrow} />
-          </div>
           <div className={card2} onClick={this.changeCard2}>
             <img src="https://i.imgur.com/p6miqu2.jpg" alt="" />
             <div className="container">
               <h1>Medicare Prescription Drug Coverage</h1>
+              <p>Learn More</p>
+            </div>
+            <div className={arrow} />
+          </div>
+          <div className={card1} onClick={this.changeCard1}>
+            <img src="https://i.imgur.com/UZ8lCdn.jpg" alt="stethascope" />
+            <div className="container">
+              <h1>Medicare Supplements</h1>
               <p>Learn More</p>
             </div>
             <div className={arrow} />

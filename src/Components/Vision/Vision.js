@@ -17,9 +17,9 @@ export default function About(props) {
       />
       <div className="text_container">
         <h1 className="title">
-          CareFree Direct Works with Leading Health Plans to Provide
-          Comprehensive and Affordable Hearing Aid Coverage
+          CareFree Direct Works with Leading Health Plans
         </h1>
+        <p className="subtitle" >to Provide Comprehensive and Affordable Hearing Aid Coverage</p>
         <p className="large_body">
           Getting help with hearing loss can be confusing and expensive. That’s
           where CareFree Direct comes in. Our hearing aid benefit programs give
@@ -36,8 +36,6 @@ export default function About(props) {
           goals by understanding objectives, and pivoting real-time to drive
           superior outcomes.
         </p>
-        <br />
-        <br />
         <p className="large_body">
           CareFree Direct has a team of courteous and knowledgeable licensed
           agents that can share additional insights on your Medicare coverage

@@ -22,45 +22,72 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div className="" ref="home">
+      <div ref="home">
         <div className="pic">
           <img src="https://i.imgur.com/R2UDOX1.png" alt="CFD logo overlay" />
           <p className="quote">"Healthcare, not just health insurance."</p>
         </div>
         <Split />
+        <div className="howItWorks" />
         <div className="full_container">
-          <h1 className="full_title">Why CareFree Direct?</h1>
-          <p className="full_body">
-            We find the right healthcare solutions, so you don't have to. Find a
-            health plan to suit your budget while fulfilling your healthcare
-            needs.
+          <h1 className="full_title_center">OUR MISSION</h1>
+          <p className="quote">
+            "We find the right healthcare solutions, so you don't have to."
           </p>
-          <p className="full_body">
-            CareFree Direct has a team of courteous and knowledgeable licensed
-            agents that can share additional insights on your Medicare coverage
-            options and find the right plan for you
-          </p>
+          <div className="whiteSpace48" />
+          <div>
+            <h1 className="full_title">MEDICARE PLANS</h1>
+            <p className="full_body">
+              We give our members the accessibility to Medicare Plans suited to
+              their needs and requirements. With years of experience, we’ve come
+              to understand each of our members’ unique Medicare needs. With
+              CareFree Direct, your Medicare process will be hassle-free and
+              easy to understand.
+            </p>
+            {/* <div>pic</div> */}
+          </div>
+          <div>
+            <h1 className="full_title">LICENSED AGENTS</h1>
+            <p className="full_body">
+              It’s important to keep yourself protected. That is why America's
+              Coverage provides Licensed Health Insurance Agents at no cost,
+              with freedom of mind that you and your family live your lives free
+              of worries. Contact one of our Benefits Advisors today to
+              understand more about what Medicare Plans are available to you and
+              let us do all the work so you can relax for a change.
+            </p>
+            {/* <div>pic</div> */}
+          </div>
+          <div>
+            <h1 className="full_title">OUR MEMBERS</h1>
+            <p className="full_body">
+              To avoid unnecessary worry about what the future holds, we ensure
+              that you are covered. With established relationships with numerous
+              carriers, let us put together a Medicare Plan that offers the
+              highest beneficial protection for you. Contact us to make an
+              appointment with one of our Licensed Agents. We provide coverage
+              options at no cost to you, we’re here to supply you with the
+              Medicare you need.
+            </p>
+            {/* <div>pic</div> */}
+          </div>
+          <h1 className="full_title_center">OUR PRODUCTS</h1>
+          <p className="quote">Medicare coverage that best suits your needs.</p>
           <div className="products_container">
             <Product />
           </div>
         </div>
         <Banner
           dental_kid={" "}
-          btnText={"Get a Quote"}
           title={"Amazing Dental Support"}
+          text={
+            "Our Advisors will answer any questions you may have about benefits you could be missing out on."
+          }
+          btnText={"Get a Free Quote"}
           link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
         />
         <div className="home_wrapper">
           <div className="text_container">
-            <h1 className="title">CareFree Direct can help!</h1>
-            <p className="large_body">
-              CareFree Direct has a team of courteous and knowledgeable licensed
-              agents that can share additional insights on your Medicare
-              coverage options and find the right plan for you. If you're unsure
-              of what type of Medicare coverage would best suit your needs,
-              don't hesitate to call us to speak with a CareFree Direct licensed
-              agent to assist in finding the right coverage to meet your needs.
-            </p>
             <h1 className="title">Get the most from your Medicare Plan</h1>
             <p className="large_body">
               Get the absolute most from your <span>Medicare Plan</span>. You
@@ -73,10 +100,19 @@ export default class Home extends Component {
               personalized quote for a dental plan today or speak to one of
               CareFree Direct's Licensed Benefit Advisors.
             </p>
+            <h1 className="title">CareFree Direct can help!</h1>
+            <p className="large_body">
+              CareFree Direct has a team of courteous and knowledgeable licensed
+              agents that can share additional insights on your Medicare
+              coverage options and find the right plan for you. If you're unsure
+              of what type of Medicare coverage would best suit your needs,
+              don't hesitate to call us to speak with a CareFree Direct licensed
+              agent to assist in finding the right coverage to meet your needs.
+            </p>
             <div className="whiteSpace48" />
             <Button
               link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
-              text={"Get A Quote"}
+              text={"Get A Free Quote"}
             />
             <div className="whiteSpace48" />
           </div>

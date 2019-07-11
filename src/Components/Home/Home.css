@@ -13,6 +13,15 @@
 }
 
 .full_title {
+  width: 80%;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: left;
+  line-height: 48px;
+  padding: 48px 36px 12px 36px;
+  color: #004869;
+}
+.full_title_center {
   font-size: 32px;
   font-weight: 900;
   text-align: left;
@@ -24,6 +33,14 @@
   font-size: 20px;
   line-height: 40px;
   padding: 0px 36px;
+  text-align: left;
+}
+.full_body_center {
+  width: 80%;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0px 36px;
+  text-align: center;
 }
 
 .products_container {
@@ -73,6 +90,22 @@
   justify-content: center;
   align-items: center;
   z-index: -100;
+}
+.howItWorks {
+  width: 100vw;
+  height: 600px;
+  background-image: url("https://i.imgur.com/z4Rpp2r.jpg");
+  background-color: #fff;
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -100;
+  margin: 60px 0px;
 }
 .pic3 {
   width: 100vw;
@@ -140,6 +173,10 @@
   /* opacity: 0.5; */
 }
 
+.pic .quote {
+  padding-top: 52px;
+}
+
 @media (min-width: 769px) {
   .home_wrapper {
     width: 100vw;
@@ -151,19 +188,30 @@
     text-align: center;
   }
   .pic {
-    height: 400px;
+    height: 350px;
     background-image: url("https://i.imgur.com/kDIwxvt.jpg");
   }
-  .pic2, .pic3, .pic4, .pic5, .pic6 {
+  .pic2,
+  .pic3,
+  .pic4,
+  .pic5,
+  .pic6 {
     height: 400px;
   }
   .full_title {
-    font-size: 36px;
+    font-size: 48px;
+  }
+  .full_title_center {
+    font-size: 48px;
   }
   .full_body {
     margin-bottom: 24px;
+    width: 80%;
   }
   .pic img {
     width: 28vw;
+  }
+  .pic .quote {
+    padding-top: 32px;
   }
 }

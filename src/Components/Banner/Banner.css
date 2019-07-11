@@ -1,5 +1,5 @@
 .bannerWrapper {
-  height: 500px;
+  height: 400px;
   width: 100vw;
   background-color: #3399cc;
   background-position: center; /* Center the image */
@@ -40,8 +40,9 @@
 }
 
 .bannerText {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 40px;
+  font-weight: bold;
   color: #ffff;
   animation: large_body 1000ms ease-out 0s 1;
 }
