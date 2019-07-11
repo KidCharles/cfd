@@ -1,21 +1,14 @@
 import React from "react";
 import "../Home/Home.css";
 import "../../App.css";
+import "./dental.css";
 
 import Call from "../CallCTA/Callcta";
-import Banner from "..//Banner/Banner";
 import Button from "../Button/Button";
 
 export default function About(props) {
   return (
     <div className="home_wrapper">
-      {/* <Banner
-        title={"Dental and vision plans to fit your needs"}
-        text={"Get started on your quote by clicking the link below"}
-        btnText={"See Dental Plans"}
-        link={"http://www.star.ameritas.com/personal-plans?agnt=010S0582"}
-        dentalPic={"dentalPic"}
-      /> */}
       <div className="banner dentalPic">
         <h1>Dental Promo</h1>
         <p>Vision and Hearing plans to fit your needs</p>

@@ -1,4 +1,5 @@
 import React from "react";
+import "./medicare.css";
 import "../Home/Home.css";
 import "../../App.css";
 
@@ -12,14 +13,12 @@ export default function About(props) {
   return (
     <div>
       <div className="home_wrapper">
-        <Banner
-          title={"Get the benefits that you deserve"}
-          text={
-            " If you're unsure of what type of Medicare coverage would best suit your needs, don't hesitate to call us to speak with a CareFree Direct licensed agent to assist in finding the right coverage to meet your needs."
-          }
-          btnText={"Call Now"}
-          medical={"medical"}
-        />
+        <div className="banner medicareBanner">
+          <h1>Get the benefits that you deserve</h1>
+          <p>Medicare Prompt Medicare Prompt Medicare Prompt</p>
+          <span className="button">Call Now</span>
+        </div>
+
         <div className="text_container">
           <h1 className="title">
             Medicare Advantage and Dual Special Needs Plans <span>(DSNP)</span>
@@ -74,7 +73,7 @@ export default function About(props) {
         <div className="whiteSpace64" />
         <Call />
       </div>
-      <div className="pic3" />
+      <div className="banner medicarePromo" />
     </div>
   );
 }

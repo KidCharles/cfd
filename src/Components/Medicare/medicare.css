@@ -1,0 +1,11 @@
+.medicareBanner {
+  background-image: url("https://i.imgur.com/whPJtfc.png");
+  height: 400px;
+  background-position: center;
+}
+
+.medicarePromo {
+  width: 100vw;
+  background-image: url("https://i.imgur.com/mZPLpOM.jpg");
+  background-position: center;
+}

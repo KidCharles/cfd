@@ -23,7 +23,7 @@ export default class Home extends Component {
     return (
       <div ref="home">
         <div className="banner homeBanner">
-          <img src="https://i.imgur.com/R2UDOX1.png" alt="CFD logo overlay" />
+          <img src="https://i.imgur.com/W3mepnU.png" alt="CFD logo overlay" />
           <p className="quote">"Healthcare, not just health insurance."</p>
         </div>
         <Split />
