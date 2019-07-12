@@ -56,6 +56,7 @@ export default function About(props) {
               forward to serving you.
             </p>
             <br />
+            <h1 className="title">Resources</h1>
           </div>
         </div>
         {/* <div className="split_container reverse">

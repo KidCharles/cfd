@@ -16,7 +16,7 @@ export default function About(props) {
         <div></div> 
           <div>
             <h1>Get the benefits that you deserve</h1>
-            <p>Medicare Prompt Medicare Prompt Medicare Prompt</p>
+            <p>Find out what you've been investing in <br/> all this time.</p>
             <div>
               <span className="button">Call Now</span>
             </div>

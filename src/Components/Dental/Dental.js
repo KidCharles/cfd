@@ -10,9 +10,9 @@ export default function About(props) {
   return (
     <div className="home_wrapper">
       <div className="banner dentalBanner">
-        <h1>Dental Promo</h1>
-        <p>Vision and Hearing plans to fit your needs</p>
-        <span className="button">Review Dental Plans</span>
+        <h1>You could be missing out on <br/>enhanced benefits!</h1>
+        <p>Exams and Cleanings, Oral Surgery, Crowns,<br/>Dentures, Fillings, Simple Extractions</p>
+        <span className="button">Do I qualify?</span>
       </div>
       <div className="text_container">
         <h1 className="title">

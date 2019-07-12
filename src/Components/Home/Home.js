@@ -67,7 +67,7 @@ export default class Home extends Component {
 
           <div className="plansAgentsMembers agents">
             <div>
-              <h1 className="full_title">LICENSED AGENTS</h1>
+              <h1 className="full_title">OUR LICENSED AGENTS</h1>
               <p className="full_body">
                 It’s important to keep yourself protected. That is why CareFree
                 Direct provides Licensed Health Insurance Agents at no cost,
@@ -100,10 +100,11 @@ export default class Home extends Component {
             </div>
           </div>
 
+          <h1 className="full_title_center">OUR CARRIERS</h1>
+          <p className="quote">CareFree Direct Works with Leading Health Plans</p>
+
           <h1 className="full_title_center">OUR PRODUCTS</h1>
           <p className="quote">Medicare coverage that best suits your needs.</p>
-          <div className="products_container" />
-
           <Product />
         </div>
 
