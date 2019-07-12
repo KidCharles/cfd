@@ -33,61 +33,81 @@ export default class Home extends Component {
             <h1>Questions About Benefits?</h1>
             <p>Talk to your Agent to find out what you're missing out on.</p>
             <div>
-              <span className="button">
-                Talk to your Agent
-              </span>
+              <span className="button">Talk to your Agent</span>
             </div>
           </div>
           <div />
         </div>
         <div className="full_container">
+          <div className="whiteSpace48" />
+          <div className="whiteSpace48" />
           <h1 className="full_title_center">OUR MISSION</h1>
           <p className="quote">
-            "We find the right healthcare solutions, so you don't have to."
+            "At CareFree Direct, We find the right healthcare solutions, so you don't have to."
           </p>
           <div className="whiteSpace48" />
-          <div>
-            <h1 className="full_title">MEDICARE PLANS</h1>
-            <p className="full_body">
-              We give our members the accessibility to Medicare Plans suited to
-              their needs and requirements. With years of experience, we’ve come
-              to understand each of our members’ unique Medicare needs. With
-              CareFree Direct, your Medicare process will be hassle-free and
-              easy to understand.
-            </p>
-            {/* <div>pic</div> */}
+          <div className="whiteSpace48" />
+
+          <div className="plansAgentsMembers">
+            <div>
+              <h1 className="full_title">MEDICARE PLANS</h1>
+              <p className="full_body">
+                We give our members the accessibility to Medicare Plans suited
+                to their needs and requirements. With years of experience, we’ve
+                come to understand each of our members’ unique Medicare needs.
+                With CareFree Direct, your Medicare process will be hassle-free
+                and easy to understand.
+              </p>
+            </div>
+            <div>
+              <img
+                src="https://i.imgur.com/jyCeC3S.jpg"
+                alt="Medicare couple"
+              />
+            </div>
           </div>
-          <div>
-            <h1 className="full_title">LICENSED AGENTS</h1>
-            <p className="full_body">
-              It’s important to keep yourself protected. That is why America's
-              Coverage provides Licensed Health Insurance Agents at no cost,
-              with freedom of mind that you and your family live your lives free
-              of worries. Contact one of our Benefits Advisors today to
-              understand more about what Medicare Plans are available to you and
-              let us do all the work so you can relax for a change.
-            </p>
-            {/* <div>pic</div> */}
+
+          <div className="plansAgentsMembers">
+            <div>
+              <img src="https://i.imgur.com/ngIIQ7Y.png" alt="Agents" />
+            </div>
+            <div>
+              <h1 className="full_title" style={{ textAlign: "right" }}>LICENSED AGENTS</h1>
+              <p className="full_body" style={{ textAlign: "right" }}>
+                It’s important to keep yourself protected. That is why CareFree Direct provides Licensed Health Insurance Agents at no cost,
+                with freedom of mind that you and your family live your lives
+                free of worries. Contact one of our Benefits Advisors today to
+                understand more about what Medicare Plans are available to you
+                and let us do all the work so you can relax for a change.
+              </p>
+            </div>
           </div>
-          <div>
-            <h1 className="full_title">OUR MEMBERS</h1>
-            <p className="full_body">
-              To avoid unnecessary worry about what the future holds, we ensure
-              that you are covered. With established relationships with numerous
-              carriers, let us put together a Medicare Plan that offers the
-              highest beneficial protection for you. Contact us to make an
-              appointment with one of our Licensed Agents. We provide coverage
-              options at no cost to you, we’re here to supply you with the
-              Medicare you need.
-            </p>
-            {/* <div>pic</div> */}
+
+          <div className="plansAgentsMembers">
+            <div>
+              <h1 className="full_title">OUR MEMBERS</h1>
+              <p className="full_body">
+                To avoid unnecessary worry about what the future holds, we
+                ensure that you are covered. With established relationships with
+                numerous carriers, let us put together a Medicare Plan that
+                offers the highest beneficial protection for you. Contact us to
+                make an appointment with one of our Licensed Agents. We provide
+                coverage options at no cost to you, we’re here to supply you
+                with the Medicare you need.
+              </p>
+            </div>
+            <div>
+              <img src="https://i.imgur.com/h49MTd2.jpg" alt="Members" />
+            </div>
           </div>
+
           <h1 className="full_title_center">OUR PRODUCTS</h1>
           <p className="quote">Medicare coverage that best suits your needs.</p>
-          <div className="products_container">
-            <Product />
-          </div>
+          <div className="products_container" />
+
+          <Product />
         </div>
+
         <div className="banner homePromo">
           <h1 className="">Amazing Dental Support</h1>
           <p>

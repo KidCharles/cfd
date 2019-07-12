@@ -56,7 +56,7 @@
 
 .banner {
   width: 100vw;
-  background-color: #FFF;
+  background-color: #fff;
   background-size: cover;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -81,8 +81,8 @@
   padding-bottom: 40px;
   color: #6d6e71;
 }
-
 .banner img {
+  width: 80vw;
 }
 
 .homeBanner {
@@ -96,7 +96,6 @@
 }
 
 .homeCall {
-
   background-image: url("https://i.imgur.com/279yx0O.jpg");
   background-position: center;
   width: 100vw;
@@ -118,6 +117,32 @@
   width: auto;
 }
 
+.howItWorks {
+  display: none;
+  width: 100vw;
+  height: 600px;
+  background-image: url("https://i.imgur.com/z4Rpp2r.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 60px 0px;
+}
+
+.plansAgentsMembers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.plansAgentsMembers div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.plansAgentsMembers img {
+  width: 100vw;
+}
+
 .homePromo {
   background-image: url("https://i.imgur.com/rG9g9yy.jpg");
   width: 100vw;
@@ -132,41 +157,6 @@
   color: #fff;
   line-height: 32px;
   width: 50%;
-}
-
-.howItWorks {
-  display: none;
-  width: 100vw;
-  height: 600px;
-  background-image: url("https://i.imgur.com/z4Rpp2r.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 60px 0px;
-}
-.pic3 {
-  height: 200px;
-  background-image: url("https://i.imgur.com/TKwgY0l.jpg");
-  background-position: center;
-}
-.pic4 {
-  height: 200px;
-  background-image: url("https://i.imgur.com/tw7tNQN.jpg");
-  background-position: center;
-}
-.pic5 {
-  height: 200px;
-  background-image: url("https://i.imgur.com/k8IMWtX.jpg");
-  background-position: center;
-}
-
-.banner img {
-  width: 80vw;
-}
-
-.pic .quote {
-  padding-top: 52px;
-  color: #fff;
 }
 
 @media (min-width: 769px) {
@@ -216,15 +206,38 @@
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+    margin-bottom: 60px;
+  }
+  .homeCall div {
+    width: auto;
+    padding: 20px;
   }
   .homeCall h1 {
     font-size: 40px;
   }
   .homeCall p {
     width: 80%;
-
     font-size: 24px;
     font-weight: 300;
+  }
+  .plansAgentsMembers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    padding: 0px 40px;
+    margin-bottom: 60px;
+    overflow: hidden;
+  }
+  .plansAgentsMembers div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .plansAgentsMembers img {
+    width: 40vw;
+    text-align: right;
   }
   .homePromo p {
     width: 50%;
