@@ -43,7 +43,8 @@ export default class Home extends Component {
           <div className="whiteSpace48" />
           <h1 className="full_title_center">OUR MISSION</h1>
           <p className="quote">
-            "At CareFree Direct, We find the right healthcare solutions, so you don't have to."
+            "At CareFree Direct, We find the right healthcare solutions, so you
+            don't have to."
           </p>
           <div className="whiteSpace48" />
           <div className="whiteSpace48" />
@@ -67,19 +68,20 @@ export default class Home extends Component {
             </div>
           </div>
 
-          <div className="plansAgentsMembers">
+          <div className="plansAgentsMembers agents">
             <div>
-              <img src="https://i.imgur.com/ngIIQ7Y.png" alt="Agents" />
-            </div>
-            <div>
-              <h1 className="full_title" style={{ textAlign: "right" }}>LICENSED AGENTS</h1>
-              <p className="full_body" style={{ textAlign: "right" }}>
-                It’s important to keep yourself protected. That is why CareFree Direct provides Licensed Health Insurance Agents at no cost,
+              <h1 className="full_title">LICENSED AGENTS</h1>
+              <p className="full_body">
+                It’s important to keep yourself protected. That is why CareFree
+                Direct provides Licensed Health Insurance Agents at no cost,
                 with freedom of mind that you and your family live your lives
                 free of worries. Contact one of our Benefits Advisors today to
                 understand more about what Medicare Plans are available to you
                 and let us do all the work so you can relax for a change.
               </p>
+            </div>
+            <div>
+              <img src="https://i.imgur.com/ngIIQ7Y.png" alt="Agents" />
             </div>
           </div>
 
@@ -161,7 +163,7 @@ export default class Home extends Component {
               </div>
               <div>
                 <img
-                  src="https://i.imgur.com/279yx0O.jpg"
+                  src="https://i.imgur.com/Qtyit5H.jpg"
                   alt="Ladies laughing on bench"
                 />
               </div>
