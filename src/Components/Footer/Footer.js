@@ -13,31 +13,33 @@ export default function Footer(props) {
   return (
     <div className="footer_wrapper">
       <div className="footer_container">
-        <ul>
-          <Link to="/medicare" style={{ textDecoration: "none" }}>
-            <li onClick={() => props.to_top()}> Medicare</li>
-          </Link>
-          <span>|</span>
-          <Link to="/dental" style={{ textDecoration: "none" }}>
-            <li onClick={() => props.to_top()}>Dental</li>
-          </Link>
-          <span>|</span>
-          <Link to="/vision" style={{ textDecoration: "none" }}>
-            <li onClick={() => props.to_top()}>Vision/Hearing</li>
-          </Link>
-        </ul>
         <div>
           <ul>
+            <Link to="/medicare" style={{ textDecoration: "none" }}>
+              <li onClick={() => props.to_top()}> Medicare</li>
+            </Link>
+            <span>|</span>
+            <Link to="/dental" style={{ textDecoration: "none" }}>
+              <li onClick={() => props.to_top()}>Dental</li>
+            </Link>
+            <span>|</span>
+            <Link to="/vision" style={{ textDecoration: "none" }}>
+              <li onClick={() => props.to_top()}>Vision/Hearing</li>
+            </Link>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <span>|</span>
             <Link to="/About" style={{ textDecoration: "none" }}>
               <li onClick={() => props.to_top()}> About Us</li>
             </Link>
             <span>|</span>
-            <a
-              href="mailto:cfdirect@mycarefree.com"
-              style={{ textDecoration: "none", color: "#fff" }}
-            >
-              <li>Contact Us</li>
-            </a>
+
+            <Link to="/careers" style={{ textDecoration: "none" }}>
+              <li onClick={() => props.to_top()}>Careers</li>
+            </Link>
+            <span>|</span>
           </ul>
         </div>
         <div className="">
@@ -50,25 +52,34 @@ export default function Footer(props) {
               <li onClick={() => props.to_top()}>Privacy Policy</li>
             </Link>
             <span>|</span>
-            <Link to="/careers" style={{ textDecoration: "none" }}>
-              <li onClick={() => props.to_top()}>Careers</li>
-            </Link>
+
+            <a
+              href="mailto:cfdirect@mycarefree.com"
+              style={{ textDecoration: "none", color: "#fff" }}
+            >
+              <li>Contact Us</li>
+            </a>
           </ul>
         </div>
-        <div className="footer_cta">
+      </div>
+
+      <div className="footer_cta">
+        <div>
           <p>Speak to a Licensed Benefits Advisor!</p>
-          <div>
-            <img className="footer_phone" src={phone} alt="phone icon" />
-            <a
-              data-replaceable-phone-dialable=""
-              className="footer_number"
-              href="tel:18558700077"
-            >
-              <span className="">1-855-870-0077</span>
-            </a>
-          </div>
         </div>
-        <div className="social_media_wrapper">
+        <div>
+          <img className="footer_phone" src={phone} alt="phone icon" />
+          <a
+            data-replaceable-phone-dialable=""
+            className="footer_number"
+            href="tel:18558700077"
+          >
+            <span className="">1-855-870-0077</span>
+          </a>
+        </div>
+      </div>
+      <div className="social_media_wrapper">
+        <div>
           <Link to="/" style={{ textDecoration: "none" }}>
             <img
               className="footer_logo"
@@ -77,40 +88,40 @@ export default function Footer(props) {
               onClick={() => props.to_top()}
             />
           </Link>
-          <div>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.facebook.com/CareFreeDirect"
-            >
-              <img className="social_media_icon" src={fb} alt="" />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.instagram.com/carefree_direct"
-            >
-              <img className="social_media_icon" src={ig} alt="" />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/company/carefree-direct"
-            >
-              <img className="social_media_icon" src={linked} alt="" />
-            </a>
-            <a
-              href="mailto:cfdirect@mycarefree.com"
-              style={{ textDecoration: "none", color: "#fff" }}
-            >
-              <img className="social_media_icon" src={mail} alt="" />
-            </a>
-          </div>
         </div>
-        <p className="footer_copyright">
-          ©2019 CareFree Direct All Rights Reserved.
-        </p>
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/CareFreeDirect"
+          >
+            <img className="social_media_icon" src={fb} alt="" />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/carefree_direct"
+          >
+            <img className="social_media_icon" src={ig} alt="" />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/company/carefree-direct"
+          >
+            <img className="social_media_icon" src={linked} alt="" />
+          </a>
+          <a
+            href="mailto:cfdirect@mycarefree.com"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+            <img className="social_media_icon" src={mail} alt="" />
+          </a>
+        </div>
       </div>
+      <p className="footer_copyright">
+        ©2019 CareFree Direct All Rights Reserved.
+      </p>
     </div>
   );
 }
