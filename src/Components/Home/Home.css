@@ -161,6 +161,7 @@
   width: 100vw;
   height: 450px;
   background-position: left;
+  margin: 0px;
 }
 .homePromo h1 {
   color: #fff;
@@ -255,6 +256,15 @@
   .plansAgentsMembers p {
     margin-bottom: 0px;
   }
+  .plansAgentsMembers div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .plansAgentsMembers img {
+    width: 40vw;
+    text-align: right;
+  }
   .agents {
     flex-direction: row-reverse !important;
   }
@@ -264,14 +274,8 @@
   .agents p {
     text-align: right;
   }
-  .plansAgentsMembers div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .plansAgentsMembers img {
-    width: 40vw;
-    text-align: right;
+  .homePromo  {
+    margin: 40px 0px;
   }
   .homePromo p {
     width: 50%;

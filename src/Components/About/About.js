@@ -6,7 +6,7 @@ import "../Careers/careers.css";
 
 export default function About(props) {
   return (
-    <div className="home_wrapper">
+    <div className="home_wrapper about_wrapper">
       <div className="banner aboutBanner">
         <h1>CAREFREE DIRECT</h1>
         <p>
@@ -14,34 +14,34 @@ export default function About(props) {
           you don’t have to.
         </p>
       </div>
-      <div className="careers_wrapper">
-        <div className="split_container">
-          <div className="textHalf">
-            <h1>Why CareFree Direct?</h1>
+      <div>
+        <div className="aboutContainer">
+          <div>
+            <h1 className="full_title">CareFree Direct</h1>
             <p className="quote">"Healthcare, not just health insurance."</p>
-            <p>
+            <p className="large_body">
               CareFree Direct has a team of courteous and knowledgeable licensed
               agents that can share additional insights on your Medicare
               coverage options and find the right plan for you.
             </p>
           </div>
-          <div className="imgHalf">
+          <div>
             <img
-              src="https://i.imgur.com/m9og9nj.jpg"
-              alt="builings with logo on them"
+              src="https://i.imgur.com/nBv1EEK.png"
+              alt="CareFree Direct Logo"
             />
           </div>
         </div>
-        <div className="whole_container">
+        <div className="aboutContainer">
           <div>
-            <p>
+            <p className="large_body">
               If you're unsure of what type of Medicare coverage best suits your
               needs, one phone call with a knowledgeable CareFree Direct
               licensed agent will help answer your questions and enroll you in a
               plan that best meets your needs.
             </p>
             <br />
-            <p>
+            <p className="large_body">
               CareFree Direct’s service doesn’t end after your enrollment in a
               Medicare plan. Our licensed benefit advisors will provide ongoing
               support for the duration of your coverage. Our team will ensure
@@ -49,7 +49,7 @@ export default function About(props) {
               benefit needs evolve and available coverage options change.
             </p>
             <br />
-            <p>
+            <p className="large_body">
               We’ll be available to provide information to help with provider
               network questions, drug coverage questions, and general benefit
               questions about your coverage. We’re here to help and we look
@@ -124,7 +124,6 @@ export default function About(props) {
           </div>
         </div> */}
       </div>
-      <div className="pic5" />
     </div>
   );
 }

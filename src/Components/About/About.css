@@ -1,37 +1,6 @@
-.mobile_banner {
-  display: flex;
+.about_wrapper{
+    margin-bottom: 0px;
 }
-/* .videoWrapper{
-  width: 100vw;
-  overflow: hidden;
-}
-.videoWrapper video {
-  width: 100vw;
-} */
-
-.textHalf {
-  margin: 32px 0px;
-}
-
-.imgHalf {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.imgHalfTitle {
-  position: absolute;
-  width: 300px !important;
-  font-size: 40px !important;
-  text-align: center;
-  line-height: 52px !important;
-  color: #fff !important;
-  text-shadow: 2px 4px 6px #00324e;
-}
-
-.logo_white {
-  animation: large_body 1.5s ease-out 0s 1;
-}
-
 .aboutBanner {
   height: 400px;
   background-image: url("https://i.imgur.com/d0LlyIi.png");
@@ -45,21 +14,61 @@
   width: 80%;
 }
 
+.aboutContainer {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.aboutContainer img {
+  display: none;
+}
+.aboutContainer p {
+  margin-bottom: 40px;
+}
+
 @media (min-width: 769px) {
-  .mobile_banner {
-    display: none;
-  }
-  .textHalf {
-    margin: 0px 0px;
-  }
-  .imgHalfTitle {
-    width: 400px !important;
-    line-height: 64px !important;
-  }
+  .about_wrapper{
+    margin-bottom: 60px;
+}
   .aboutBanner p {
     width: 60%;
   }
   .aboutBanner h1 {
     margin-bottom: 24px;
+  }
+  .aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    padding: 0px 40px;
+    overflow: hidden;
+  }
+  .aboutContainer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+  }
+  .aboutContainer h1 {
+    width: initial;
+    text-align: center;
+  }
+  .aboutContainer p {
+    margin-bottom: 0px;
+  }
+  .aboutContainer img {
+    display: block;
+    width: 32vw;
+    padding: 0px 80px;
   }
 }
