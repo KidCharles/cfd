@@ -40,13 +40,11 @@ export default class Home extends Component {
         </div>
         <div className="full_container">
           <div className="whiteSpace48" />
-          <div className="whiteSpace48" />
           <h1 className="full_title_center">OUR MISSION</h1>
           <p className="quote">
             "At CareFree Direct, We find the right healthcare solutions, so you
             don't have to."
           </p>
-          <div className="whiteSpace48" />
           <div className="whiteSpace48" />
 
           <div className="plansAgentsMembers">

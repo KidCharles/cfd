@@ -142,6 +142,9 @@
 .plansAgentsMembers img {
   width: 100vw;
 }
+.plansAgentsMembers  p{
+  margin-bottom: 40px;
+}
 .agents {
   flex-direction: column;
 }
@@ -150,6 +153,7 @@
 }
 .agents p {
   text-align: left;
+
 }
 
 .homePromo {
@@ -238,6 +242,9 @@
     padding: 0px 40px;
     margin-bottom: 60px;
     overflow: hidden;
+  }
+  .plansAgentsMembers p{
+    margin-bottom: 0px;
   }
   .agents {
     flex-direction: row-reverse !important;
