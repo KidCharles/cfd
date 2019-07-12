@@ -4,20 +4,16 @@ import "../../App.css";
 import "./About.css";
 import "../Careers/careers.css";
 
-// import Call from "../CallCTA/Callcta";
-import Banner from "..//Banner/Banner";
-// import Button from "../Button/Button";
-
 export default function About(props) {
   return (
     <div className="home_wrapper">
-      <Banner
-        title={"CAREFREE DIRECT"}
-        text={
-          "We work hard to find the right Medicare and healthcare solutions, so you don’t have to."
-        }
-        pic1={"pic1"}
-      />
+      <div className="banner aboutBanner">
+        <h1>CAREFREE DIRECT</h1>
+        <p>
+          We work hard to find the right Medicare and healthcare solutions, so
+          you don’t have to.
+        </p>
+      </div>
       <div className="careers_wrapper">
         <div className="split_container">
           <div className="textHalf">
@@ -49,8 +45,8 @@ export default function About(props) {
               CareFree Direct’s service doesn’t end after your enrollment in a
               Medicare plan. Our licensed benefit advisors will provide ongoing
               support for the duration of your coverage. Our team will ensure
-              your selected plan continues to meet your healthcare needs as
-              your benefit needs evolve and available coverage options change.
+              your selected plan continues to meet your healthcare needs as your
+              benefit needs evolve and available coverage options change.
             </p>
             <br />
             <p>

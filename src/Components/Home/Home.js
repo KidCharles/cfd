@@ -39,14 +39,13 @@ export default class Home extends Component {
           <div />
         </div>
         <div className="full_container">
-          <div className="whiteSpace48" />
-          <h1 className="full_title_center">OUR MISSION</h1>
-          <p className="quote">
-            "At CareFree Direct, We find the right healthcare solutions, so you
-            don't have to."
-          </p>
-          <div className="whiteSpace48" />
-
+          <div className="mission">
+            <h1 className="full_title_center">OUR MISSION</h1>
+            <p className="quote">
+              "At CareFree Direct, We find the right healthcare solutions, so
+              you don't have to."
+            </p>
+          </div>
           <div className="plansAgentsMembers">
             <div>
               <h1 className="full_title">MEDICARE PLANS</h1>
@@ -154,7 +153,7 @@ export default class Home extends Component {
                   "Healthcare, not just health insurance."
                 </p>
                 <Link to="/medicare" style={{ textDecoration: "none" }}>
-                  <span className="button" onClick={() => this.toTop()}>
+                  <span className="button1" onClick={() => this.toTop()}>
                     Medicare
                   </span>
                 </Link>
@@ -177,7 +176,7 @@ export default class Home extends Component {
                   doesn't have to be difficult. Let us help!"
                 </p>
                 <Link to="/dental" style={{ textDecoration: "none" }}>
-                  <span className="button" onClick={() => this.toTop()}>
+                  <span className="button1" onClick={() => this.toTop()}>
                     Dental
                   </span>
                 </Link>
@@ -191,7 +190,7 @@ export default class Home extends Component {
                   expensive. That’s where CareFree Direct comes in."
                 </p>
                 <Link to="/vision" style={{ textDecoration: "none" }}>
-                  <span className="button" onClick={() => this.toTop()}>
+                  <span className="button1" onClick={() => this.toTop()}>
                     Vision / Hearing
                   </span>
                 </Link>
@@ -211,7 +210,7 @@ export default class Home extends Component {
                   solutions, so you don’t have to."
                 </p>
                 <Link to="/About" style={{ textDecoration: "none" }}>
-                  <span className="button" onClick={() => this.toTop()}>
+                  <span className="button1" onClick={() => this.toTop()}>
                     About Us
                   </span>
                 </Link>

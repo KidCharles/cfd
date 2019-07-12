@@ -22,12 +22,13 @@
   color: #004869;
 }
 .full_title_center {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 900;
   text-align: left;
   line-height: 48px;
   padding: 48px 36px 12px 36px;
   color: #004869;
+  letter-spacing: 1px;
 }
 .full_body {
   font-size: 20px;
@@ -142,7 +143,7 @@
 .plansAgentsMembers img {
   width: 100vw;
 }
-.plansAgentsMembers  p{
+.plansAgentsMembers p {
   margin-bottom: 40px;
 }
 .agents {
@@ -153,7 +154,6 @@
 }
 .agents p {
   text-align: left;
-
 }
 
 .homePromo {
@@ -233,17 +233,26 @@
     font-size: 24px;
     font-weight: normal;
   }
+
+  .mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+  }
+
   .plansAgentsMembers {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 400px;
-    padding: 0px 40px;
+    padding: 12px 40px;
     margin-bottom: 60px;
     overflow: hidden;
   }
-  .plansAgentsMembers p{
+  .plansAgentsMembers p {
     margin-bottom: 0px;
   }
   .agents {

@@ -32,6 +32,19 @@
   animation: large_body 1.5s ease-out 0s 1;
 }
 
+.aboutBanner {
+  height: 400px;
+  background-image: url("https://i.imgur.com/d0LlyIi.png");
+}
+.aboutBanner h1 {
+  color: #fff;
+  margin-bottom: 0px;
+}
+.aboutBanner p {
+  color: #e3e4e5;
+  width: 80%;
+}
+
 @media (min-width: 769px) {
   .mobile_banner {
     display: none;
@@ -42,5 +55,11 @@
   .imgHalfTitle {
     width: 400px !important;
     line-height: 64px !important;
+  }
+  .aboutBanner p {
+    width: 60%;
+  }
+  .aboutBanner h1 {
+    margin-bottom: 24px;
   }
 }
