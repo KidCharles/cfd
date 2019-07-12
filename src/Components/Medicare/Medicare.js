@@ -4,7 +4,6 @@ import "../Home/Home.css";
 import "../../App.css";
 
 import Call from "../CallCTA/Callcta";
-import Banner from "..//Banner/Banner";
 import Product from "../Product/Product.js";
 
 // import Button from "../Button/Button";
@@ -14,9 +13,14 @@ export default function About(props) {
     <div>
       <div className="home_wrapper">
         <div className="banner medicareBanner">
-          <h1>Get the benefits that you deserve</h1>
-          <p>Medicare Prompt Medicare Prompt Medicare Prompt</p>
-          <span className="button">Call Now</span>
+        <div></div> 
+          <div>
+            <h1>Get the benefits that you deserve</h1>
+            <p>Medicare Prompt Medicare Prompt Medicare Prompt</p>
+            <div>
+              <span className="button">Call Now</span>
+            </div>
+          </div>
         </div>
 
         <div className="text_container">
