@@ -52,7 +52,6 @@ export default function Footer(props) {
               <li onClick={() => props.to_top()}>Privacy Policy</li>
             </Link>
             <span>|</span>
-
             <a
               href="mailto:cfdirect@mycarefree.com"
               style={{ textDecoration: "none", color: "#fff" }}
