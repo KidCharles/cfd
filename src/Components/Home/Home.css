@@ -56,7 +56,7 @@
 
 .banner {
   width: 100vw;
-  background-color: #3399cc;
+  background-color: #FFF;
   background-size: cover;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -89,10 +89,33 @@
   background-image: url("https://i.imgur.com/kDIwxvt.jpg");
   width: 100vw;
   height: 400px;
-  background-position: center;
+  background-position: right;
 }
-.homeBanner .quote{
+.homeBanner .quote {
   color: #004869;
+}
+
+.homeCall {
+
+  background-image: url("https://i.imgur.com/279yx0O.jpg");
+  background-position: center;
+  width: 100vw;
+  height: 400px;
+  display: none;
+}
+.homeCall div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+.homeCall .quote {
+  width: 100%;
+}
+
+.homeCall .button {
+  width: auto;
 }
 
 .homePromo {
@@ -101,14 +124,18 @@
   height: 450px;
   background-position: left;
 }
-.homePromo h1{
+.homePromo h1 {
   color: #fff;
+  text-align: center;
 }
-.homePromo p{
+.homePromo p {
   color: #fff;
+  line-height: 32px;
+  width: 50%;
 }
 
 .howItWorks {
+  display: none;
   width: 100vw;
   height: 600px;
   background-image: url("https://i.imgur.com/z4Rpp2r.jpg");
@@ -132,7 +159,6 @@
   background-image: url("https://i.imgur.com/k8IMWtX.jpg");
   background-position: center;
 }
-
 
 .banner img {
   width: 80vw;
@@ -165,16 +191,42 @@
     width: 80%;
   }
   .banner img {
-    width: 28vw;
-  }
-  .homeBanner .quote {
-    padding-top: 32px;
+    width: 20vw;
   }
   .banner h1 {
     font-size: 60px;
   }
   .banner p {
-    width: 50%;
+    width: 100%;
     font-size: 28px;
+  }
+  .homeBanner .quote {
+    padding-top: 32px;
+  }
+  .homeBanner {
+    background-position: center;
+  }
+  .howItWorks {
+    display: flex;
+  }
+  .homeCall {
+    background-image: url("https://i.imgur.com/xr30yVM.png");
+    background-position: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .homeCall h1 {
+    font-size: 40px;
+  }
+  .homeCall p {
+    width: 80%;
+
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .homePromo p {
+    width: 50%;
   }
 }
