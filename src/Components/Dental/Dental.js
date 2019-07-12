@@ -9,7 +9,7 @@ import Button from "../Button/Button";
 export default function About(props) {
   return (
     <div className="home_wrapper">
-      <div className="banner dentalPic">
+      <div className="banner dentalBanner">
         <h1>Dental Promo</h1>
         <p>Vision and Hearing plans to fit your needs</p>
         <span className="button">Review Dental Plans</span>

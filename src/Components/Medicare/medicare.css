@@ -1,6 +1,6 @@
 .medicareBanner {
   background-image: url("https://i.imgur.com/bJTSEJm.jpg");
-  background-position: center;
+  background-position: left;
   width: 100vw;
   height: 400px;
   display: flex;
@@ -12,19 +12,27 @@
   background-position: center;
 }
 
-.medicareBanner div{
+.medicareBanner div {
   display: flex;
   flex-direction: column;
   align-content: center;
   text-align: center;
   align-items: center;
 }
-.medicareBanner .button{
+.medicareBanner h1 {
+  color: #002c45;
+}
+.medicareBanner p {
+  color: #00405e;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.medicareBanner .button {
   width: auto;
 }
 
 @media (min-width: 769px) {
-
   .medicareBanner {
     background-position: left;
     display: flex;
@@ -39,19 +47,13 @@
   }
   .medicareBanner h1 {
     font-size: 40px;
-    color: #FFF;
+    color: #fff;
     width: 80%;
   }
   .medicareBanner p {
     width: 80%;
     font-size: 24px;
-    font-weight: 300;
     color: #e3e4e5;
     padding-bottom: 12px;
   }
-
 }
-
-
-
-

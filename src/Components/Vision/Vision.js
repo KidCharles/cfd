@@ -1,25 +1,29 @@
 import React from "react";
-import "../Home/Home.css";
+
 import "../../App.css";
+import "./vision.css";
+import "../Home/Home.css";
 
 import Call from "../CallCTA/Callcta";
-import Banner from "..//Banner/Banner";
 
 export default function About(props) {
   return (
     <div className="home_wrapper">
-      <Banner
-        title={"Vision and Hearing"}
-        text={"Vision and Hearing plans to fit your needs"}
-        btnText={"Talk Now"}
-        link={"http://www.star.ameritas.com/personal-plans?agnt=010S0582"}
-        visionKid={"visionKid"}
-      />
+      <div className="banner visionBanner">
+        <div />
+        <div>
+          <h1>Vision and Hearing</h1>
+          <p>Vision and Hearing plans to fit your needs</p>
+          <span className="button">Review Vision Plans</span>
+        </div>
+      </div>
       <div className="text_container">
         <h1 className="title">
           CareFree Direct Works with Leading Health Plans
         </h1>
-        <p className="subtitle" >to Provide Comprehensive and Affordable Hearing Aid Coverage</p>
+        <p className="subtitle">
+          to Provide Comprehensive and Affordable Hearing Aid Coverage
+        </p>
         <p className="large_body">
           Getting help with hearing loss can be confusing and expensive. That’s
           where CareFree Direct comes in. Our hearing aid benefit programs give
@@ -47,7 +51,7 @@ export default function About(props) {
       </div>
       <div className="whiteSpace64" />
       <Call />
-      <div className="pic4" />
+      <div className="visionPromo" />
     </div>
   );
 }
