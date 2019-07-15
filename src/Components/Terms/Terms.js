@@ -104,7 +104,7 @@ export default function Terms(props) {
         </p>
         <br />
         <br />
-        <p>Last Updated: 7/9/2019</p>
+        <p>Last Updated: 7/15/2019</p>
       </div>
     </div>
   );

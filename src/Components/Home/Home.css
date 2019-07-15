@@ -72,6 +72,7 @@
   line-height: 48px;
   padding-bottom: 24px;
   color: #004869;
+  /* text-shadow: 0px 2px 4px #414042; */
 }
 .banner p {
   width: 80%;
@@ -81,6 +82,7 @@
   color: #6d6e71;
   font-size: 24px;
   font-weight: normal;
+  /* text-shadow: 0px 1px 4px #414042; */
 }
 .banner img {
   width: 80vw;
@@ -145,7 +147,7 @@
   text-align: left;
 }
 
-.carrierContainer{
+.carrierContainer {
   width: 100vw;
   border-bottom: 2px solid #e6e7e8;
   display: flex;
@@ -153,20 +155,20 @@
   justify-content: center;
   align-items: center;
 }
-.carrierBanner{
+.carrierBanner {
   width: 80vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
 }
-.carrierBanner img{
+.carrierBanner img {
   width: 100px;
- background-color: aquamarine;
- padding: 0px 12px;
+  background-color: aquamarine;
+  padding: 0px 12px;
 }
 
-.carrierBanner{
+.carrierBanner {
   background-color: #e6e7e8;
   width: 100vw;
   height: 150px;
@@ -176,7 +178,6 @@
   justify-content: space-around;
   align-items: center;
 }
-
 
 .homePromo {
   background-image: url("https://i.imgur.com/rG9g9yy.jpg");
@@ -294,7 +295,7 @@
   .agents p {
     text-align: right;
   }
-  .carrierContainer{
+  .carrierContainer {
     border-bottom: none;
   }
   .homePromo {
