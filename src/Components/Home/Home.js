@@ -9,6 +9,7 @@ import Button from "../Button/Button";
 import Product from "../Product/Product.js";
 import Split from "../SplitBanner/SplitBanner.js";
 import { Link } from "react-router-dom";
+import HowItWorks from "../HowItWorks/HowItWorks";
 
 export default class Home extends Component {
   handleScrollToElement(e) {
@@ -28,6 +29,7 @@ export default class Home extends Component {
         </div>
         <Split />
         <div className="howItWorks" />
+        <HowItWorks/>
         <div className="banner homeCall">
           <div>
             <h1>Questions About Benefits?</h1>

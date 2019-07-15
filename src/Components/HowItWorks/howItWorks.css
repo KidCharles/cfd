@@ -1,0 +1,74 @@
+.hiwWrapper {
+  width: 100vw;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+.hiwContainer {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.hiwContainer h1 {
+  font-size: 52px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  /* line-height:24px ; */
+  text-align: center;
+  margin-bottom: 12px;
+}
+.hiwContainer p {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  /* line-height: ; */
+  text-align: center;
+  margin-bottom: 80px;
+  line-height: 32px;
+}
+.hiwStepContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  color: #414042;
+}
+.hiwStepContainer div {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+}
+.hiwStepContainer img {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  margin-bottom: 24px;
+}
+.hiwStepContainer h1 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  /* line-height:24px ; */
+  margin-bottom: 12px;
+}
+.hiwStepContainer p {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  /* line-height: ; */
+  margin-bottom: 12px;
+}
+
+@media (min-width: 769px) {
+}
