@@ -10,11 +10,16 @@ export default function About(props) {
   return (
     <div className="home_wrapper">
       <div className="banner visionBanner">
-        <div />
         <div>
           <h1>Vision and Hearing</h1>
           <p>Vision and Hearing plans to fit your needs</p>
-          <span className="button">Review Vision Plans</span>
+          <a
+            data-replaceable-phone-dialable=""
+            href="tel:18558700077"
+            style={{ textDecoration: "none" }}
+          >
+            <span className="button">Review Vision Plans</span>
+          </a>
         </div>
       </div>
       <div className="text_container">

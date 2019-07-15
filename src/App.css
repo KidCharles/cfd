@@ -28,10 +28,10 @@
 }
 
 .subtitle {
-  font-size: 28px;
-  line-height: 48px;
+  font-size: 20px;
+  line-height: 32px;
   color: #6d6e71;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .large_body {
@@ -126,6 +126,7 @@
     text-align: left;
   }
   .subtitle {
+    font-size: 28px;
     width: 100%;
     font-size: 24px;
     text-align: left;

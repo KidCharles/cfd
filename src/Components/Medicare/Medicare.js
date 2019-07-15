@@ -13,12 +13,19 @@ export default function About(props) {
     <div>
       <div className="home_wrapper">
         <div className="banner medicareBanner">
-        <div></div> 
           <div>
             <h1>Get the benefits that you deserve</h1>
-            <p>Find out what you've been investing in <br/> all this time.</p>
+            <p>
+              Find out what you've been investing in <br /> all this time.
+            </p>
             <div>
-              <span className="button">Call Now</span>
+              <a
+                data-replaceable-phone-dialable=""
+                href="tel:18558700077"
+                style={{ textDecoration: "none" }}
+              >
+                <span className="button">Call Now</span>
+              </a>
             </div>
           </div>
         </div>

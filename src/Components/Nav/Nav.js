@@ -10,10 +10,11 @@ export default function Nav(props) {
   let logo_dark = "https://i.imgur.com/zElzlxW.png";
   let icon = "https://i.imgur.com/gCNeJi8.png";
   let logo = logo_white;
+  let nav_number_scrolled = "nav_number";
   if (props.scrolled) {
     nav_wrapper_class = "nav_wrapper scrolled";
     items_nav = "items_nav nav_text_scrolled ";
-    // nav_number_scrolled = "nav_number_scrolled";
+    nav_number_scrolled = "nav_number_scrolled";
   }
   if (!props.scrolled) {
     logo = logo_dark;
@@ -59,13 +60,13 @@ export default function Nav(props) {
             <li onClick={() => props.to_top()}>Home</li>
           </Link> */}
           <li className="navNumber">
-            {/* <a
+            <a
               data-replaceable-phone-dialable=""
               className={nav_number_scrolled}
               href="tel:18558700077"
-            > */}
-            1-855-870-0077 <span>TTY users 711</span>
-            {/* </a> */}
+            >
+              1-855-870-0077 <span>TTY users 711</span>
+            </a>
             <ul>
               <li>Available: Mon - Fri, 8 AM - 8 PM</li>
             </ul>

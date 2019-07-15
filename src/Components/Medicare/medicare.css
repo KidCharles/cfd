@@ -1,9 +1,10 @@
 .medicareBanner {
-  background-image: url("https://i.imgur.com/bJTSEJm.jpg");
+  background-image: url("https://i.imgur.com/00jKUMd.jpg");
   background-position: left;
   width: 100vw;
   height: 400px;
   display: flex;
+  justify-content: center;
 }
 
 .medicarePromo {
@@ -21,6 +22,7 @@
 }
 .medicareBanner h1 {
   color: #002c45;
+  width: 80vw;
 }
 .medicareBanner p {
   color: #00405e;
@@ -36,8 +38,8 @@
   .medicareBanner {
     background-position: left;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-content: center;
     margin-bottom: 60px;
   }
@@ -47,13 +49,11 @@
   }
   .medicareBanner h1 {
     font-size: 40px;
-    color: #fff;
     width: 80%;
   }
   .medicareBanner p {
     width: 80%;
     font-size: 24px;
-    color: #e3e4e5;
     padding-bottom: 12px;
   }
   .medicareBanner .button {

@@ -1,4 +1,5 @@
 .call_wrapper {
+  width: 100vw;
   background-color: rgba(239, 240, 241, 0.103);
   padding: 24px 0px;
   display: flex;
@@ -34,7 +35,7 @@
   font-size: 24px;
   font-weight: 900;
   line-height: 1.75;
-  padding: 24px;
+  padding: 20px 0px;
   color: #414042;
 }
 .call_box {
@@ -45,6 +46,10 @@
   border: 2px solid #004869;
   border-radius: 2px;
 }
+.call_contianer p{
+  margin-top: 24px;
+}
+
 .call_box:active {
   background-color: #004869;
   box-shadow: 0 0 5px 0 #ccc;
@@ -71,6 +76,7 @@
 
 @media (min-width: 769px) {
   .call_wrapper {
+    width: 40vw;
     background-color: rgb(239, 240, 241);
     display: flex;
     flex-direction: column;
@@ -80,12 +86,14 @@
   .call_contianer {
     padding: 24px 100px;
   }
-
+  .call_contianer p{
+    margin-top: 12px;
+  }
   .logo {
     width: 12vw;
   }
   .call {
-    width: 80%;
+    /* width: 80%; */
     font-size: 24px;
   }
   .call_box {

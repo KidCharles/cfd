@@ -16,7 +16,10 @@ export default function Callcta(props) {
     <div className="call_wrapper">
       <div className="call_contianer">
         <p className={prompt_style}>{prompt}</p>
-        <h2 className="call">Call to speak to a Licensed Benefit Advisor</h2>
+        <h2 className="call">
+          Call to speak to a <br />
+          Licensed Benefit Advisor
+        </h2>
         <div className="call_box">
           <a
             data-replaceable-phone-dialable=""
@@ -28,7 +31,8 @@ export default function Callcta(props) {
             </span>
           </a>
         </div>
-        <img src={logo} alt="cfd Logo" className="logo" />
+        <p>TTY users 711</p>
+        {/* <img src={logo} alt="cfd Logo" className="logo" /> */}
       </div>
     </div>
   );

@@ -37,7 +37,13 @@ export default class Home extends Component {
               on.
             </p>
             <div>
-              <span className="button">Talk to your Agent</span>
+              <a
+                data-replaceable-phone-dialable=""
+                href="tel:18558700077"
+                style={{ textDecoration: "none" }}
+              >
+                <span className="button">Talk to your Agent</span>
+              </a>
             </div>
           </div>
           <div />
@@ -144,7 +150,13 @@ export default class Home extends Component {
               you could be missing out on.
             </p>
             <div>
-              <span className="button">Get a Free Quote</span>
+              <a
+                data-replaceable-phone-dialable=""
+                href="tel:18558700077"
+                style={{ textDecoration: "none" }}
+              >
+                <span className="button">Get a Free Quote</span>
+              </a>
             </div>
           </div>
         </div>
@@ -173,10 +185,17 @@ export default class Home extends Component {
               agent to assist in finding the right coverage to meet your needs.
             </p>
             <div className="whiteSpace48" />
-            <Button
+            {/* <Button
               link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
               text={"Get A Free Quote"}
-            />
+            /> */}
+              <a
+                data-replaceable-phone-dialable=""
+                href="tel:18558700077"
+                style={{ textDecoration: "none" }}
+              >
+              <span className="button">Get a Free Quote</span>
+              </a>
             <div className="whiteSpace48" />
           </div>
           <div className="careers_wrapper">

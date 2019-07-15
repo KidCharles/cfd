@@ -40,15 +40,14 @@
     .visionBanner {
       background-position: left;
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: center;
       align-content: center;
       margin-bottom: 60px;
     }
     .visionBanner div {
       width: auto;
       padding: 20px;
-      margin-right: 200px;
     }
     .visionBanner h1 {
       font-size: 40px;
