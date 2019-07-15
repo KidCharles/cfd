@@ -15,7 +15,7 @@ export default function HowItWorks(props) {
       <div className="hiwStepContainer">
         <div>
           <img src="https://i.imgur.com/zNDnGp1.png" alt="Agent Icon" />
-          <h1>CALL YOUR AGENT</h1>
+          <h1>CALL YOUR LICENSED AGENT</h1>
           <p>
             Feel free to call and speak directly to your new friendly, dedicated
             Agent.
@@ -28,8 +28,8 @@ export default function HowItWorks(props) {
           />
           <h1>CONFIRM YOUR CHOICE</h1>
           <p>
-            Ask Questions, discuss your Options, and have your choices
-            Confirmed.
+            Ask Questions, and discuss your Options so you're prepaired to make
+            an informed decision.
           </p>
         </div>
         <div>

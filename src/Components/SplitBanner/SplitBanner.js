@@ -15,7 +15,7 @@ export default function SplitBanner(props) {
         </div>
         <div className="layout_img">
           <div />
-          <p>Talk to Your Friendly, Professional Agent</p>
+          <p>Talk to Your Friendly, Licensed Benefit Advisor</p>
           {/* <a
             data-replaceable-phone-dialable=""
             href="tel:18558700077"

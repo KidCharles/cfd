@@ -180,20 +180,30 @@
 }
 
 .homePromo {
-  background-image: url("https://i.imgur.com/rG9g9yy.jpg");
-  width: 100vw;
-  height: 450px;
+  background-image: url("https://i.imgur.com/FAPePqs.png");
   background-position: left;
-  margin: 0px;
+  width: 100vw;
+  height: 400px;
+  display: flex;
+}
+.homePromo div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
 }
 .homePromo h1 {
-  color: #fff;
+  color: #002c45;
   text-align: center;
 }
 .homePromo p {
-  color: #fff;
-  line-height: 32px;
-  width: 80%;
+  color: #00405e;
+  font-size: 24px;
+  font-weight: normal;
+}
+.homePromo .button {
+  width: 80vw;
 }
 
 @media (min-width: 769px) {
@@ -293,15 +303,35 @@
     text-align: right;
   }
   .agents p {
-    text-align: right;
+    text-align: left;
   }
   .carrierContainer {
     border-bottom: none;
   }
   .homePromo {
-    margin: 40px 0px;
+    background-position: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 60px;
+  }
+  .homePromo div{
+    width: 50vw;
+    padding: 20px;
+  }
+  .homePromo h1 {
+    font-size: 40px;
+    color: #004869;
+    width: 80%;
   }
   .homePromo p {
-    width: 50%;
+    width: 80%;
+    font-size: 24px;
+    color: #6d6e71;
+    padding-bottom: 12px;
+  }
+  .homePromo .button{
+  width: auto;
   }
 }

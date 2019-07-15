@@ -32,7 +32,10 @@ export default class Home extends Component {
         <div className="banner homeCall">
           <div>
             <h1>Questions About Benefits?</h1>
-            <p>Talk to your Agent to find out what you're missing out on.</p>
+            <p>
+              Talk to your Licensed Agent to find out what you're missing out
+              on.
+            </p>
             <div>
               <span className="button">Talk to your Agent</span>
             </div>
@@ -123,14 +126,29 @@ export default class Home extends Component {
           <Product />
         </div>
 
-        <div className="banner homePromo">
+        {/* <div className="banner homePromo">
           <h1 className="">Amazing Dental Support</h1>
           <p>
             Our Advisors will answer any questions you may have about benefits
             you could be missing out on.
           </p>
           <span className="button">Get a Free Quote</span>
+        </div> */}
+
+        <div className="banner homePromo">
+          <div />
+          <div>
+            <h1>Amazing Dental Support</h1>
+            <p>
+              Our Advisors will answer any questions you may have about benefits
+              you could be missing out on.
+            </p>
+            <div>
+              <span className="button">Get a Free Quote</span>
+            </div>
+          </div>
         </div>
+
         <div className="home_wrapper">
           <div className="text_container">
             <h1 className="title">Get the most from your Medicare Plan</h1>

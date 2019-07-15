@@ -64,7 +64,7 @@ export default function Nav(props) {
               className={nav_number_scrolled}
               href="tel:18558700077"
             > */}
-            1-855-870-0077
+            1-855-870-0077 <span>TTY users 711</span>
             {/* </a> */}
             <ul>
               <li>Available: Mon - Fri, 8 AM - 8 PM</li>
