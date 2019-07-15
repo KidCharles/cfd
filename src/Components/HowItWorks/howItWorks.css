@@ -43,19 +43,24 @@
   color: #414042;
 }
 .hiwStepContainer div {
-  width: 350px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  background-color: #fff;
   margin-bottom: 32px;
+  
 }
-.hiwStepContainer img {
-  height: 120px;
-  margin-bottom: 24px;
+.iconContainer {
+  height: 200px !important;
+  overflow: hidden;
 }
+.iconContainer img{
+  height: 180px;
+  transition: height 0.2s ease-in-out;
+}
+
 .hiwStepContainer h1 {
   font-size: 24px;
   font-weight: bold;
@@ -70,6 +75,11 @@
   line-height: 24px;
   margin-bottom: 12px;
   padding: 0px 32px;
+}
+
+.iconContainer img:hover {
+  height: 184px;
+  transition: height 0.1s ease-in-out;
 }
 
 @media (min-width: 769px) {
@@ -104,16 +114,16 @@
     width: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     background-color: #fff;
     margin-bottom: 12px;
   }
-  .hiwStepContainer img {
+  /* .hiwStepContainer img {
     height: 120px;
     margin-bottom: 24px;
-  }
+  } */
   .hiwStepContainer h1 {
     font-size: 24px;
     font-weight: bold;

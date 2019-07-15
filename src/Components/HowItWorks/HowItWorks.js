@@ -14,7 +14,9 @@ export default function HowItWorks(props) {
       </div>
       <div className="hiwStepContainer">
         <div>
-          <img src="https://i.imgur.com/zNDnGp1.png" alt="Agent Icon" />
+          <div className="iconContainer">
+            <img src="https://i.imgur.com/zNDnGp1.png" alt="Agent Icon" />
+          </div>
           <h1>CALL YOUR LICENSED AGENT</h1>
           <p>
             Feel free to call and speak directly to your new friendly, dedicated
@@ -22,10 +24,12 @@ export default function HowItWorks(props) {
           </p>
         </div>
         <div>
-          <img
-            src="https://i.imgur.com/N5noyhx.png"
-            alt="Talking to agent icon"
-          />
+          <div className="iconContainer">
+            <img
+              src="https://i.imgur.com/N5noyhx.png"
+              alt="Talking to agent icon"
+            />
+          </div>
           <h1>CONFIRM YOUR CHOICE</h1>
           <p>
             Ask Questions, and discuss your Options so you're prepaired to make
@@ -33,7 +37,9 @@ export default function HowItWorks(props) {
           </p>
         </div>
         <div>
-          <img src="https://i.imgur.com/xfOf6Iq.png" alt="Family Icon" />
+          <div className="iconContainer">
+            <img src="https://i.imgur.com/xfOf6Iq.png" alt="Family Icon" />
+          </div>
           <h1>ENJOY YOUR BENEFITS</h1>
           <p>
             Focus on what really matters while we ensure that you are covered.

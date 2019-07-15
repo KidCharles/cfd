@@ -185,6 +185,8 @@
   width: 100vw;
   height: 400px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .homePromo div {
   display: flex;
@@ -194,11 +196,11 @@
   align-items: center;
 }
 .homePromo h1 {
-  color: #002c45;
+  color: #FFF;
   text-align: center;
 }
 .homePromo p {
-  color: #00405e;
+  color: #e6e7e8;
   font-size: 24px;
   font-weight: normal;
 }
@@ -322,7 +324,7 @@
   }
   .homePromo h1 {
     font-size: 40px;
-    color: #004869;
+    color: #002c45;
     width: 80%;
   }
   .homePromo p {
