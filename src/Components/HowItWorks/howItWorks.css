@@ -50,13 +50,12 @@
   align-items: center;
   text-align: center;
   margin-bottom: 32px;
-  
 }
 .iconContainer {
   height: 200px !important;
   overflow: hidden;
 }
-.iconContainer img{
+.iconContainer img {
   height: 180px;
   transition: height 0.2s ease-in-out;
 }
@@ -93,7 +92,7 @@
   .hiwContainer h1 {
     font-size: 52px;
     letter-spacing: 4px;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
   .hiwContainer p {
     font-size: 24px;
@@ -111,14 +110,13 @@
     color: #414042;
   }
   .hiwStepContainer div {
-    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
     background-color: #fff;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
   /* .hiwStepContainer img {
     height: 120px;
