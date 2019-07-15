@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 60px;
+  border-bottom: 2px solid #e6e7e8;
 }
 .hiwContainer {
   width: 80vw;
@@ -74,6 +75,7 @@
 @media (min-width: 769px) {
   .hiwWrapper {
     margin: 80px 0px;
+    border-bottom: none;
   }
   .hiwContainer {
     flex-direction: column;

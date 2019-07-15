@@ -28,7 +28,7 @@ export default class Home extends Component {
           <p className="quote">"Healthcare, not just health insurance."</p>
         </div>
         <Split />
-        <HowItWorks/>
+        <HowItWorks />
         <div className="banner homeCall">
           <div>
             <h1>Questions About Benefits?</h1>
@@ -100,10 +100,24 @@ export default class Home extends Component {
               <img src="https://i.imgur.com/h49MTd2.jpg" alt="Members" />
             </div>
           </div>
-
-          <h1 className="full_title_center">OUR CARRIERS</h1>
-          <p className="quote">CareFree Direct Works with Leading Health Plans</p>
-
+          <div className="carrierContainer">
+            <h1 className="full_title_center">OUR CARRIERS</h1>
+            <p className="quote">
+              CareFree Direct Works with Leading Health Plans
+            </p>
+            <div className="carrierBanner">
+              <img src="" alt="Aetna Logo" />
+              <img src="" alt="CareSource Logo" />
+              <img src="" alt="Stanford Logo" />
+              <img src="" alt="United Health Care Logo" />
+              <img src="" alt="Humana Logo" />
+              <img src="" alt="Cigna Logo" />
+              <img src="" alt="Mutual of Omaha Logo" />
+              <img src="" alt="Blue Cross Blue Shield Logo" />
+              <img src="" alt="Medico Logo" />
+              <img src="" alt="Ameritas Logo" />
+            </div>
+          </div>
           <h1 className="full_title_center">OUR PRODUCTS</h1>
           <p className="quote">Medicare coverage that best suits your needs.</p>
           <Product />
