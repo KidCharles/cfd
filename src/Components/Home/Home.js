@@ -28,7 +28,6 @@ export default class Home extends Component {
           <p className="quote">"Healthcare, not just health insurance."</p>
         </div>
         <Split />
-        <div className="howItWorks" />
         <HowItWorks/>
         <div className="banner homeCall">
           <div>

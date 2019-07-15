@@ -24,7 +24,7 @@
 .full_title_center {
   font-size: 40px;
   font-weight: 900;
-  text-align: left;
+  text-align: center;
   line-height: 48px;
   padding: 48px 36px 12px 36px;
   color: #004869;
@@ -118,17 +118,6 @@
   width: auto;
 }
 
-.howItWorks {
-  display: none;
-  width: 100vw;
-  height: 600px;
-  background-image: url("https://i.imgur.com/z4Rpp2r.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 60px 0px;
-}
-
 .plansAgentsMembers {
   display: flex;
   flex-direction: column;
@@ -210,9 +199,7 @@
   .homeBanner {
     background-position: center;
   }
-  .howItWorks {
-    display: flex;
-  }
+
   .homeCall {
     background-image: url("https://i.imgur.com/xr30yVM.png");
     background-position: right;

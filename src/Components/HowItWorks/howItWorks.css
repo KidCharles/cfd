@@ -3,8 +3,8 @@
   padding: 0px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   align-items: center;
+  margin-top: 60px;
 }
 .hiwContainer {
   width: 80vw;
@@ -15,25 +15,26 @@
   align-items: center;
 }
 .hiwContainer h1 {
-  font-size: 52px;
+  font-size: 32px;
+  letter-spacing: 1px;
   font-weight: bold;
-  letter-spacing: 4px;
   /* line-height:24px ; */
   text-align: center;
   margin-bottom: 12px;
 }
 .hiwContainer p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: normal;
   letter-spacing: 1px;
-  /* line-height: ; */
   text-align: center;
-  margin-bottom: 80px;
   line-height: 32px;
+  margin-bottom: 32px;
 }
+
 .hiwStepContainer {
+  width: 80vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
@@ -48,27 +49,82 @@
   align-items: center;
   text-align: center;
   background-color: #fff;
+  margin-bottom: 32px;
 }
 .hiwStepContainer img {
-  width: 100px;
-  height: 100px;
-  background-color: aquamarine;
+  height: 120px;
   margin-bottom: 24px;
 }
 .hiwStepContainer h1 {
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 2px;
-  /* line-height:24px ; */
+  line-height: 24px;
   margin-bottom: 12px;
 }
 .hiwStepContainer p {
   font-size: 18px;
   font-weight: normal;
   letter-spacing: 1px;
-  /* line-height: ; */
+  line-height: 24px;
   margin-bottom: 12px;
+  padding: 0px 32px;
 }
 
 @media (min-width: 769px) {
+  .hiwWrapper {
+    margin: 80px 0px;
+  }
+  .hiwContainer {
+    flex-direction: column;
+  }
+  .hiwContainer h1 {
+    font-size: 52px;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+  }
+  .hiwContainer p {
+    font-size: 24px;
+    margin-bottom: 80px;
+  }
+
+  .hiwStepContainer {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    color: #414042;
+  }
+  .hiwStepContainer div {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 12px;
+  }
+  .hiwStepContainer img {
+    height: 120px;
+    margin-bottom: 24px;
+  }
+  .hiwStepContainer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .hiwStepContainer p {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    padding: 0px 32px;
+  }
 }
