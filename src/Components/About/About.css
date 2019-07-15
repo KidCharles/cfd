@@ -1,5 +1,5 @@
-.about_wrapper{
-    margin-bottom: 0px;
+.about_wrapper {
+  margin-bottom: 0px;
 }
 .aboutBanner {
   height: 400px;
@@ -35,9 +35,9 @@
 }
 
 @media (min-width: 769px) {
-  .about_wrapper{
+  .about_wrapper {
     margin-bottom: 60px;
-}
+  }
   .aboutBanner p {
     width: 60%;
   }
@@ -67,7 +67,7 @@
     margin-bottom: 0px;
   }
   .aboutContainer img {
-    display: block;
+    display: flex;
     width: 32vw;
     padding: 0px 80px;
   }

@@ -23,6 +23,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin: 40px 0px;
 }
 .reverse {
   flex-direction: column-reverse;
@@ -103,6 +104,7 @@ width: 80%;
   .split_container div {
     width: 48vw;
     height: 400px;
+    margin: 0px;
   }
   .split_container img {
     height: initial;
