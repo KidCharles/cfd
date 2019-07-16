@@ -24,7 +24,7 @@
   margin-bottom: 12px;
 }
 .hiwContainer p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   letter-spacing: 1px;
   text-align: center;
@@ -43,20 +43,20 @@
   color: #414042;
 }
 .hiwStepContainer div {
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: initial;
   align-items: center;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
 }
 .iconContainer {
-  height: 200px !important;
+  height: 110px !important;
   overflow: hidden;
 }
 .iconContainer img {
-  height: 180px;
+  height: 100px;
   transition: height 0.2s ease-in-out;
 }
 
@@ -74,6 +74,7 @@
   line-height: 24px;
   margin-bottom: 12px;
   padding: 0px 32px;
+  margin-bottom: 40px;
 }
 
 .iconContainer img:hover {
@@ -98,7 +99,10 @@
     font-size: 24px;
     margin-bottom: 80px;
   }
-
+  .iconContainer {
+    height: 200px !important;
+    overflow: hidden;
+  }
   .hiwStepContainer {
     width: 80vw;
     display: flex;
@@ -118,10 +122,9 @@
     background-color: #fff;
     margin-bottom: 24px;
   }
-  /* .hiwStepContainer img {
-    height: 120px;
-    margin-bottom: 24px;
-  } */
+  .hiwStepContainer img {
+    height: 180px;
+  }
   .hiwStepContainer h1 {
     font-size: 24px;
     font-weight: bold;

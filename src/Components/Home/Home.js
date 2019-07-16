@@ -81,10 +81,10 @@ export default class Home extends Component {
               <p className="full_body">
                 It’s important to keep yourself protected. That is why CareFree
                 Direct provides Licensed Health Insurance Agents at no cost,
-                with freedom of mind that you and your family live your lives
-                free of worries. Contact one of our Benefits Advisors today to
-                understand more about what Medicare Plans are available to you
-                and let us do all the work so you can relax for a change.
+                with peace of mind that you and your family live your lives free
+                of worries. Contact one of our Benefits Advisors today to
+                understand more about your Medicare coverage options available
+                to you and let us do all the work so you can relax for a change.
               </p>
             </div>
             <div>
@@ -115,16 +115,34 @@ export default class Home extends Component {
               CareFree Direct Works with Leading Health Plans
             </p>
             <div className="carrierBanner">
-              <img src="" alt="Aetna Logo" />
-              <img src="" alt="CareSource Logo" />
-              <img src="" alt="Stanford Logo" />
-              <img src="" alt="United Health Care Logo" />
-              <img src="" alt="Humana Logo" />
-              <img src="" alt="Cigna Logo" />
-              <img src="" alt="Mutual of Omaha Logo" />
-              <img src="" alt="Blue Cross Blue Shield Logo" />
-              <img src="" alt="Medico Logo" />
-              <img src="" alt="Ameritas Logo" />
+              <img src="https://i.imgur.com/FiFWlTP.png" alt="Aetna Logo" />
+              <img
+                src="https://i.imgur.com/wQ1Ge4A.png"
+                alt="CareSource Logo"
+              />
+              <img src="https://i.imgur.com/sdIIiC8.png" alt="Stanford Logo" />
+              <img
+                src="https://i.imgur.com/bw5wp28.png"
+                alt="United Health Care Logo"
+              />
+              <img src="https://i.imgur.com/zuVi0BF.png" alt="Humana Logo" />
+              <img
+                src="https://i.imgur.com/KO5WMCS.png"
+                alt="Cigna Logo"
+                className="smallerIcon"
+              />
+              <img
+                src="https://i.imgur.com/DsY0Z00.png"
+                className="smallerIcon"
+                alt="Mutual of Omaha Logo"
+              />
+              <img
+                src="https://i.imgur.com/pnafXAx.png"
+                alt="Blue Cross Blue Shield Logo"
+                className="smallerIcon"
+              />
+              <img src="https://i.imgur.com/kmpGQVE.png" alt="Medico Logo" />
+              <img src="https://i.imgur.com/Tbd5RtT.png" alt="Ameritas Logo" />
             </div>
           </div>
           <h1 className="full_title_center">OUR PRODUCTS</h1>
@@ -189,13 +207,13 @@ export default class Home extends Component {
               link={"https://www.securitylife.com/personal-plans?agnt=010S0582"}
               text={"Get A Free Quote"}
             /> */}
-              <a
-                data-replaceable-phone-dialable=""
-                href="tel:18558700077"
-                style={{ textDecoration: "none" }}
-              >
+            <a
+              data-replaceable-phone-dialable=""
+              href="tel:18558700077"
+              style={{ textDecoration: "none" }}
+            >
               <span className="button">Get a Free Quote</span>
-              </a>
+            </a>
             <div className="whiteSpace48" />
           </div>
           <div className="careers_wrapper">
@@ -272,6 +290,29 @@ export default class Home extends Component {
           </div>
           <div className="full">
             <Call />
+            <div className="privacy">
+              <div>
+                <p>
+                  By contacting us you consent to be contacted via automatic
+                  telephone dialing system, by artificial voice and/or
+                  pre-recorded message, or by text message at the telephone
+                  number you provided above and receive email at the email
+                  address you provided above from or on behalf of CareFree
+                  Direct, insurance carriers or their agents, and partner
+                  companies. You are under no obligation to purchase any goods
+                  or services as a result of this action. You understand that
+                  consent is not a condition of purchase and you may also
+                  receive a quote by contacting us via phone. You may revoke
+                  consent at any time.
+                </p>
+                <p>
+                  CareFree Direct does not charge you for sending or receiving
+                  text messages. Your carrier's message and data rates may
+                  apply. By using this form you agree to the terms of our
+                  Privacy Policy.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
