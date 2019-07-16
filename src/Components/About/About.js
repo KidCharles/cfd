@@ -57,15 +57,21 @@ export default function About(props) {
             </p>
             <br />
             <div>
-              <h1 className="title">Resources</h1>
-              <div>
+              <h1 className="title">Helpful Resources</h1>
+              <p className="large_body">
+                Here are some helpful links to answer questions and prepare you
+                to make informed decisions regarding your Healthcare coverage.
+              </p>
+              <div className="resourceLinks">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.medicare.gov/sites/default/files/2018-09/10050-medicare-and-you.pdf"
                   style={{ textDecoration: "none" }}
                 >
-                  <p>2019 Medicare and You Handbook</p>
+                  <p>
+                    <span>•</span> 2019 Medicare and You Handbook
+                  </p>
                 </a>
                 <a
                   target="_blank"
@@ -73,7 +79,9 @@ export default function About(props) {
                   href="https://www.kff.org/medicare/issue-brief/an-overview-of-medicare/"
                   style={{ textDecoration: "none" }}
                 >
-                  <p>An Overview of Medicare</p>
+                  <p>
+                    <span>•</span>An Overview of Medicare
+                  </p>
                 </a>
                 <a
                   target="_blank"
@@ -81,7 +89,9 @@ export default function About(props) {
                   href="https://www.kff.org/tag/medicare-advantage/"
                   style={{ textDecoration: "none" }}
                 >
-                  <p>Medicare Advantage Overview</p>
+                  <p>
+                    <span>•</span>Medicare Advantage Overview
+                  </p>
                 </a>
               </div>
             </div>

@@ -34,6 +34,28 @@
   margin-bottom: 40px;
 }
 
+.resourceLinks {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.resourceLinks p {
+  color: #004969;
+  cursor: pointer;
+  padding: 12px;
+}
+.resourceLinks span{
+  padding-right: 24px;
+}
+.resourceLinks p:hover {
+  color: #0a9ad7;
+}
+.resourceLinks p:active {
+  color: #e03063;
+}
+
 @media (min-width: 769px) {
   .about_wrapper {
     margin-bottom: 60px;

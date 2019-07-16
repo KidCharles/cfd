@@ -19,8 +19,8 @@ export default function HowItWorks(props) {
           </div>
           <h1>CALL YOUR AGENT</h1>
           <p>
-            Feel free to call and speak directly to your new friendly, dedicated
-            Licensed Agent.
+            Feel free to call and speak directly to your new friendly, Licensed
+            Agent.
           </p>
         </div>
         <div>
@@ -30,10 +30,15 @@ export default function HowItWorks(props) {
               alt="Talking to agent icon"
             />
           </div>
-          <h1>CONFIRM YOUR CHOICE</h1>
-          <p>
-            Ask Questions, and discuss your Options so you're prepaired to make
+          {/* <h1>CONFIRM YOUR CHOICE</h1> */}
+          <h1>CHOOSE YOUR COVERAGE</h1>
+          {/* <p>
+            Ask Questions, and discuss your Options so you're prepared to make
             an informed decision.
+          </p> */}
+          <p>
+            Our Agents are here to answer any questions, Help Consult &
+            Validate your Decisions.
           </p>
         </div>
         <div>
