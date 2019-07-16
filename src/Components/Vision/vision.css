@@ -1,63 +1,65 @@
 .visionBanner {
-    background-image: url("https://i.imgur.com/pGBfIQ1.png");
+  background-image: url("https://i.imgur.com/pGBfIQ1.png");
+  background-position: left;
+  width: 100vw;
+  height: 400px;
+  display: flex;
+}
+.visionBanner div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: 0px;
+}
+.visionBanner h1 {
+  color: #00405e;
+}
+.visionBanner p {
+  color: #626366;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.visionBanner .button {
+  width: auto;
+}
+
+.visionPromo {
+  background-image: url("https://i.imgur.com/tw7tNQN.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 250px;
+  display: flex;
+}
+
+@media (min-width: 769px) {
+  .visionBanner {
     background-position: left;
-    width: 100vw;
-    height: 400px;
-    display: flex;
-  }
-  .visionBanner div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
-    text-align: center;
-    align-items: center;
-    margin-right: 0px;
+    margin-bottom: 60px;
+  }
+  .visionBanner div {
+    width: auto;
+    padding: 20px;
   }
   .visionBanner h1 {
-    color: #00405e;
+    font-size: 40px;
+    width: 80%;
   }
   .visionBanner p {
-    color: #626366;
+    width: 80%;
     font-size: 24px;
-    font-weight: normal;
+    font-weight: 400;
+    padding-bottom: 12px;
   }
-  
-  .visionBanner .button {
-    width: auto;
-  }
-
-  .visionPromo{
-    background-image: url("https://i.imgur.com/tw7tNQN.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
+  .visionPromo {
     height: 400px;
-    display: flex;
   }
-  
-  @media (min-width: 769px) {
-    .visionBanner {
-      background-position: left;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      margin-bottom: 60px;
-    }
-    .visionBanner div {
-      width: auto;
-      padding: 20px;
-    }
-    .visionBanner h1 {
-      font-size: 40px;
-      width: 80%;
-    }
-    .visionBanner p {
-      width: 80%;
-      font-size: 24px;
-      font-weight: 400;
-      padding-bottom: 12px;
-    }
-  }
-  
+}

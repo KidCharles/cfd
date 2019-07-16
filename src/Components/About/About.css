@@ -31,7 +31,7 @@
   display: none;
 }
 .aboutContainer p {
-  margin-bottom: 40px;
+  margin-bottom: 12px;
 }
 
 .resourceLinks {
@@ -44,9 +44,9 @@
 .resourceLinks p {
   color: #004969;
   cursor: pointer;
-  padding: 12px;
+  padding: 12px 0px;
 }
-.resourceLinks span{
+.resourceLinks span {
   padding-right: 24px;
 }
 .resourceLinks p:hover {
@@ -92,5 +92,8 @@
     display: flex;
     width: 32vw;
     padding: 0px 80px;
+  }
+  .resourceLinks p {
+    padding: 12px;
   }
 }

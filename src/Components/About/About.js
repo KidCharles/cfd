@@ -10,8 +10,9 @@ export default function About(props) {
       <div className="banner aboutBanner">
         <h1>CAREFREE DIRECT</h1>
         <p>
-          We work hard to find the right Medicare and healthcare solutions, so
-          you don’t have to.
+          We work hard to find the right Medicare and healthcare solutions,{" "}
+          <br />
+          so you don’t have to.
         </p>
       </div>
       <div>
