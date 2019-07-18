@@ -31,9 +31,8 @@ export default function Terms(props) {
           contact you via voice, email or text about our health plans, services
           and/or education information related to healthcare. If you wish to
           opt-out of CareFree Direct email or text message notifications, please
-          email optout@mycarefree.com, providing your name, and the
-          associated email or wireless number you do not wish to receive
-          communications.
+          email optout@mycarefree.com, providing your name, and the associated
+          email or wireless number you do not wish to receive communications.
         </p>
         <p>
           In certain instances, CareFree Direct may aggregate data anonymously

@@ -1,11 +1,8 @@
-// import React from "react";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./Home.css";
 import "../Careers/careers.css";
-// import "../../App.css";
 import Call from "../CallCTA/Callcta";
-import Button from "../Button/Button";
 import Product from "../Product/Product.js";
 import Split from "../SplitBanner/SplitBanner.js";
 import { Link } from "react-router-dom";
@@ -69,7 +66,7 @@ export default class Home extends Component {
             </div>
             <div>
               <img
-                src="https://i.imgur.com/jyCeC3S.jpg"
+                src="https://i.imgur.com/cyGcpmB.jpg"
                 alt="Medicare couple"
               />
             </div>
@@ -88,7 +85,7 @@ export default class Home extends Component {
               </p>
             </div>
             <div>
-              <img src="https://i.imgur.com/ngIIQ7Y.png" alt="Agents" />
+              <img src="https://i.imgur.com/CQdptSz.jpg" alt="Agents" />
             </div>
           </div>
 
@@ -106,7 +103,7 @@ export default class Home extends Component {
               </p>
             </div>
             <div>
-              <img src="https://i.imgur.com/h49MTd2.jpg" alt="Members" />
+              <img src="https://i.imgur.com/HxIADg7.jpg" alt="Members" />
             </div>
           </div>
           <div className="carrierContainer">
@@ -231,8 +228,8 @@ export default class Home extends Component {
               </div>
               <div>
                 <img
-                  src="https://i.imgur.com/Qtyit5H.jpg"
-                  alt="Ladies laughing on bench"
+                  src="https://i.imgur.com/Ppag9Pz.jpg"
+                  alt="Couple walking with dog"
                 />
               </div>
             </div>

@@ -5,7 +5,7 @@
   align-items: center;
   box-shadow: 0 0 5px 0 #ccc;
   width: 100vw;
-  background-image: radial-gradient(#FFF, #f1f2f2d8);
+  background-image: radial-gradient(#fff, #f1f2f2d8);
 }
 .call_contianer {
   display: flex;

@@ -6,7 +6,7 @@ import "./Call.css";
 import "../../App.css";
 
 export default function Callcta(props) {
-  let logo = "https://i.imgur.com/zElzlxW.png";
+  // let logo = "https://i.imgur.com/zElzlxW.png";
   let prompt = props.prompt;
   let prompt_style = "prompt";
   if (!props.prompt) {
@@ -30,14 +30,14 @@ export default function Callcta(props) {
               <span className="">1-855-870-0077</span>
             </span>
           </a>
-        </div >
+        </div>
         <p className="time">Available: Mon - Fri, 8 AM - 8 PM</p>
         <p>TTY users 711</p>
         {/* <img src={logo} alt="cfd Logo" className="logo" /> */}
       </div>
       <div>
-        <img src="https://i.imgur.com/zNDnGp1.png" alt="Agent Icon"/>
-        </div> 
+        <img src="https://i.imgur.com/zNDnGp1.png" alt="Agent Icon" />
+      </div>
     </div>
   );
 }

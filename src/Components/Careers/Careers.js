@@ -48,24 +48,24 @@ export default function Careers(props) {
             />
           </div>
         </div>
-      <h1 className="full_title">
-        Accomodations and Equal Opportunity Employment
-      </h1>
-      <p className="full_body">
-        If you are interested in applying for employment with CareFree Direct and need
-        special assistance or an accommodation to apply for a posted position,
-        contact us at: info@mycarefree.com.
-      </p>
-      <p className="full_body">
-        CareFree Direct is an Equal Employment Opportunity employer. It is our policy to
-        provide equal opportunity to all employees and applicants and to
-        prohibit any discrimination because of race, color, religion, sex,
-        national origin, age, marital status, sexual orientation, genetic
-        information, disability, protected veteran status, or any other
-        consideration made unlawful by applicable federal, state or local laws.
-        The foundation of these policies is our commitment to treat everyone
-        fairly and equally and to have a bias-free work environment.
-      </p>
+        <h1 className="full_title">
+          Accomodations and Equal Opportunity Employment
+        </h1>
+        <p className="full_body">
+          If you are interested in applying for employment with CareFree Direct
+          and need special assistance or an accommodation to apply for a posted
+          position, contact us at: info@mycarefree.com.
+        </p>
+        <p className="full_body">
+          CareFree Direct is an Equal Employment Opportunity employer. It is our
+          policy to provide equal opportunity to all employees and applicants
+          and to prohibit any discrimination because of race, color, religion,
+          sex, national origin, age, marital status, sexual orientation, genetic
+          information, disability, protected veteran status, or any other
+          consideration made unlawful by applicable federal, state or local
+          laws. The foundation of these policies is our commitment to treat
+          everyone fairly and equally and to have a bias-free work environment.
+        </p>
       </div>
       <div className="pic6" />
     </div>

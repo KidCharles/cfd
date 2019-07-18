@@ -89,7 +89,7 @@
 }
 
 .homeBanner {
-  background-image: url("https://i.imgur.com/daXcBBQ.jpg");
+  background-image: url("https://i.imgur.com/yPXQeck.png");
   width: 100vw;
   height: 350px;
   background-position: right;
@@ -173,7 +173,7 @@
   width: 70px !important;
 }
 .homePromo {
-  background-image: url("https://i.imgur.com/FAPePqs.png");
+  background-image: url("https://i.imgur.com/UiqwAgQ.png");
   background-position: left;
   width: 100vw;
   height: 400px;
@@ -262,7 +262,7 @@
   }
 
   .homeCall {
-    background-image: url("https://i.imgur.com/xr30yVM.png");
+    background-image: url("https://i.imgur.com/7c7Ds8a.png");
     background-position: right;
     display: flex;
     flex-direction: row;

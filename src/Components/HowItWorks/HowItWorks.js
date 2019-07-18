@@ -37,8 +37,8 @@ export default function HowItWorks(props) {
             an informed decision.
           </p> */}
           <p>
-            Our Agents are here to answer any questions, Help Consult &
-            Validate your Decisions.
+            Our Agents are here to answer any questions, Help Consult & Validate
+            your Decisions.
           </p>
         </div>
         <div>

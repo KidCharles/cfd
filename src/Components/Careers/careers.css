@@ -71,10 +71,9 @@
   margin-top: 32px;
 }
 
-.whole_container div{
-width: 80%;
+.whole_container div {
+  width: 80%;
 }
-
 
 .whole_container h1 {
   font-size: 36px;
@@ -113,12 +112,12 @@ width: 80%;
   .split_container span {
     width: initial;
   }
-  .whole_container{
+  .whole_container {
     width: 1080px;
-    }
-  .whole_container div{
+  }
+  .whole_container div {
     width: 90%;
-    }
+  }
   .whole_container h1 {
     font-size: 36px;
     font-weight: 900;
