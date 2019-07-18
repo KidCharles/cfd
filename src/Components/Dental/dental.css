@@ -1,7 +1,7 @@
 .dentalBanner {
   height: 500px;
-  background-image: url("https://i.imgur.com/jYRoMlz.png");
-  background-position: right;
+  background-image: url("https://i.imgur.com/5SegLK5.png");
+  background-position: center;
 }
 
 .dentalBanner h1 {
@@ -9,7 +9,18 @@
   text-align: center;
 }
 .dentalBanner p {
+  color: #414042;
   font-size: 24px;
   text-align: center;
   width: 80%;
+  font-weight: 500;
+}
+
+@media (min-width: 769px) {
+  .dentalBanner {
+    height: 500px;
+    background-image: url("https://i.imgur.com/jYRoMlz.png");
+    background-position: right;
+  }
+
 }

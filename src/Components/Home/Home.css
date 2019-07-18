@@ -89,13 +89,14 @@
 }
 
 .homeBanner {
-  background-image: url("https://i.imgur.com/yPXQeck.png");
+  background-image: url("https://i.imgur.com/w7uXIRV.png");
   width: 100vw;
-  height: 350px;
+  height: 280px;
   background-position: right;
 }
 .homeBanner .quote {
   color: #004869;
+  font-weight: bold;
 }
 
 .homeCall {
@@ -173,13 +174,14 @@
   width: 70px !important;
 }
 .homePromo {
-  background-image: url("https://i.imgur.com/UiqwAgQ.png");
-  background-position: left;
+  background-image: url("https://i.imgur.com/3HoPGUd.png");
+  background-position: center;
   width: 100vw;
-  height: 400px;
+  height: initial;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 .homePromo div {
   display: flex;
@@ -187,15 +189,17 @@
   align-content: center;
   text-align: center;
   align-items: center;
+  padding:12px 0px;
 }
 .homePromo h1 {
-  color: #fff;
+  color: #004969;
   text-align: center;
 }
 .homePromo p {
-  color: #e6e7e8;
-  font-size: 24px;
+  color: #414042;
+  font-size: 20px;
   font-weight: normal;
+  padding-bottom: 24px;
 }
 .homePromo .button {
   width: 80vw;
@@ -255,7 +259,9 @@
     font-size: 28px;
   }
   .homeBanner {
+    background-image: url("https://i.imgur.com/yPXQeck.png");
     background-position: center;
+    height: 350px;
   }
   .homeBanner .quote {
     padding-top: 32px;
@@ -333,7 +339,9 @@
     width: 70px !important;
   }
   .homePromo {
-    background-position: bottom;
+    background-image: url("https://i.imgur.com/cJ350gS.png");
+    height: 400px;
+    background-position: left;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

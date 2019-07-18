@@ -49,7 +49,7 @@ export default class Home extends Component {
           <div className="mission">
             <h1 className="full_title_center">OUR MISSION</h1>
             <p className="quote">
-              "At CareFree Direct, We find the right healthcare solutions, so
+              "At CareFree Direct, we find the right healthcare solutions, so
               you don't have to."
             </p>
           </div>
@@ -72,7 +72,7 @@ export default class Home extends Component {
             </div>
           </div>
 
-          <div className="plansAgentsMembers agents">
+          <div className="plansAgentsMembers">
             <div>
               <h1 className="full_title">OUR LICENSED AGENTS</h1>
               <p className="full_body">

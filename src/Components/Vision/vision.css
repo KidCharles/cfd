@@ -1,5 +1,5 @@
 .visionBanner {
-  background-image: url("https://i.imgur.com/V5kpgzf.png");
+  background-image: url("https://i.imgur.com/bbZtkve.png");
   background-position: left;
   width: 100vw;
   height: 400px;
@@ -38,6 +38,8 @@
 
 @media (min-width: 769px) {
   .visionBanner {
+    background-image: url("https://i.imgur.com/rQmEYKT.png");
+  background-position: left;
     background-position: left;
     display: flex;
     flex-direction: column;
