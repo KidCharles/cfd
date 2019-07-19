@@ -198,7 +198,7 @@
   color: #414042;
   font-size: 20px;
   font-weight: normal;
-  padding-bottom: 24px;
+  padding-bottom: 0px;
 }
 .homePromo .button {
   width: 80vw;
@@ -276,7 +276,7 @@
     margin-bottom: 60px;
   }
   .homeCall div {
-    width: auto;
+    width: 45vw;
     padding: 20px;
   }
   .homeCall h1 {
@@ -348,8 +348,8 @@
     margin-bottom: 60px;
   }
   .homePromo div {
-    width: 50vw;
-    padding: 20px;
+    width: 45vw;
+    padding: 0px;
   }
   .homePromo h1 {
     font-size: 40px;

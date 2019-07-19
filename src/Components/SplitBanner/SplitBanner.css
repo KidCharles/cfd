@@ -82,7 +82,6 @@
     width: 55vw;
     flex-direction: row;
     justify-content: space-around;
-    transition: height 0.2s ease-in-out;
   }
   .layout_img p {
     font-size: 2em;
@@ -93,9 +92,10 @@
     height: 40vh;
     align-self: flex-end;
     padding-right: 24px;
+    transition: height 0.3s ease-in-out;
   }
   .layout_img img:hover {
     height: 41vh;
-    transition: height 0.3s ease-in-out;
+    transition: height 0.2s ease-in-out;
   }
 }
