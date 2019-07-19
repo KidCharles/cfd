@@ -82,10 +82,9 @@
   color: #6d6e71;
   font-size: 24px;
   font-weight: normal;
-  /* text-shadow: 0px 1px 4px #414042; */
 }
 .banner img {
-  width: 80vw;
+  width: 52vw;
 }
 
 .homeBanner {
@@ -189,7 +188,7 @@
   align-content: center;
   text-align: center;
   align-items: center;
-  padding:12px 0px;
+  padding: 12px 0px;
 }
 .homePromo h1 {
   color: #004969;
@@ -261,7 +260,7 @@
   .homeBanner {
     background-image: url("https://i.imgur.com/yPXQeck.png");
     background-position: center;
-    height: 350px;
+    height: 44vh;
   }
   .homeBanner .quote {
     padding-top: 32px;

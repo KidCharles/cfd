@@ -1,4 +1,5 @@
 .layout {
+  height: 45vh;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-around;
@@ -44,7 +45,7 @@
 }
 
 .layout_img img {
-  width: 60vw;
+  height: 32vh;
   z-index: 1;
   cursor: pointer;
   align-self: center;
@@ -59,13 +60,10 @@
   margin-top: 20px;
 }
 
-.layout_img img:hover {
-  width: 300px;
-}
-
 @media (min-width: 769px) {
   .layout {
     flex-direction: row;
+    overflow: hidden;
   }
   .layout_text {
     height: 45vh;
@@ -74,10 +72,9 @@
   }
 
   .layout_text h1 {
-    width: 60%;
+    font-size: 2em;
   }
   .layout_text p {
-    width: 60%;
     margin-top: 0px;
   }
   .layout_img {
@@ -85,18 +82,20 @@
     width: 55vw;
     flex-direction: row;
     justify-content: space-around;
+    transition: height 0.2s ease-in-out;
   }
   .layout_img p {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 2em;
+    line-height: 36px;
     width: 40%;
   }
   .layout_img img {
-    width: 350px;
+    height: 40vh;
     align-self: flex-end;
     padding-right: 24px;
   }
   .layout_img img:hover {
-    width: 352px;
+    height: 41vh;
+    transition: height 0.3s ease-in-out;
   }
 }
