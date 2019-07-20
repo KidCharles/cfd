@@ -30,7 +30,7 @@ export default class Home extends Component {
           <div>
             <h1>Questions About Benefits?</h1>
             <p>
-              Talk to your Licensed Agent to find out what you're missing out
+              Talk to a Licensed Agent to find out what you're missing out
               on.
             </p>
             <div>
@@ -39,7 +39,7 @@ export default class Home extends Component {
                 href="tel:18558700077"
                 style={{ textDecoration: "none" }}
               >
-                <span className="button">Talk to your Agent</span>
+                <span className="button">Talk to an Agent</span>
               </a>
             </div>
           </div>
@@ -180,8 +180,8 @@ export default class Home extends Component {
           <div className="text_container">
             <h1 className="title">Get the most from your Medicare Plan</h1>
             <p className="large_body">
-              Get the absolute most from your <span>Medicare Plan</span>. You
-              may be missing out on a ton of benefits like <span>dentures</span>
+              Get the absolute most from your <span>Medicare Plan</span>. you
+              may be missing out on critical benefits like <span>dentures</span>
               , <span>crowns</span>, <span>root canals</span>,
               <span> fillings</span>, <span>extractions</span> and other dental
               services at a <span>discounted or no cost rate</span> . Most

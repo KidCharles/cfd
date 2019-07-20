@@ -63,19 +63,15 @@ export default function Footer(props) {
       </div>
 
       <div className="footer_cta">
-        <div>
-          <p>Speak to a Licensed Benefits Advisor!</p>
-        </div>
-        <div>
-          <img className="footer_phone" src={phone} alt="phone icon" />
-          <a
-            data-replaceable-phone-dialable=""
-            className="footer_number"
-            href="tel:18558700077"
-          >
-            <span className="">1-855-870-0077</span>
-          </a>
-        </div>
+        <p>Speak to a Licensed Benefits Advisor!</p>
+        <img className="footer_phone" src={phone} alt="phone icon" />
+        <a
+          data-replaceable-phone-dialable=""
+          className="footer_number"
+          href="tel:18558700077"
+        >
+          <span className="">1-855-870-0077</span>
+        </a>
       </div>
       <div className="social_media_wrapper">
         <div>

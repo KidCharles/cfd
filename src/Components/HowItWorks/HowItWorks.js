@@ -17,9 +17,9 @@ export default function HowItWorks(props) {
           <div className="iconContainer">
             <img src="https://i.imgur.com/zNDnGp1.png" alt="Agent Icon" />
           </div>
-          <h1>CALL YOUR AGENT</h1>
+          <h1>CALL AN AGENT</h1>
           <p>
-            Feel free to call and speak directly to your new friendly, Licensed
+            Feel free to call and speak directly to your friendly, Licensed
             Agent.
           </p>
         </div>

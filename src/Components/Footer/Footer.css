@@ -44,26 +44,27 @@
 
 .footer_cta {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 24px;
   padding: 24px 0px;
   width: 100%;
   text-align: center;
 }
-.footer_cta div {
-  width: 50%;
-}
+
 .footer_cta p {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   color: #ffffff;
+}
+.footer_cta span {
+  letter-spacing: 2px;
 }
 
 .footer_phone {
   height: 16px;
-  padding: 0px 8px;
+  padding: 8px 8px;
 }
 .footer_number {
   text-decoration: none;
@@ -137,6 +138,7 @@
   }
 
   .footer_cta {
+    flex-direction: row;
     font-size: 24px;
   }
 
