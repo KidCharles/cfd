@@ -10,22 +10,24 @@ export default function About(props) {
   return (
     <div className="home_wrapper">
       <div className="banner dentalBanner">
-        <h1>
-          You could be missing out on <br />
-          enhanced benefits!
-        </h1>
-        <p>
-          Exams and Cleanings, Oral Surgery, Crowns,
-          <br />
-          Dentures, Fillings, Simple Extractions
-        </p>
-        <a
-          data-replaceable-phone-dialable=""
-          href="tel:18558700077"
-          style={{ textDecoration: "none" }}
-        >
-          <span className="button">Do I qualify?</span>
-        </a>
+        <div>
+          <h1>
+            You could be missing out on <br />
+            enhanced benefits!
+          </h1>
+          <p>
+            Exams and Cleanings, Oral Surgery, Crowns,
+            <br />
+            Dentures, Fillings, Simple Extractions
+          </p>
+          <a
+            data-replaceable-phone-dialable=""
+            href="tel:18558700077"
+            style={{ textDecoration: "none" }}
+          >
+            <span className="button">Do I qualify?</span>
+          </a>
+        </div>
       </div>
       <div className="text_container">
         <h1 className="title">
