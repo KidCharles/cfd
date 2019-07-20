@@ -1,5 +1,5 @@
 .layout {
-  height: 45vh;
+  height: initial;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-around;
@@ -39,9 +39,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #3399cc;   */
   background-image: radial-gradient(#0cb6f2, #0c8dba);
-  overflow: hidden;
 }
 
 .layout_img img {
@@ -63,8 +61,8 @@
 @media (min-width: 769px) {
   .layout {
     flex-direction: row;
-    overflow: hidden;
   }
+
   .layout_text {
     height: 45vh;
     width: 45vw;
