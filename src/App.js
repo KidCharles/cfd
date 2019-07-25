@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import "./reset.css";
 import "./App.css";
+
+import ReactDOM from "react-dom";
 import Nav from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
 import Toolbar from "./Components/Toolbar/Toolbar";
