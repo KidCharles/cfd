@@ -86,8 +86,9 @@
 }
 
 .social_media_wrapper {
+  width: 100%;
   display: flex;
-  justify-content: space-around !important;
+  justify-content: space-around;
   align-items: center;
   padding: 20px 0px;
 }
@@ -156,7 +157,6 @@
     padding: 36px 0px;
   }
   .social_media_wrapper {
-    width: 100vw;
     padding: 0px;
   }
   .social_media_icon {

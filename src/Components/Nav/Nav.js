@@ -45,13 +45,13 @@ export default function Nav(props) {
       <div className={items_nav}>
         <ul>
           <Link to="/medicare" style={{ textDecoration: "none" }}>
-            <li onClick={() => props.to_top()}>What is Medicare</li>
+            <li onClick={() => props.to_top()}>Medicare</li>
           </Link>
           <Link to="/dental" style={{ textDecoration: "none" }}>
-            <li onClick={() => props.to_top()}>Dental Plans</li>
+            <li onClick={() => props.to_top()}>Dental</li>
           </Link>
           <Link to="/vision" style={{ textDecoration: "none" }}>
-            <li onClick={() => props.to_top()}>Vision/Hearing Plans</li>
+            <li onClick={() => props.to_top()}>Vision/Hearing</li>
           </Link>
           <Link to="/About" style={{ textDecoration: "none" }}>
             <li onClick={() => props.to_top()}>About Us</li>
